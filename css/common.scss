@@ -6,6 +6,11 @@ html{
 body{
   font-family: $SpaceMono,$workSans,sans-serif;
 }
+.header-container{
+  margin: 0 auto;
+  max-width: 1260px;
+  padding: 0 10px;
+}
 .container{
   max-width: 1240px;
   padding: 0 10px;
