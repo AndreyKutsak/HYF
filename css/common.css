@@ -1,0 +1,14 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif, sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=common.css.map */
