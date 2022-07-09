@@ -1,0 +1,12 @@
+@import "varibles.scss";
+@import "function.scss";
+html{
+  font-size: 16px;
+}
+body{
+  font-family: $SpaceMono,$workSans,sans-serif;
+}
+.container{
+  max-width: 1240px;
+  padding:;
+}
