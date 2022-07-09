@@ -167,24 +167,4 @@ template {
 [hidden] {
   display: none;
 }
-
-html {
-  font-size: 16px;
-}
-
-body {
-  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif, sans-serif;
-}
-
-.header-container {
-  margin: 0 auto;
-  max-width: 1260px;
-  padding: 0 10px;
-}
-
-.container {
-  max-width: 1240px;
-  padding: 0 10px;
-  margin: 0 auto;
-}
-/*# sourceMappingURL=common.css.map */
+/*# sourceMappingURL=resset.css.map */
