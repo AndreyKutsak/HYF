@@ -22,8 +22,11 @@ pre {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-a {
+a {text-decoration: none;
   background-color: transparent;
+}
+li{
+  list-style: none;
 }
 abbr[title] {
   border-bottom: none;
@@ -60,6 +63,8 @@ button,input,optgroup,select,textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
+  border: none;
+  background: none;
 }
 button,input {
   overflow: visible;
