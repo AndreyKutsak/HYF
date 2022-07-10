@@ -1,8 +1,11 @@
+@import "../css/varibles.scss";
+@import "../css/function.scss";
+@import "../css/fonts.scss";
 .header{
     padding: 50px 0 20px;
     .headerContent{
       display: flex;
-    justify-content: space-between;
+      justify-content: space-between;
       .logo{
         img{
           transition: 2s;
@@ -18,7 +21,7 @@
             list-style: none;
             display: inline;
             a{
-              font-family: 'Work Sans';
+              font-family: $workSans;
               font-weight: 300;
               font-size: 16px;
               line-height: 19px;
@@ -38,7 +41,7 @@
   .selectClass{
     padding-top: 5px;
     select{
-      font-family: 'Work Sans';
+      font-family: $workSans;
       font-weight: 300;
       font-size: 16px;
       line-height: 19px;
@@ -59,7 +62,7 @@
     padding-left: 66px;
     padding-top: 10px;
     a{
-      font-family: 'Space Mono';
+      font-family: $SpaceMono;
       font-weight: 700;
       font-size: 16px;
       line-height: 24px;
@@ -77,7 +80,7 @@
   .title{
     h1{
       text-align: center;
-      font-family: 'Space Mono';
+      font-family: $SpaceMono;
       font-weight: 700;
       font-size: 36px;
       line-height: 53px;
@@ -114,7 +117,7 @@
   .ramziText,
   .hanimText{
     h2{
-      font-family: 'Space Mono';
+      font-family: $SpaceMono;
       font-weight: 700;
       font-size: 20px;
       line-height: 30px;
@@ -129,7 +132,7 @@
       color: #4A50BB;
     }
     p{
-      font-family: 'Space Mono';
+      font-family: $SpaceMono;
       font-weight: 400;
       font-size: 16px;
       line-height: 30px;
@@ -154,7 +157,7 @@
       .footerText{
         padding-top: 56px;
         h3{
-          font-family: 'Work Sans';
+          font-family: $workSans;
           font-weight: 700;
           font-size: 18px;
           line-height: 24px;
@@ -167,7 +170,7 @@
           text-align: center;
           p,
           a{
-            font-family: 'Space Mono';
+            font-family: $SpaceMono;
             font-weight: 400;
             font-size: 18px;
             line-height: 24px;
