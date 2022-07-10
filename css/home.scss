@@ -1,0 +1,13 @@
+@import "varibles.scss";
+@import "function.scss";
+.header{
+ padding-top: 50px;
+  header{
+    .header-container{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
