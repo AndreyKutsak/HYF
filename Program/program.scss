@@ -1,3 +1,78 @@
 @import "../css/varibles.scss";
 @import "../css/function.scss";
 @import "../css/fonts.scss";
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.header {
+    padding-top: 50px;
+
+    .container-header {
+        max-width: 1240px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        .menu {
+            display: flex;
+            align-items: center;
+            .sub-menu {
+                display: flex;
+                li {
+                    list-style: none;
+                    a {
+                        font-family: $workSans;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 19px;
+                        text-transform: uppercase;
+                        color: $gray800;
+                        text-decoration: none;
+                        padding-right: 42px;
+                        &:hover {
+                            color: rgb(52, 60, 206);
+                        }
+                    }
+                }
+            }
+            .select-header {
+                padding-top: 5px;
+                select {
+                    max-width: 100px;
+                    font-family: $workSans;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-transform: uppercase;
+                    color: $gray800;
+                    padding: 8px 0 8px 9px;
+                    border: 1px solid #2D3037;
+                    border-radius: 5px;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+            .btn-header{
+                padding-left: 66px;
+                a{
+                    background: $headBtnGradient;
+                    text-decoration: none;
+                    padding: 13px 28px;
+                    text-transform: uppercase;
+                    border-radius: 5px;
+                    color: $gray50;
+                }
+            }
+        }
+    }
+}
