@@ -5,6 +5,12 @@
 // $SpaceMono;
 // $workSans;
 
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
 body {
     header {
         .container {
@@ -24,6 +30,8 @@ body {
                         margin-right: 20px;
                         .buttons-font {
                             transition: 0.9s;
+                            padding: 13px 8px 12px 10px;
+                            border: 1px solid transparent;
                             &:hover {
                                 background: #FFFFFF;
                                 border: 1px solid #ACACAC;
@@ -47,13 +55,60 @@ body {
                                 color: rgb(15, 29, 92);
                             }
                         }
-                        a {
-                           
-                        }
                     }
                 }
             }
         }
     }
     }
+    .about-developers {
+        padding-top: 77px;
+        .about-developers-contain {
+            max-width: 1120px;
+            padding: 0 10px;
+            margin: 0 auto;
+        
+       .about-developers-wrapper {
+        display: flex;
+        justify-content: space-between;
+        .wrapper-text {
+            max-width: 337px;
+        }
+       }
+    }}
+    .benefits {
+        padding-top: 65px;
+        padding-bottom: 107px;
+        .benefits-caontain {
+            max-width: 1123px;
+            padding: 0 10px;
+            margin: 0 auto;
+        .betefits-wrapper {
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: space-between;
+            .betefits-wrapper-item {
+                flex: 0 1 50%;
+                background: #F3EEEE;
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+                border-radius: 20px;
+                max-width: 549px;
+                margin-bottom: 21px;
+                .item-padding {
+                    padding: 22px 15px 25px 36px;
+                }
+            }
+        }
+    }
+}
+.input-field {
+    background: url(../img/supporters/blueBackground.png) no-repeat;
+    background-position: center 10%;
+    background-size: 100%;
+    div {
+        padding-top: 200px;
+    }
+}
+
+
 }
