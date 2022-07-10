@@ -1,0 +1,59 @@
+@import "../css/varibles.scss";
+@import "../css/function.scss";
+@import "../css/fonts.scss";
+
+// $SpaceMono;
+// $workSans;
+
+body {
+    header {
+        .container {
+            nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+                .logo {
+                    img {
+                    }
+                }
+            .nav-bar {
+                .nav-list {
+                    display: flex;
+                    li {
+                        list-style-type: none;
+                        margin-right: 20px;
+                        .buttons-font {
+                            transition: 0.9s;
+                            &:hover {
+                                background: #FFFFFF;
+                                border: 1px solid #ACACAC;
+                                border-radius: 5px;
+                            }
+                        }
+                        .main-button {
+                            font-family: $SpaceMono;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 24px;
+                            text-transform: uppercase;
+                            color: #FEFEFE;
+                            background: linear-gradient(90deg, #4A50BB -12.35%, #669DFF 112.35%);
+                            border-radius: 5px;
+                            padding: 13px 27px 14px 26px;
+                            text-decoration: none;
+                            transition: 1.3s;
+                            &:hover {
+                                color: rgb(15, 29, 92);
+                            }
+                        }
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }
+}

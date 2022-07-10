@@ -65,6 +65,8 @@ body {
   line-height: 19px;
   text-transform: uppercase;
   color: #2D3037;
+  text-decoration: none;
+  padding: 13px 8px 12px 10px;
 }
 
 .text-about-person {
