@@ -1,0 +1,203 @@
+.header {
+  padding: 50px 0 20px;
+}
+.header .headerContent {
+  display: flex;
+  justify-content: space-between;
+}
+.header .headerContent .logo img {
+  transition: 2s;
+}
+.header .headerContent .logo img:hover {
+  transform: scale(1.1);
+}
+.header .headerContent .header_menu {
+  display: flex;
+}
+.header .headerContent .header_menu ul li {
+  list-style: none;
+  display: inline;
+}
+.header .headerContent .header_menu ul li a {
+  font-family: "Work Sans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #2D3037;
+  text-decoration: none;
+  padding-right: 28px;
+}
+.header .headerContent .header_menu ul li a:hover {
+  color: rgb(74, 80, 187);
+}
+
+.selectClass {
+  padding-top: 5px;
+}
+.selectClass select {
+  font-family: "Work Sans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #2D3037;
+  padding: 8px 0 8px 9px;
+  border: 1px solid #2D3037;
+  border-radius: 10px;
+}
+.selectClass select:hover {
+  cursor: pointer;
+}
+.selectClass select:focus {
+  outline: none;
+}
+
+.btn_header {
+  padding-left: 66px;
+  padding-top: 10px;
+}
+.btn_header a {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FEFEFE;
+  background: linear-gradient(90deg, #4A50BB -12.35%, #669DFF 112.35%);
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 13px 26px 14px;
+}
+.btn_header a:hover {
+  opacity: 0.5;
+}
+
+.title h1 {
+  text-align: center;
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #4A50BB;
+}
+
+.alumni {
+  padding: 92px 0 135px;
+  background-color: rgb(247, 249, 254);
+}
+.alumni .edouardo {
+  display: flex;
+}
+.alumni .edouardo .edouardoText {
+  padding: 0 395px 0 100px;
+}
+.alumni .ramzi {
+  display: flex;
+}
+.alumni .ramzi .ramziText {
+  padding: 50px 395px 0 100px;
+}
+
+.gita,
+.hanim {
+  display: flex;
+}
+.gita .gitaText,
+.gita .hanimText,
+.hanim .gitaText,
+.hanim .hanimText {
+  padding: 50px 100px 0 395px;
+}
+
+.edouardoText h2,
+.gitaText h2,
+.ramziText h2,
+.hanimText h2 {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #4A50BB;
+}
+.edouardoText h3,
+.gitaText h3,
+.ramziText h3,
+.hanimText h3 {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4A50BB;
+}
+.edouardoText p,
+.gitaText p,
+.ramziText p,
+.hanimText p {
+  font-family: "Space Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.edouardoImg img,
+.gitaImg img,
+.ramziImg img,
+.hanimImg img {
+  box-shadow: 0px 0px 0px 10px #e1e9f6;
+  border-radius: 5px;
+}
+
+.footer {
+  padding: 82px 0 70px;
+}
+.footer .footerContent {
+  border-top: 2px solid rgb(206, 203, 203);
+  display: flex;
+  justify-content: space-around;
+}
+.footer .footerContent .footerText {
+  padding-top: 56px;
+}
+.footer .footerContent .footerText h3 {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2D3037;
+  padding-bottom: 45px;
+}
+.footer .footerContent .footerText .footerAdress {
+  text-align: center;
+}
+.footer .footerContent .footerText .footerAdress p,
+.footer .footerContent .footerText .footerAdress a {
+  font-family: "Space Mono";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2D3037;
+  text-decoration: none;
+}
+.footer .footerContent .footerText .footerAdress a:hover {
+  color: #4A50BB;
+}
+.footer .footerContent .footerIcon {
+  padding-top: 148px;
+}
+.footer .footerContent .footerIcon a {
+  padding-right: 50px;
+}
+.footer .footerContent .footerIcon a img {
+  transition: 2s;
+}
+.footer .footerContent .footerIcon a img:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=alumni.css.map *//*# sourceMappingURL=alumni.css.map */
