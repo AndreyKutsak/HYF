@@ -1,6 +1,7 @@
 @import "../css/varibles.scss";
 @import "../css/function.scss";
 @import "../css/fonts.scss";
+@import "../css/common.scss";
 
 img {
     max-width: 100%;
@@ -134,10 +135,59 @@ img {
                     border-radius: 5px;
                     color: $gray50;
                     display: block;
-                    
                 }
             }
         }
         
+    }
+}
+.apply{
+    padding-top: 78px;
+    padding-bottom: 83px;
+    background: $gray100;
+    .container-apply{
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 0 70px;
+        display: flex;
+        justify-content: space-evenly;
+        .apply-text{
+            h2{
+                font-family: $SpaceMono;
+                font-size: 20px;
+                text-transform: uppercase;
+                color: $blue100;
+            }
+            p{
+                max-width: 464px;
+                color: $black;
+                font-family: $SpaceMono;
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+        .apply-list{
+            position: relative;
+            max-width: 519px;
+            ul{
+                li{
+                    list-style: none;
+                    color: $black;
+                    font-family: $SpaceMono;
+                    font-size: 16px;
+                    margin-bottom: 45px;
+                    &:before{
+                        content: url(../img/program/chevron-right.png);
+                        position: absolute;
+                        left: -4px;
+                        background: #E7F0FF;
+                        border-radius: 16px;
+                        box-shadow: 20px 17px 22px 12px rgba(0,0,0,0.66);
+                        -webkit-box-shadow: 7px 8px 15px 0px rgb(0 0 0 / 38%);
+                        -moz-box-shadow: 20px 17px 22px 12px rgba(0,0,0,0.66);
+                    }
+                }
+            }
+        }
     }
 }
