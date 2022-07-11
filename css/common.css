@@ -187,4 +187,81 @@ body {
   padding: 0 10px;
   margin: 0 auto;
 }
+
+.common-text {
+  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.common-blue-headlines {
+  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #4A50BB;
+}
+
+.footer-common-text {
+  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #2D3037;
+}
+
+.footer-common-headlines {
+  font-family: "Work Sans", "Roboto", sans-serif, "Space Mono", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2D3037;
+}
+
+.main-button {
+  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FEFEFE;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-7.49%, #4A50BB), color-stop(144.39%, rgba(102, 157, 248, 0.87)));
+  background: linear-gradient(90deg, #4A50BB -7.49%, rgba(102, 157, 248, 0.87) 144.39%);
+  border-radius: 5px;
+  padding: 13px 27px 14px 26px;
+  text-decoration: none;
+  -webkit-transition: 1.3s;
+  transition: 1.3s;
+}
+
+.buttons-font {
+  font-family: "Work Sans", "Roboto", sans-serif, "Space Mono", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #2D3037;
+  text-decoration: none;
+}
+
+.text-about-person {
+  font-family: "Work Sans", "Roboto", sans-serif, "Space Mono", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4A50BB;
+}
 /*# sourceMappingURL=common.css.map */
