@@ -510,33 +510,41 @@ img {
   margin: 0 auto;
   padding: 0 70px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-direction: column;
 }
-.apply .container-apply .apply-text h2 {
+.apply .container-apply .apply-title {
+  margin-left: 40px;
+}
+.apply .container-apply .apply-title h2 {
   font-family: "Space Mono", sans-serif;
   font-size: 20px;
   text-transform: uppercase;
   color: #4A50BB;
 }
-.apply .container-apply .apply-text p {
+.apply .container-apply .apply-text-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.apply .container-apply .apply-text-wrap .apply-text p {
   max-width: 464px;
   color: #000;
   font-family: "Space Mono", sans-serif;
   font-size: 16px;
   line-height: 30px;
 }
-.apply .container-apply .apply-list {
+.apply .container-apply .apply-text-wrap .apply-list {
   position: relative;
   max-width: 519px;
 }
-.apply .container-apply .apply-list ul li {
+.apply .container-apply .apply-text-wrap .apply-list ul li {
   list-style: none;
   color: #000;
   font-family: "Space Mono", sans-serif;
   font-size: 16px;
   margin-bottom: 45px;
 }
-.apply .container-apply .apply-list ul li:before {
+.apply .container-apply .apply-text-wrap .apply-list ul li:before {
   content: url(../img/program/chevron-right.png);
   position: absolute;
   left: -4px;
@@ -545,4 +553,46 @@ img {
   box-shadow: 20px 17px 22px 12px rgba(0, 0, 0, 0.66);
   -webkit-box-shadow: 7px 8px 15px 0px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 20px 17px 22px 12px rgba(0, 0, 0, 0.66);
+}
+
+.program {
+  padding-top: 73px;
+  padding-bottom: 61px;
+}
+.program .container-program {
+  max-width: 1089px;
+  margin: 0 auto;
+}
+.program .container-program h2 {
+  font-family: "Space Mono", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #4A50BB;
+}
+.program .container-program .program-wrap {
+  display: flex;
+}
+.program .container-program .program-wrap .program-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.program .container-program .program-wrap .program-btns a {
+  font-family: "Space Mono", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #4A8CBB -7.49%, #669DF8 144.39%);
+  padding: 14px 45px;
+  border-radius: 10px;
+}
+.program .container-program .program-wrap .program-btns .program-btn1 {
+  font-family: "Space Mono", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #4A8CBB -7.49%, #669DF8 144.39%);
+  border-radius: 10px;
+  padding: 14px 45px;
 }/*# sourceMappingURL=program.css.map */
