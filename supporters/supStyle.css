@@ -212,6 +212,10 @@ img {
   height: auto;
 }
 
+body header {
+  padding-top: 50px;
+}
+
 body header .container nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -246,23 +250,6 @@ body header .container nav .nav-bar .nav-list li .buttons-font:hover {
   background: #FFFFFF;
   border: 1px solid #ACACAC;
   border-radius: 5px;
-}
-
-body header .container nav .nav-bar .nav-list li .main-button {
-  font-family: "Space Mono", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  text-transform: uppercase;
-  color: #FEFEFE;
-  background: -webkit-gradient(linear, left top, right top, color-stop(-12.35%, #4A50BB), color-stop(112.35%, #669DFF));
-  background: linear-gradient(90deg, #4A50BB -12.35%, #669DFF 112.35%);
-  border-radius: 5px;
-  padding: 13px 27px 14px 26px;
-  text-decoration: none;
-  -webkit-transition: 1.3s;
-  transition: 1.3s;
 }
 
 body header .container nav .nav-bar .nav-list li .main-button:hover {

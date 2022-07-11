@@ -33,7 +33,7 @@ body{
   font-size: 20px;
   line-height: 30px;
   text-transform: uppercase;
-  color: #4A50BB;
+  color: $blue100;
 }
 
 .footer-common-text {
@@ -43,7 +43,7 @@ body{
   font-size: 18px;
   line-height: 24px;
   text-align: center;
-  color: #2D3037;
+  color: $gray800;
 }
 
 .footer-common-headlines {
@@ -54,7 +54,21 @@ body{
   line-height: 24px;
   text-align: center;
   text-transform: uppercase;
-  color: #2D3037;
+  color: $gray800;
+}
+.main-button {
+  font-family: $SpaceMono,$workSans,sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $gray50;
+  background: $blockGradient;
+  border-radius: 5px;
+  padding: 13px 27px 14px 26px;
+  text-decoration: none;
+  transition: 1.3s;
 }
 
 .buttons-font {
@@ -64,7 +78,8 @@ body{
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
-  color: #2D3037;
+  color: $gray800;
+  text-decoration: none;
 }
 
 // Використовується тільки в блоках about,Home,Alumni
@@ -75,5 +90,5 @@ body{
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #4A50BB;
+  color: $blue100;
 }
