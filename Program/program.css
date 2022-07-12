@@ -672,6 +672,9 @@ img {
   padding: 14px 45px;
 }
 
+.project {
+  background: #E1E9F6;
+}
 .project .container-project {
   max-width: 1260px;
   margin: 0 auto;
@@ -731,7 +734,9 @@ img {
 }
 
 .towards {
+  background: #E1E9F6;
   padding-top: 50px;
+  padding-bottom: 115px;
 }
 .towards .container-towards {
   max-width: 1155px;
@@ -760,4 +765,44 @@ img {
 .towards .container-towards .towards-wrap .towards-img img {
   border: solid 6px #E1E9F6;
   border-radius: 18px;
+}
+
+.footer {
+  margin-top: 20px;
+  padding-bottom: 105px;
+}
+.footer .container {
+  max-width: 1055px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.footer .container .footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.footer .container .footer-wrapper:before {
+  content: "";
+  background: #cecbcb;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+}
+.footer .container .footer-wrapper .footer-wrapper-info h4 {
+  margin-top: 56px;
+  margin-bottom: 55px;
+}
+.footer .container .footer-wrapper .footer-wrapper-info p {
+  max-width: 337px;
+  margin: 0 auto;
+}
+.footer .container .footer-wrapper .footer-wrapper-social {
+  margin-top: 90px;
+}
+.footer .container .footer-wrapper .footer-wrapper-social a {
+  margin-right: 52px;
 }/*# sourceMappingURL=program.css.map */
