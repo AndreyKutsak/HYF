@@ -367,6 +367,81 @@ body {
   margin: 0 auto;
 }
 
+.common-text {
+  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.common-blue-headlines {
+  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #4A50BB;
+}
+
+.footer-common-text {
+  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #2D3037;
+}
+
+.footer-common-headlines {
+  font-family: "Work Sans", "Roboto", sans-serif, "Space Mono", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2D3037;
+}
+
+.main-button {
+  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FEFEFE;
+  background: linear-gradient(90deg, #4A50BB -7.49%, rgba(102, 157, 248, 0.87) 144.39%);
+  border-radius: 5px;
+  padding: 13px 27px 14px 26px;
+  text-decoration: none;
+  transition: 1.3s;
+}
+
+.buttons-font {
+  font-family: "Work Sans", "Roboto", sans-serif, "Space Mono", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #2D3037;
+  text-decoration: none;
+}
+
+.text-about-person {
+  font-family: "Work Sans", "Roboto", sans-serif, "Space Mono", sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4A50BB;
+}
+
 img {
   max-width: 100%;
   width: auto;
@@ -595,4 +670,94 @@ img {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #4A8CBB -7.49%, #669DF8 144.39%);
   border-radius: 10px;
   padding: 14px 45px;
+}
+
+.project .container-project {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.project .container-project .project-title {
+  z-index: 2;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.project .container-project .project-title .final {
+  background: url(../img/program/bg-block4.png);
+  max-width: 608px;
+}
+.project .container-project .project-title .final h3 {
+  color: #121665;
+  font-size: 20px;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  margin-left: 89px;
+}
+.project .container-project .project-title .final p {
+  max-width: 466px;
+  text-align: start;
+  margin: 0 auto;
+  padding: 0 72px;
+}
+.project .container-project .project-title h1 {
+  color: #4A50BB;
+  font-size: 64px;
+  font-family: "Work Sans", "Roboto", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.project .container-project .project-img {
+  padding: 0 50px;
+}
+.project .container-project .project-img img {
+  margin-top: -70px;
+  z-index: 1;
+  border: solid 6px #E1E9F6;
+  border-radius: 18px;
+}
+.project .container-project .project-btn {
+  margin-left: 89px;
+  margin-top: 26px;
+}
+.project .container-project .project-btn a {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #4A8CBB -7.49%, #669DF8 144.39%);
+  color: #FEFEFE;
+  font-family: "Space Mono", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 14px 35px;
+  border-radius: 7px;
+  display: inline-block;
+}
+
+.towards {
+  padding-top: 50px;
+}
+.towards .container-towards {
+  max-width: 1155px;
+  margin: 0 auto;
+}
+.towards .container-towards .towards-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.towards .container-towards .towards-wrap .towards-text p {
+  max-width: 451px;
+}
+.towards .container-towards .towards-wrap .towards-text .towards-btn {
+  margin-top: 25px;
+}
+.towards .container-towards .towards-wrap .towards-text .towards-btn a {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #4A8CBB -7.49%, #669DF8 144.39%);
+  color: #FEFEFE;
+  font-family: "Space Mono", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 14px 35px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.towards .container-towards .towards-wrap .towards-img img {
+  border: solid 6px #E1E9F6;
+  border-radius: 18px;
 }/*# sourceMappingURL=program.css.map */

@@ -275,3 +275,99 @@ img {
         }
     }
 }
+.project{
+    .container-project{
+        max-width: 1260px;
+        margin: 0 auto;
+        .project-title{
+            z-index: 2;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            .final{
+                background: url(../img/program/bg-block4.png);
+                max-width: 608px;
+                h3{
+                    color: #121665;
+                    font-size: 20px;
+                    font-family: $SpaceMono;
+                    font-weight: 700;
+                    margin-left: 89px;
+                }
+                p{
+                    max-width: 466px;
+                    text-align: start;
+                    margin: 0 auto;
+                    padding: 0 72px;
+                }
+            }
+            h1{
+                color: $blue100;
+                font-size: 64px;
+                font-family: $workSans;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+        }
+        .project-img{
+            padding: 0 50px;
+            img{
+                margin-top: -70px;
+                z-index: 1;
+                border: solid 6px #E1E9F6;
+                border-radius: 18px;
+            }
+        }
+        .project-btn{
+            margin-left: 89px;
+            margin-top: 26px;
+            a{
+                background: $btnGradient;
+                color: $gray50;
+                font-family: $SpaceMono;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 14px 35px;
+                border-radius: 7px;
+                display: inline-block;
+            }
+        }
+    }
+}
+.towards{
+    padding-top: 50px;
+    .container-towards{
+        max-width: 1155px;
+        margin: 0 auto;
+        .towards-wrap{
+            display: flex;
+            justify-content: space-between;
+            .towards-text{
+                p{
+                    max-width: 451px;
+                }
+                .towards-btn{
+                    margin-top: 25px;
+                    a{
+                        background: $btnGradient;
+                        color: $gray50;
+                        font-family: $SpaceMono;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        padding: 14px 35px;
+                        border-radius: 4px;
+                        display: inline-block;
+                    }
+                }
+            }
+            .towards-img{
+                img{
+                    border: solid 6px $gray150;
+                    border-radius: 18px;
+                }
+            }
+            
+        }
+        
+    }
+}
