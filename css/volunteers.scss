@@ -1,10 +1,47 @@
 @import "../css/varibles.scss";
 @import "../css/function.scss";
 @import "../css/fonts.scss";
-@import "../css/common.scss";
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.header {
+    padding-top: 50px;
+
+    .header_list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__text {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 79px;
+        text-transform: uppercase;
+        color: #4A50BB;
+        text-align: center;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
 
 .footer {
-    margin-top: 20px;
+    margin-top: 120px;
     padding-bottom: 105px;
 
     .container {
@@ -29,7 +66,7 @@
                 left: 0px;
             }
 
-            .footer-wrapper-info {
+            .footer-wrapper-information {
                 h4 {
                     margin-top: 56px;
                     margin-bottom: 55px;
@@ -38,10 +75,11 @@
                 p {
                     max-width: 337px;
                     margin: 0 auto;
+                    font-weight: 400;
                 }
             }
 
-            .footer-wrapper-social {
+            .footer-wrapper-list {
                 margin-top: 90px;
 
                 a {
