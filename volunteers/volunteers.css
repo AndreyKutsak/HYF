@@ -1,3 +1,4 @@
+@import "../css/common.css";
 @font-face {
   font-family: "Space Mono";
   src: url("../fonts/../fonts/SpaceMono-Italic.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Italic.woff") format("woff");
@@ -188,25 +189,78 @@ img {
 
 .header {
   padding-top: 50px;
-}
-.header .header_list {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
-.header .header__text {
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 79px;
-  text-transform: uppercase;
-  color: #4A50BB;
-  text-align: center;
-}
-
-.container {
+.header .container-head {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .container-head .header_list {
+  display: flex;
+  align-items: center;
+}
+.header .container-head .header_list .nav_list {
+  display: flex;
+}
+.header .container-head .header_list .nav_list li {
+  list-style: none;
+}
+.header .container-head .header_list .nav_list li a {
+  font-family: "Work Sans", "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19;
+  text-transform: uppercase;
+  color: #2D3037;
+  text-decoration: none;
+  padding-right: 42px;
+}
+.header .container-head .header_list .nav_list li a a:hover {
+  color: rgb(52, 60, 206);
+}
+
+.why_us {
+  padding-bottom: 4.75rem;
+  padding-top: 4.3125rem;
+}
+.why_us .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.why_us .container .why_volunteers {
+  min-width: 20.4375rem;
+  position: relative;
+}
+.why_us .container .why_volunteers h4 {
+  position: absolute;
+  top: 6.0625rem;
+  right: 3.8125rem;
+}
+.why_us .container .about_volunteers {
+  max-width: 38.875rem;
+}
+.why_us .container .about_volunteers ul li {
+  position: relative;
+  list-style-type: none;
+  margin-bottom: 1.4375rem;
+}
+.why_us .container .about_volunteers ul li::before {
+  content: url("../img/volunteers/arrow.svg");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: -25px;
+  left: -79px;
 }
 
 .footer {
