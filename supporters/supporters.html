@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="supStyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="code.js"></script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
     <title>Supporters</title>
 </head>
 
@@ -108,15 +109,15 @@
     <section class="input-field">
         <div class="container">
             <div class="input-field-form">
-                <form class="input-field-form-wrapper">
+                <form id="form" method="POST" action="" class=" input-field-form-wrapper">
                     <div class="form-content">
                         <div class="form-content-radio">
                             <div class="form-content-radio-one">
-                                <input type="radio" id="one" name="contact" value="email">
+                                <input type="radio" id="one" name="contact" value="contact" checked>
                                 <label for="one">One Time</label>
                             </div>
                             <div class="form-content-radio-two">
-                                <input type="radio" id="two" name="contact" value="email">
+                                <input type="radio" id="two" name="contact" value="contact">
                                 <label for="two">Monthly</label>
                             </div>
                         </div>
@@ -146,11 +147,11 @@
                             <input type="number" placeholder="10">
                         </div>
                         <div class="form-content-text">
-                            <textarea name="" id="" placeholder="Your Message"></textarea>
+                            <textarea type="text" name="text" id="" placeholder="Your Message"></textarea>
                         </div>
                     </div>
                     <div class="form-content-button">
-                        <button type="submit">send</button>
+                        <button class="submit_button" type="submit">send</button>
                     </div>
                 </form>
             </div>
