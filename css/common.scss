@@ -19,7 +19,7 @@ body{
 }
 
 .common-text {
-  font-family: $SpaceMono,$workSans,sans-serif;
+  font-family: $SpaceMono;
   font-style: normal;
   font-weight: 400;
   font-size: size(16);
@@ -27,7 +27,7 @@ body{
 }
 
 .common-blue-headlines {
-  font-family: $SpaceMono,$workSans,sans-serif;
+  font-family: $SpaceMono;
   font-style: normal;
   font-weight: 700;
   font-size: size(20);
@@ -37,7 +37,7 @@ body{
 }
 
 .footer-common-text {
-  font-family: $SpaceMono,$workSans,sans-serif;
+  font-family: $SpaceMono;
   font-style: normal;
   font-weight: 400;
   font-size: size(18);
@@ -47,7 +47,7 @@ body{
 }
 
 .footer-common-headlines {
-  font-family: $workSans,$SpaceMono,sans-serif;
+  font-family: $workSans;
   font-style: normal;
   font-weight: 700;
   font-size: size(18);
@@ -57,7 +57,7 @@ body{
   color: $gray800;
 }
 .main-button {
-  font-family: $SpaceMono,$workSans,sans-serif;
+  font-family: $SpaceMono;
   font-style: normal;
   font-weight: 700;
   font-size: size(16);
@@ -72,7 +72,7 @@ body{
 }
 
 .buttons-font {
-  font-family: $workSans,$SpaceMono,sans-serif;
+  font-family: $workSans;
   font-style: normal;
   font-weight: 300;
   font-size: size(16);
@@ -84,7 +84,7 @@ body{
 
 // Використовується тільки в блоках about,Home,Alumni
 .text-about-person {
-  font-family: $workSans,$SpaceMono,sans-serif;
+  font-family: $workSans;
   font-style: normal;
   font-weight: 400;
   font-size: size(16);

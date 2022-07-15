@@ -17,7 +17,6 @@ input[type="number"]:focus {
     -moz-appearance: textfield;
 }
 
-
 img {
     max-width: 100%;
     width: auto;
@@ -25,6 +24,7 @@ img {
 }
 
 body {
+    overflow-x:hidden;
     header {
         padding-top: 50px;
         .container {
@@ -105,9 +105,7 @@ body {
 }
 .input-field {
     background: url(../img/supporters/blueBackground.png) no-repeat;
-    background-position: center 1%;
-    background-size: 100%;
-    
+    background-size: cover;
     .container {
         display: flex;
         justify-content: space-between;
@@ -116,7 +114,7 @@ body {
             padding: 0 10px;
             margin: 0 auto;
         .input-field-form {
-            margin-top: size(22);
+            margin-top: size(15);
             .input-field-form-wrapper {
                 .form-content-button {
                     text-align: right;
@@ -280,7 +278,7 @@ body {
                                 &:focus {
                                     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
                                 }
-                             }
+                            }
                         }
                 }
             }
@@ -382,4 +380,165 @@ body {
     }
 }
 
+}
+
+
+@media (max-width: 1199px) {
+    
+}
+@media (max-width: 1255px) {
+    body .support .container .support-list {
+        max-width: size(422);
+    }
+}
+@media (max-width: 1156px) {
+    body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+        max-width: size(509);
+        margin-bottom: size(21);
+    }
+    body .benefits .benefits-caontain .betefits-wrapper {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 1086px) {
+    body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+        max-width: size(489);
+        margin-bottom: size(21);
+    }
+}
+@media (max-width: 1086px) {
+    body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+        max-width: size(479);
+        margin-bottom: size(21);
+    }
+}
+@media (max-width: 1031px) {
+    body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+        max-width: size(469);
+        margin-bottom: size(20);
+    }
+}
+@media (max-width: 1013px) {
+    body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+        max-width: none;
+        margin-bottom: size(20);
+        text-align: center;
+    }
+    body .benefits .benefits-caontain .betefits-wrapper {
+        flex-direction: column;
+    }
+}
+@media (max-width: 991px) {
+    .input-field-text {
+        padding-left: 10px;
+    }
+    body .input-field .container .input-field-form .input-field-form-wrapper .form-content {
+                    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 20px 0px 0px 20px;
+                    min-width: size(477);
+    }
+    .common-text {
+        font-size: size(15);
+        line-height: size(30);
+    }
+    .common-blue-headlines {
+        font-size: size(18);
+        line-height: size(30);
+    }
+}
+@media (max-width: 913px) {
+    body .support .container .support-list {
+        max-width: size(281);
+    }
+}
+@media (max-width: 882px) {
+    body .benefits {
+        padding-top: size(35);
+        padding-bottom: size(57);
+    }
+    body .about-developers .about-developers-contain .about-developers-wrapper {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .wrapper-img {
+        text-align: center;
+    }
+    body .about-developers .about-developers-contain .about-developers-wrapper .wrapper-text {
+        max-width: none;
+    }
+    .headline-resp {
+        text-align: center;
+    }
+    body .about-developers {
+        padding-top: size(47);
+    } 
+}
+@media (max-width: 822px) {
+    body .input-field .container .input-field-text p {
+        max-width: none;
+    }
+    body .input-field .container {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+    body .input-field .container .input-field-text h4 {
+        color: #11122c;
+    }
+}
+@media (max-width: 767px) {
+    body .support {
+        padding-bottom: size(46);
+        padding-top: size(40);
+    }
+    body .support .container {
+        flex-direction: column-reverse;
+    }
+    body .support .container .support-list {
+        max-width: none;
+        padding: 0 10px 0 20px;
+    }
+    body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item .item-padding {
+        padding: 15px 13px 21px 13px;
+    }
+}
+@media (max-width: 576px) {
+    body .about-developers {
+        padding-top: size(27);
+    } 
+}
+@media (max-width: 521px) {
+    body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    body .input-field .container .input-field-form .input-field-form-wrapper .form-content {
+        min-width: size(177);
+    }
+    body .input-field .container .input-field-form .input-field-form-wrapper .form-content-button button {
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    body .benefits {
+        padding-top: size(30);
+        padding-bottom: size(30);
+    }
+    body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item .item-padding {
+        padding: 12px 7px 11px 7px;
+    }
+}
+@media (max-width: 470px) {
+    body .support .container .puddle-text h4 {
+        top: size(77);
+        right: size(61);
+        font-size: 15px;
+    }
+    .common-text {
+        font-size: size(14);
+        line-height: size(25);
+    }
+    .common-blue-headlines {
+        font-size: size(17);
+        line-height: size(20);
+    }
 }
