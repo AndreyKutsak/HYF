@@ -3,7 +3,6 @@ let menu = document.querySelector("#menu"); //get menu
 let storySlider = document.querySelector(".slider-stories");
 let partnerSlider = document.querySelector(".partner-slider");
 let form = document.querySelector(".contact-form");
-
 let count = 0;
 button.addEventListener("click", (e) => {
   menu.classList.toggle("hide");
