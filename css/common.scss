@@ -1,25 +1,32 @@
 @import "varibles.scss";
 @import "function.scss";
 @import "resset.scss";
-html{
+html {
   font-size: 16px;
 }
-body{
-  font-family: $SpaceMono,$workSans,sans-serif;
+body {
+  font-family: $SpaceMono, $workSans, sans-serif;
 }
-.header-container{
+img {
+  height: auto;
+  max-width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.header-container {
   margin: 0 auto;
   max-width: 1260px;
   padding: 0 10px;
 }
-.container{
+.container {
   max-width: 1240px;
   padding: 0 10px;
   margin: 0 auto;
 }
 
 .common-text {
-  font-family: $SpaceMono,$workSans,sans-serif;
+  font-family: $SpaceMono, $workSans, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: size(16);
@@ -27,7 +34,7 @@ body{
 }
 
 .common-blue-headlines {
-  font-family: $SpaceMono,$workSans,sans-serif;
+  font-family: $SpaceMono, $workSans, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: size(20);
@@ -37,7 +44,7 @@ body{
 }
 
 .footer-common-text {
-  font-family: $SpaceMono,$workSans,sans-serif;
+  font-family: $SpaceMono, $workSans, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: size(18);
@@ -47,17 +54,18 @@ body{
 }
 
 .footer-common-headlines {
-  font-family: $workSans,$SpaceMono,sans-serif;
+  font-family: $workSans, $SpaceMono, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: size(18);
   line-height: size(24);
   text-align: center;
+
   text-transform: uppercase;
   color: $gray800;
 }
 .main-button {
-  font-family: $SpaceMono,$workSans,sans-serif;
+  font-family: $SpaceMono, $workSans, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: size(16);
@@ -72,7 +80,7 @@ body{
 }
 
 .buttons-font {
-  font-family: $workSans,$SpaceMono,sans-serif;
+  font-family: $workSans, $SpaceMono, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: size(16);
@@ -84,7 +92,7 @@ body{
 
 // Використовується тільки в блоках about,Home,Alumni
 .text-about-person {
-  font-family: $workSans,$SpaceMono,sans-serif;
+  font-family: $workSans, $SpaceMono, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: size(16);
