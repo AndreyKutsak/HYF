@@ -1,0 +1,369 @@
+@import "../../css/varibles.scss";
+@import "../../css/function.scss";
+@import "../../css/fonts.scss";
+@import "../../css/common.scss";
+
+
+
+
+body{
+.header{
+    padding: 50px 0 20px;
+    .headerContent{
+      display: flex;
+      justify-content: space-between;
+      .logo{
+        img{
+          transition: 2s;
+          &:hover{
+            transform: scale(1.1);
+          }
+        }
+      }
+      .header_menu{
+        display: flex;
+        ul{
+          li{
+            list-style: none;
+            display: inline;
+            a{
+              font-family: $workSans;
+              font-weight: 300;
+              font-size: $size(16);
+              line-height: 19px;
+              text-transform: uppercase;
+              color: #2D3037;
+              text-decoration: none;
+              padding-right: 28px;
+              &:hover{
+                color: rgba(74, 80, 187, 1);
+              }
+            }
+          }
+        }
+        .dropdown{
+          position: relative;
+          display: inline-block;
+          .dropbtn {
+            font-family: 'Work Sans';
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            text-transform: uppercase;
+            color: #2D3037;
+            padding: 13px 24px 12px 9px;
+            cursor: pointer;
+            background-color: #fff;
+            border: 1px solid rgba(229, 229, 229, 1);
+            border-radius: 7px;
+            &:hover,
+            &:focus{
+              background-color:rgba(221, 217, 217, 1);
+            }
+          }
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              min-width: 160px;
+              overflow: auto;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+              &:active{
+                display: block;
+              }
+              a{
+                font-family: $workSans;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 19px;
+                text-transform: uppercase;
+                color: #2D3037;
+                padding: 8px 0 8px 9px;
+                display: block;
+                text-decoration: none;
+                &:hover{
+                cursor: pointer;
+                background-color: rgba(221, 217, 217, 1);
+                }
+                &:focus{
+                  outline: none;
+                }
+              }
+            }
+          }
+        }
+      
+}
+
+.show {
+  display: block;
+}
+  }
+  .btn_header{
+    padding-left: 66px;
+    padding-top: 10px;
+    a{
+      font-family: $SpaceMono;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #FEFEFE;
+      background: linear-gradient(90deg, #4A50BB -12.35%, #669DFF 112.35%);
+      border-radius: 5px;
+      text-decoration: none;
+      padding: 13px 26px 14px;
+      &:hover{
+        opacity: 0.5;
+      }
+    }
+  }
+  .title{
+    h1{
+      text-align: center;
+      font-family: $SpaceMono;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 53px;
+      text-transform: uppercase;
+      color: #4A50BB;
+    }
+  }
+  .alumni{
+    padding:92px 0 135px;
+    background-color: rgba(247, 249, 254, 1);
+    img {
+      max-width: 377px;
+    } 
+    .edouardo{
+      display: flex;
+      .edouardoText{
+        padding: 0 395px 0 100px;
+      }
+      }
+    .ramzi{
+          display: flex;
+          .ramziText{
+            padding: 50px 395px 0 100px;
+          }
+          }
+    }
+      .gita,
+      .hanim{
+        display: flex;
+        .gitaText,
+        .hanimText{
+          padding: 50px 100px 0 395px;
+        }
+      }
+  .edouardoText,
+  .gitaText,
+  .ramziText,
+  .hanimText{
+    h2{
+      font-family: $SpaceMono;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: #4A50BB;
+    }
+    h3{
+      font-family: 'Work Sans';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #4A50BB;
+    }
+    p{
+      font-family: $SpaceMono;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #000000;
+    }
+  }  
+  .edouardoImg,
+  .gitaImg,
+  .ramziImg,
+  .hanimImg{
+    img{
+      box-shadow: 0px 0px 0px 10px #e1e9f6;
+      border-radius: 5px;
+    }
+  }   
+  .footer{
+    padding: 82px 0 70px;
+    .footerContent{
+      border-top: 2px solid rgba(206, 203, 203, 1);
+      display: flex;
+      justify-content: space-around;
+      .footerText{
+        padding-top: 56px;
+        h3{
+          font-family: $workSans;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #2D3037;
+          padding-bottom: 45px;
+        }
+        .footerAdress{
+          text-align: center;
+          p,
+          a{
+            font-family: $SpaceMono;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            color: #2D3037;
+            text-decoration: none;
+          }
+          a:hover{
+            color: #4A50BB;
+          }
+        } 
+      }
+      .footerIcon{
+        padding-top: 148px;
+        a{
+          padding-right: 50px;
+          img{
+            transition: 2s;
+            &:hover{
+              transform: scale(1.1);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  body .alumni .edouardo .edouardoText {
+    padding-left: 5%;
+    padding-right: 10%;
+  }
+  body .gita .gitaText, 
+  body .gita .hanimText, 
+  body .hanim .gitaText, 
+  body .hanim .hanimText,
+  body .alumni .ramzi .ramziText {
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 50px;
+  }
+  body .alumni {
+    padding: 20px 0;
+  }
+}
+@media (max-width: 991px){
+  body .title h1 {
+    font-size: 30px;
+    line-height: 20px;
+  }
+  body .edouardoText p, 
+  body .gitaText p, 
+  body .ramziText p, 
+  body .hanimText p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  body .alumni img {
+    max-width: 300px;
+  }
+  body .edouardoText h2, body .gitaText h2, 
+  body .ramziText h2, 
+  body .hanimText h2 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  body .footer {
+    padding: 50px 0 30px ;
+    .footerContent .footerText{
+      padding-top: 20px;
+    }
+  }
+  body .footer .footerContent .footerText h3 {
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 15px;
+  }
+  body .footer .footerContent .footerText .footerAdress p, 
+  body .footer .footerContent .footerText .footerAdress a {
+    font-size: 14px;
+    line-height: 12px;
+  }
+  body .footer .footerContent .footerIcon {
+    padding-top: 85px;
+   a {
+      padding-right: 30px;
+   }
+  }
+}
+@media (max-width: 797px){
+  body .title h1 {
+    font-size: 25px;
+    line-height: 0px;
+  }
+}
+@media (max-width: 767px){
+  body .alumni .edouardo,
+  body .alumni .ramzi  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  body .gita, 
+  body .hanim  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  body .alumni .edouardo .edouardoText,
+  body .alumni .gita .gitaText, 
+  body .alumni .hanim .hanimText, 
+  body .alumni .ramzi .ramziText{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  body .alumni img {
+    max-width: 377px;
+  }
+
+  body .footer {
+      padding: 32px 0 10px;
+      .footerContent {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        .footerIcon{
+          padding-top: 40px;
+          a{
+            padding: 0 15px 0;
+            img{
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+}
+@media (max-width: 500px){
+  body .gita .gitaText, 
+  body .gita .hanimText, 
+  body .hanim .gitaText, 
+  body .hanim .hanimText, 
+  body .alumni .ramzi .ramziText {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 467px){
+}
