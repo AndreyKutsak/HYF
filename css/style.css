@@ -2,7 +2,11 @@
 <<<<<<< HEAD
   font-family: "Space Mono";
 =======
+<<<<<<< HEAD
+  font-family: "Space Mono";
+=======
   font-family: 'Space Mono';
+>>>>>>> main
 >>>>>>> main
   src: url("../fonts/../fonts/SpaceMono-Italic.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Italic.woff") format("woff");
   font-weight: normal;
@@ -13,13 +17,22 @@
 <<<<<<< HEAD
   font-family: "Space Mono";
 =======
+<<<<<<< HEAD
+  font-family: "Space Mono";
+=======
   font-family: 'Space Mono';
+>>>>>>> main
 >>>>>>> main
   src: url("../fonts/../fonts/SpaceMono-Regular.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+<<<<<<< HEAD
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-BoldItalic.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-BoldItalic.woff") format("woff");
+=======
 @font-face {
 <<<<<<< HEAD
   font-family: "Space Mono";
@@ -62,12 +75,16 @@
 @font-face {
   font-family: 'Work Sans';
   src: url("../fonts/WorkSans-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-ExtraBoldItalic.woff") format("woff");
+>>>>>>> main
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
+<<<<<<< HEAD
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-Bold.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Bold.woff") format("woff");
+=======
   font-family: 'Work Sans Hairline';
   src: url("../fonts/WorkSans-Hairline.woff2") format("woff2"), url("../fonts/WorkSans-Hairline.woff") format("woff");
   font-weight: 100;
@@ -158,10 +175,13 @@
 @font-face {
   font-family: 'Work Sans';
   src: url("../fonts/WorkSans-Bold.woff2") format("woff2"), url("../fonts/WorkSans-Bold.woff") format("woff");
+>>>>>>> main
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
+<<<<<<< HEAD
+=======
 
 @font-face {
   font-family: 'Work Sans';
@@ -219,6 +239,7 @@
   font-style: normal;
   font-display: swap;
 }
+>>>>>>> main
 @font-face {
   font-family: "Work Sans";
   src: url("../fonts/WorkSans-ExtraLight.woff2") format("woff2"), url("../fonts/WorkSans-ExtraLight.woff") format("woff");
