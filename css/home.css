@@ -307,7 +307,7 @@
   transition: 0.4s;
 }
 .partners .partner-slider .slider-wraper .slide {
-  min-width: 12.5%;
+  min-width: 18%;
   margin: 0 15px;
 }
 
@@ -499,5 +499,8 @@ footer .social-list {
   }
   .header header .header-container nav .hide {
     transform: translateY(-500%);
+  }
+  .program .fx-container {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=home.css.map */

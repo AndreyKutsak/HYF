@@ -317,7 +317,7 @@
       align-items: stretch;
       transition: 0.4s;
       .slide {
-        min-width: 12.5%;
+        min-width: 18%;
         margin: 0 15px;
       }
     }
@@ -500,6 +500,11 @@ footer {
           }
         }
       }
+    }
+  }
+  .program {
+    .fx-container {
+      flex-direction: column;
     }
   }
 }

@@ -3,7 +3,7 @@ let menu = document.querySelector("#menu"); //get menu
 let storySlider = document.querySelector(".slider-stories");
 let partnerSlider = document.querySelector(".partner-slider");
 let form = document.querySelector(".contact-form");
-let count = 0;
+
 button.addEventListener("click", (e) => {
   menu.classList.toggle("hide");
 });
@@ -12,14 +12,28 @@ let slider = (el, delay) => {
   let slideBtn = Array.from(el.querySelectorAll(".slide-btn"));
   let sliderWraper = el.querySelector(".slider-wraper");
   let slideCount = sliderWraper.children.length;
-  let slide = getComputedStyle(sliderWraper.children[0]);
+  let slideList = Array.from(sliderWraper.children);
+  let slideData = getComputedStyle(sliderWraper.children[0]);
+  let sliderPosition = sliderWraper.parentNode.getBoundingClientRect();
+  let visibleElements = 0;
+  let count = 0;
   let slideWidth =
-    parseInt(slide.width) +
-    parseInt(slide.marginLeft) +
-    parseInt(slide.marginRight);
+    parseInt(slideData.width) +
+    parseInt(slideData.marginLeft) +
+    parseInt(slideData.marginRight);
+  slideList.forEach((slide) => {
+    let slidePosition = slide.getBoundingClientRect();
+    if (
+      slidePosition.left >= sliderPosition.left &&
+      slidePosition.right <= sliderPosition.right
+    ) {
+      visibleElements++;
+    }
+  });
+
   let nextSlide = () => {
     count++;
-    if (count > slideCount - 3) {
+    if (count > slideCount - visibleElements) {
       count = 0;
     }
     sliderWraper.style.transform = `translateX(-${count * slideWidth}px)`;
@@ -27,7 +41,7 @@ let slider = (el, delay) => {
   let prewSlide = () => {
     count--;
     if (count < 0) {
-      count = slideCount - 3;
+      count = slideCount - 12;
     }
     sliderWraper.style.transform = `translateX(-${count * slideWidth}px)`;
   };
@@ -40,9 +54,10 @@ let slider = (el, delay) => {
         prewSlide();
       }
     });
+    console.log(visibleElements);
   });
 };
-slider(storySlider, 3000);
+//slider(storySlider, 5000);
 slider(partnerSlider, 4000);
 // form validation
 let validation = (form) => {
