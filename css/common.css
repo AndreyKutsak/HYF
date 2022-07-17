@@ -41,14 +41,17 @@ abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
-b, strong {
+b,
+strong {
   font-weight: bolder;
 }
 
-code, kbd, samp {
+code,
+kbd,
+samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
@@ -57,7 +60,8 @@ small {
   font-size: 80%;
 }
 
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -76,7 +80,11 @@ img {
   border-style: none;
 }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
@@ -85,30 +93,35 @@ button, input, optgroup, select, textarea {
   background: none;
 }
 
-button, input {
+button,
+input {
   overflow: visible;
 }
 
-button, select {
+button,
+select {
   text-transform: none;
 }
 
-button, [type=button], [type=reset], [type=submit] {
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -133,21 +146,23 @@ textarea {
   overflow: auto;
 }
 
-[type=checkbox], [type=radio] {
+[type="checkbox"],
+[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-[type=search] {
+[type="search"] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
-[type=search]::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -177,7 +192,8 @@ html {
 }
 
 body {
-  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif, sans-serif;
+  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif,
+    sans-serif;
 }
 
 .header-container {
@@ -190,13 +206,7 @@ body {
   max-width: 1240px;
   padding: 0 10px;
   margin: 0 auto;
-<<<<<<< HEAD
-}/*# sourceMappingURL=common.css.map */
-=======
-<<<<<<< HEAD
-}/*# sourceMappingURL=common.css.map */
-=======
-}
+} /*# sourceMappingURL=common.css.map */
 
 .common-text {
   font-family: "Space Mono", sans-serif;
@@ -213,7 +223,7 @@ body {
   font-size: 1.25rem;
   line-height: 1.875rem;
   text-transform: uppercase;
-  color: #4A50BB;
+  color: #4a50bb;
 }
 
 .footer-common-text {
@@ -223,7 +233,7 @@ body {
   font-size: 1.125rem;
   line-height: 1.5rem;
   text-align: center;
-  color: #2D3037;
+  color: #2d3037;
 }
 
 .footer-common-headlines {
@@ -234,7 +244,7 @@ body {
   line-height: 1.5rem;
   text-align: center;
   text-transform: uppercase;
-  color: #2D3037;
+  color: #2d3037;
 }
 
 .main-button {
@@ -244,9 +254,19 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  color: #FEFEFE;
-  background: -webkit-gradient(linear, left top, right top, color-stop(-7.49%, #4A50BB), color-stop(144.39%, rgba(102, 157, 248, 0.87)));
-  background: linear-gradient(90deg, #4A50BB -7.49%, rgba(102, 157, 248, 0.87) 144.39%);
+  color: #fefefe;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(-7.49%, #4a50bb),
+    color-stop(144.39%, rgba(102, 157, 248, 0.87))
+  );
+  background: linear-gradient(
+    90deg,
+    #4a50bb -7.49%,
+    rgba(102, 157, 248, 0.87) 144.39%
+  );
   border-radius: 0.3125rem;
   padding: 13px 27px 14px 26px;
   text-decoration: none;
@@ -261,7 +281,7 @@ body {
   font-size: 1rem;
   line-height: 1.1875rem;
   text-transform: uppercase;
-  color: #2D3037;
+  color: #2d3037;
   text-decoration: none;
 }
 
@@ -272,8 +292,6 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   text-align: center;
-  color: #4A50BB;
+  color: #4a50bb;
 }
 /*# sourceMappingURL=common.css.map */
->>>>>>> main
->>>>>>> main
