@@ -41,14 +41,17 @@ abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
-b, strong {
+b,
+strong {
   font-weight: bolder;
 }
 
-code, kbd, samp {
+code,
+kbd,
+samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
@@ -57,7 +60,8 @@ small {
   font-size: 80%;
 }
 
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -76,7 +80,11 @@ img {
   border-style: none;
 }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
@@ -85,30 +93,35 @@ button, input, optgroup, select, textarea {
   background: none;
 }
 
-button, input {
+button,
+input {
   overflow: visible;
 }
 
-button, select {
+button,
+select {
   text-transform: none;
 }
 
-button, [type=button], [type=reset], [type=submit] {
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -133,21 +146,23 @@ textarea {
   overflow: auto;
 }
 
-[type=checkbox], [type=radio] {
+[type="checkbox"],
+[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-[type=search] {
+[type="search"] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
-[type=search]::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -359,7 +374,8 @@ html {
 }
 
 body {
-  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif, sans-serif;
+  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif,
+    sans-serif;
 }
 
 img {
@@ -382,6 +398,7 @@ img {
   padding: 0 10px;
   margin: 0 auto;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 }/*# sourceMappingURL=common.css.map */
@@ -391,6 +408,9 @@ img {
 =======
 >>>>>>> main
 }
+=======
+} /*# sourceMappingURL=common.css.map */
+>>>>>>> main
 
 .common-text {
   font-family: "Space Mono", sans-serif;
@@ -439,7 +459,22 @@ img {
   line-height: 1.5rem;
   text-transform: uppercase;
   color: #fefefe;
+<<<<<<< HEAD
   background: linear-gradient(90deg, #4a50bb -7.49%, rgba(102, 157, 248, 0.87) 144.39%);
+=======
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(-7.49%, #4a50bb),
+    color-stop(144.39%, rgba(102, 157, 248, 0.87))
+  );
+  background: linear-gradient(
+    90deg,
+    #4a50bb -7.49%,
+    rgba(102, 157, 248, 0.87) 144.39%
+  );
+>>>>>>> main
   border-radius: 0.3125rem;
   padding: 13px 27px 14px 26px;
   text-decoration: none;
@@ -465,6 +500,7 @@ img {
   line-height: 1.5rem;
   text-align: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #4a50bb;
 }/*# sourceMappingURL=common.css.map */
 =======
@@ -473,4 +509,9 @@ img {
 /*# sourceMappingURL=common.css.map */
 >>>>>>> main
 >>>>>>> main
+>>>>>>> main
+=======
+  color: #4a50bb;
+}
+/*# sourceMappingURL=common.css.map */
 >>>>>>> main
