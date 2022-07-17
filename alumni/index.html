@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/common.scss">
   <link rel="stylesheet" href="alumniScss/alumni.css">
   <title>HYF</title>
 </head>
@@ -23,15 +23,15 @@
                 <li><a href="#">about</a></li>
               </ul>
             </div>
-            <div class="selectClass">
-              <select>
-                <option value="for you">for you</option>
-                <option value="caoches">caoches</option>
-                <option value="students">students</option>
-                <option value="alumni">alumni</option>
-                <option value="Volunteers">Volunteers</option>
-                <option value="supporters">supporters</option>
-              </select>
+            <div class="dropdown">
+              <button onclick="myFunction()"  class="dropbtn">for you</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">caoches</a>
+                  <a href="#">students</a>
+                  <a href="#">alumni</a>
+                  <a href="#">Volunteer</a>
+                  <a href="#">supporters</a>
+                </div>
             </div>
             <div class="btn_header">
               <a href="#">apply now</a>
@@ -105,14 +105,16 @@
             </div>  
           </div>
           <div class="footerIcon">
-            <a href="#"><img src="../img/home/ico/fb.svg" alt="facebook"></a>
-            <a href="#"><img src="../img/home/ico/github.svg" alt="github"></a>
-            <a href="#"><img src="../img/home/ico/twitter.svg" alt="twitter"></a>
-            <a href="#"><img src="../img/home/ico/linkedin.svg" alt="linkedin"></a>
+            <a href="#"><img src="../alumni/alumniImg/facebook 1.png" alt="facebook"></a>
+            <a href="#"><img src="../alumni/alumniImg/github.png" alt="github"></a>
+            <a href="#"><img src="../alumni/alumniImg/twitter.png" alt="twitter"></a>
+            <a href="#"><img src="../alumni/alumniImg/linkedin.png" alt="linkedin"></a>
           </div>
         </div>
       </div>
     </footer>
+    </div>
+    <script src="./alumni.js"></script>
   </main>
 </body>
 </html>
