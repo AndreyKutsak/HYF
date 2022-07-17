@@ -146,8 +146,6 @@ img {
             }
           }
           .btn {
-<<<<<<< HEAD
-=======
             position: relative;
             &:hover {
               .dropdown-menu {
@@ -185,15 +183,12 @@ img {
                 }
               }
             }
->>>>>>> Abdrey
+
             a {
               border: 1px solid $gray450;
             }
           }
-<<<<<<< HEAD
-=======
 
->>>>>>> Abdrey
           .grd-btn {
             a {
               font-family: $SpaceMono;
@@ -210,29 +205,6 @@ img {
       }
     }
   }
-<<<<<<< HEAD
-  .header-bg {
-    padding: 74px 0;
-    background-image: url(../img/home/header-bg.jpg);
-    background-size: cover;
-    background-position: center center;
-    .header-title {
-      font-family: $workSans;
-      font-size: size(64);
-      line-height: size(79);
-      font-weight: 700;
-      color: $white;
-      text-align: center;
-      text-transform: uppercase;
-      background-color: rgba(74, 80, 187, 0.24);
-      border-radius: 150px;
-      max-width: 876px;
-      padding: 29px 58px;
-      margin: 0 auto;
-    }
-  }
-=======
->>>>>>> Abdrey
 }
 // footer
 footer {
@@ -268,10 +240,9 @@ footer {
     margin: auto 0;
   }
 }
-<<<<<<< HEAD
-=======
+
 // media
->>>>>>> Abdrey
+
 @media screen and (max-width: 846px) {
   .header {
     position: relative;
@@ -279,10 +250,6 @@ footer {
       .header-container {
         nav {
           width: 100%;
-<<<<<<< HEAD
-=======
-
->>>>>>> Abdrey
           .toggle-btn {
             display: block;
             height: 50px;
@@ -299,10 +266,7 @@ footer {
               border-radius: 3px;
             }
           }
-<<<<<<< HEAD
-=======
 
->>>>>>> Abdrey
           .header-menu {
             position: absolute;
             left: 0;
@@ -317,14 +281,12 @@ footer {
               border-bottom: 2px solid $gray750;
               padding: 25px 0;
             }
-<<<<<<< HEAD
-=======
+
             .btn {
               .dropdown-menu {
                 top: -200%;
               }
             }
->>>>>>> Abdrey
           }
           .hide {
             transform: translateY(-500%);
@@ -333,12 +295,4 @@ footer {
       }
     }
   }
-<<<<<<< HEAD
-  .program {
-    .fx-container {
-      flex-direction: column;
-    }
-  }
-=======
->>>>>>> Abdrey
 }

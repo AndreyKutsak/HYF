@@ -493,8 +493,6 @@ img {
   border: 1px solid #acacac;
   background-color: #ddd9d9;
 }
-<<<<<<< HEAD
-=======
 .header header .header-container nav .header-menu .btn {
   position: relative;
 }
@@ -532,7 +530,6 @@ img {
   font-weight: 600;
   background-color: #c4c4c4;
 }
->>>>>>> Abdrey
 .header header .header-container nav .header-menu .btn a {
   border: 1px solid #acacac;
 }
@@ -546,29 +543,6 @@ img {
   background: linear-gradient(90deg, #4a50bb -12.35%, #669dff 112.35%);
   padding: 13px 26px;
 }
-<<<<<<< HEAD
-.header .header-bg {
-  padding: 74px 0;
-  background-image: url(../img/home/header-bg.jpg);
-  background-size: cover;
-  background-position: center center;
-}
-.header .header-bg .header-title {
-  font-family: "Work Sans", "Roboto", sans-serif;
-  font-size: 4rem;
-  line-height: 4.9375rem;
-  font-weight: 700;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: rgba(74, 80, 187, 0.24);
-  border-radius: 150px;
-  max-width: 876px;
-  padding: 29px 58px;
-  margin: 0 auto;
-}
-=======
->>>>>>> Abdrey
 
 footer {
   padding: 30px 0 105px;
@@ -641,19 +615,10 @@ footer .social-list {
     border-bottom: 2px solid #75787e;
     padding: 25px 0;
   }
-<<<<<<< HEAD
-  .header header .header-container nav .hide {
-    transform: translateY(-500%);
-  }
-  .program .fx-container {
-    flex-direction: column;
-  }
-=======
   .header header .header-container nav .header-menu .btn .dropdown-menu {
     top: -200%;
   }
   .header header .header-container nav .hide {
     transform: translateY(-500%);
   }
->>>>>>> Abdrey
 }/*# sourceMappingURL=common.css.map */
