@@ -1,0 +1,686 @@
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-Italic.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-Regular.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-BoldItalic.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-Bold.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraLight.woff2") format("woff2"), url("../fonts/WorkSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraLightItalic.woff2") format("woff2"), url("../fonts/WorkSans-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans Hairline";
+  src: url("../fonts/WorkSans-Hairline.woff2") format("woff2"), url("../fonts/WorkSans-Hairline.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Light.woff2") format("woff2"), url("../fonts/WorkSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Medium.woff2") format("woff2"), url("../fonts/WorkSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Regular.woff2") format("woff2"), url("../fonts/WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-LightItalic.woff2") format("woff2"), url("../fonts/WorkSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-MediumItalic.woff2") format("woff2"), url("../fonts/WorkSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-SemiBoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Regular.woff2") format("woff2"), url("../fonts/WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Bold.woff2") format("woff2"), url("../fonts/WorkSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-BoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-SemiBold.woff2") format("woff2"), url("../fonts/WorkSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Black.woff2") format("woff2"), url("../fonts/WorkSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Thin.woff2") format("woff2"), url("../fonts/WorkSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ThinItalic.woff2") format("woff2"), url("../fonts/WorkSans-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-BlackItalic.woff2") format("woff2"), url("../fonts/WorkSans-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraBold.woff2") format("woff2"), url("../fonts/WorkSans-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=number],
+input[type=number]:hover,
+input[type=number]:focus {
+  -webkit-appearance: none;
+          appearance: none;
+  -moz-appearance: textfield;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+body header {
+  padding-top: 50px;
+}
+body header .container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .container nav .nav-bar .nav-list {
+  display: flex;
+}
+body header .container nav .nav-bar .nav-list li {
+  list-style-type: none;
+  margin-right: 1.25rem;
+}
+body header .container nav .nav-bar .nav-list li .buttons-font {
+  transition: 0.9s;
+  padding: 13px 8px 12px 10px;
+  border: 1px solid transparent;
+}
+body header .container nav .nav-bar .nav-list li .buttons-font:hover {
+  background: #FFFFFF;
+  border: 1px solid #ACACAC;
+  border-radius: 5px;
+}
+body header .container nav .nav-bar .nav-list li .main-button:hover {
+  color: rgb(15, 29, 92);
+}
+body .about-developers {
+  padding-top: 4.8125rem;
+}
+body .about-developers .about-developers-contain {
+  max-width: 1120px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+body .about-developers .about-developers-contain .about-developers-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+body .about-developers .about-developers-contain .about-developers-wrapper .wrapper-text {
+  max-width: 21.0625rem;
+}
+body .benefits {
+  padding-top: 4.0625rem;
+  padding-bottom: 6.6875rem;
+}
+body .benefits .benefits-caontain {
+  max-width: 1123px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+body .benefits .benefits-caontain .betefits-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+  flex: 0 1 50%;
+  background: #F3EEEE;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 1.25rem;
+  max-width: 34.3125rem;
+  margin-bottom: 1.3125rem;
+}
+body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item .item-padding {
+  padding: 22px 15px 25px 36px;
+}
+body .input-field {
+  background: url(../img/supporters/blueBackground.png) no-repeat;
+  background-size: cover;
+}
+body .input-field .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1231px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+body .input-field .container .input-field-form {
+  margin-top: 0.9375rem;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content-button {
+  text-align: right;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content-button button {
+  font-family: "Space Mono", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #000000;
+  background: linear-gradient(90deg, #EBF1FB -12.35%, #FFFFFF 112.35%);
+  border-radius: 0.3125rem;
+  padding: 14px 81px 13px 79px;
+  border: none;
+  cursor: pointer;
+  transition: 0.8s;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content-button button:hover {
+  color: #669DF8;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content {
+  background: #E1E9F7;
+  border: 4px solid #E1E9F7;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px 0px 0px 20px;
+  min-width: 31.0625rem;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-radio {
+  margin-top: 1.0625rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group {
+  margin-bottom: 3.3125rem;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group p {
+  margin-left: 2.5rem;
+  font-family: "Space Mono", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.6875rem;
+  color: #75787E;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags {
+  list-style: none;
+  display: flex;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li {
+  display: inline;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li label {
+  display: inline-block;
+  background: #E1E9F7;
+  border: 1px solid #669DF8;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Space Mono", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  color: #75787E;
+  transition: all 0.2s;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li label {
+  padding: 4px 12px 4px 9px;
+  cursor: pointer;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li label::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 900;
+  font-size: 0.75rem;
+  transition: transform 0.3s ease-in-out;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li input[type=checkbox]:checked + label {
+  border: 1px solid #669DF8;
+  background-color: #669DF8;
+  color: #fff;
+  transition: all 0.2s;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li input[type=checkbox] {
+  display: absolute;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li input[type=checkbox] {
+  position: absolute;
+  opacity: 0;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group input[type=number]::-webkit-inner-spin-button,
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-amount-input {
+  padding-left: 2.6875rem;
+  margin-bottom: 1.875rem;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-amount-input p {
+  font-family: "Space Mono", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  color: #75787E;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-amount-input input {
+  display: inline-block;
+  border-color: transparent;
+  outline: none;
+  background: #E1E9F7;
+  padding-bottom: 12px;
+  font-family: "Space Mono", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #75787E;
+  width: 90%;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-amount-input input:focus {
+  border-bottom: 2px solid #CECBCB;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-text {
+  padding-left: 2.375rem;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-text textarea {
+  background: #E1E9F7;
+  outline: none;
+  font-family: "Space Mono", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  color: #75787E;
+  resize: none;
+  width: 90%;
+  border: 4px solid #E1E9F7;
+  filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.29));
+  transition: 0.5s;
+  margin-bottom: 3.5rem;
+}
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-text textarea:focus {
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+}
+body .input-field .container .input-field-text h4 {
+  font-family: "Space Mono", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+}
+body .input-field .container .input-field-text p {
+  color: #FFFFFF;
+  max-width: 21.0625rem;
+  margin: 0 auto;
+}
+body .support {
+  padding-bottom: 4.75rem;
+  padding-top: 4.3125rem;
+}
+body .support .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .support .container .puddle-text {
+  min-width: 20.4375rem;
+  position: relative;
+}
+body .support .container .puddle-text h4 {
+  position: absolute;
+  top: 6.0625rem;
+  right: 3.8125rem;
+}
+body .support .container .support-list {
+  max-width: 38.875rem;
+}
+body .support .container .support-list ul li {
+  position: relative;
+  list-style-type: none;
+  margin-bottom: 1.4375rem;
+}
+body .support .container .support-list ul li::before {
+  content: url("../img/supporters/arr.png");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: -25px;
+  left: -79px;
+}
+body .footer {
+  padding-bottom: 6.5625rem;
+}
+body .footer .container .footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+body .footer .container .footer-wrapper::before {
+  content: "";
+  background: #CECBCB;
+  width: 100%;
+  height: 0.125rem;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+}
+body .footer .container .footer-wrapper .footer-wrapper-information h4 {
+  margin-bottom: 3.4375rem;
+  margin-top: 3.5rem;
+}
+body .footer .container .footer-wrapper .footer-wrapper-information p {
+  max-width: 21.0625rem;
+  margin: 0 auto;
+}
+body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-logos-list {
+  margin-top: 5.625rem;
+}
+body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-logos-list a {
+  margin-right: 3.25rem;
+}
+
+@media (max-width: 1255px) {
+  body .support .container .support-list {
+    max-width: 26.375rem;
+  }
+}
+@media (max-width: 1156px) {
+  body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+    max-width: 31.8125rem;
+    margin-bottom: 1.3125rem;
+  }
+  body .benefits .benefits-caontain .betefits-wrapper {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1086px) {
+  body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+    max-width: 30.5625rem;
+    margin-bottom: 1.3125rem;
+  }
+}
+@media (max-width: 1086px) {
+  body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+    max-width: 29.9375rem;
+    margin-bottom: 1.3125rem;
+  }
+}
+@media (max-width: 1031px) {
+  body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+    max-width: 29.3125rem;
+    margin-bottom: 1.25rem;
+  }
+}
+@media (max-width: 1013px) {
+  body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+    max-width: none;
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+  body .benefits .benefits-caontain .betefits-wrapper {
+    flex-direction: column;
+  }
+}
+@media (max-width: 991px) {
+  .input-field-text {
+    padding-left: 10px;
+  }
+  body .input-field .container .input-field-form .input-field-form-wrapper .form-content {
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 0px 0px 20px;
+    min-width: 29.8125rem;
+  }
+  .common-text {
+    font-size: 0.9375rem;
+    line-height: 1.875rem;
+  }
+  .common-blue-headlines {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+  }
+}
+@media (max-width: 913px) {
+  body .support .container .support-list {
+    max-width: 17.5625rem;
+  }
+}
+@media (max-width: 882px) {
+  body .benefits {
+    padding-top: 2.1875rem;
+    padding-bottom: 3.5625rem;
+  }
+  body .about-developers .about-developers-contain .about-developers-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .wrapper-img {
+    text-align: center;
+  }
+  body .about-developers .about-developers-contain .about-developers-wrapper .wrapper-text {
+    max-width: none;
+  }
+  .headline-resp {
+    text-align: center;
+  }
+  body .about-developers {
+    padding-top: 2.9375rem;
+  }
+}
+@media (max-width: 822px) {
+  body .input-field .container .input-field-text p {
+    max-width: none;
+  }
+  body .input-field .container {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+  body .input-field .container .input-field-text h4 {
+    color: #11122c;
+  }
+}
+@media (max-width: 767px) {
+  body .support {
+    padding-bottom: 2.875rem;
+    padding-top: 2.5rem;
+  }
+  body .support .container {
+    flex-direction: column-reverse;
+  }
+  body .support .container .support-list {
+    max-width: none;
+    padding: 0 10px 0 20px;
+  }
+  body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item .item-padding {
+    padding: 15px 13px 21px 13px;
+  }
+}
+@media (max-width: 576px) {
+  body .about-developers {
+    padding-top: 1.6875rem;
+  }
+}
+@media (max-width: 521px) {
+  body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  body .input-field .container .input-field-form .input-field-form-wrapper .form-content {
+    min-width: 11.0625rem;
+  }
+  body .input-field .container .input-field-form .input-field-form-wrapper .form-content-button button {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  body .benefits {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+  }
+  body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item .item-padding {
+    padding: 12px 7px 11px 7px;
+  }
+}
+@media (max-width: 470px) {
+  body .support .container .puddle-text h4 {
+    top: 4.8125rem;
+    right: 3.8125rem;
+    font-size: 15px;
+  }
+  .common-text {
+    font-size: 0.875rem;
+    line-height: 1.5625rem;
+  }
+  .common-blue-headlines {
+    font-size: 1.0625rem;
+    line-height: 1.25rem;
+  }
+}/*# sourceMappingURL=supStyle.css.map */
