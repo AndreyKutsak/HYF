@@ -43,7 +43,7 @@ let slider = (el, delay) => {
     if (count < 0) {
       count = slideCount - 12;
     }
-    sliderWraper.style.transform = `translateX(-${count * slideWidth}px)`;
+    sliderWraper.style.transform = `translateX(-${count * (slideWidth + 2)}px)`;
   };
   setInterval(nextSlide, delay);
   slideBtn.forEach((el) => {
@@ -57,7 +57,7 @@ let slider = (el, delay) => {
     console.log(visibleElements);
   });
 };
-//slider(storySlider, 5000);
+slider(storySlider, 5000);
 slider(partnerSlider, 4000);
 // form validation
 let validation = (form) => {
