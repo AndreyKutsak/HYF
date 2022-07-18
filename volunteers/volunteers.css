@@ -1,4 +1,3 @@
-@import "../css/common.css";
 @font-face {
   font-family: "Space Mono";
   src: url("../fonts/../fonts/SpaceMono-Italic.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Italic.woff") format("woff");
@@ -187,44 +186,33 @@ img {
   height: auto;
 }
 
-.header {
+header {
   padding-top: 50px;
+}
+header .container nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
-.header .container-head {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 10px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-.header .container-head .header_list {
-  display: flex;
-  align-items: center;
-}
-.header .container-head .header_list .nav_list {
+header .container nav .nav-bar .nav-list {
   display: flex;
 }
-.header .container-head .header_list .nav_list li {
-  list-style: none;
+header .container nav .nav-bar .nav-list li {
+  list-style-type: none;
+  margin-right: 1.25rem;
 }
-.header .container-head .header_list .nav_list li a {
-  font-family: "Work Sans", "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19;
-  text-transform: uppercase;
-  color: #2D3037;
-  text-decoration: none;
-  padding-right: 42px;
+header .container nav .nav-bar .nav-list li .buttons-font {
+  transition: 0.9s;
+  padding: 13px 8px 12px 10px;
+  border: 1px solid transparent;
 }
-.header .container-head .header_list .nav_list li a a:hover {
-  color: rgb(52, 60, 206);
+header .container nav .nav-bar .nav-list li .buttons-font:hover {
+  background: #FFFFFF;
+  border: 1px solid #ACACAC;
+  border-radius: 5px;
+}
+header .container nav .nav-bar .nav-list li .main-button:hover {
+  color: rgb(15, 29, 92);
 }
 
 .why_us {

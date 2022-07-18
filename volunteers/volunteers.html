@@ -5,45 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="./volunteers/reset.css">
     <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="./volunteers.css">
+    <link rel="stylesheet" href="volunteers.css">
     <title>Volunteers</title>
 </head>
 
 <body>
     <!--HEADER-->
-    <header class="header">
-        <div class="container-head">
-            <div class="header_list">
-                <a class="logo">
-                    <img src="../img/logo.svg" alt="logo">
+    <section class="header">
+        <header>
+            <div class="header-container">
+                <a href="index.html" class="logo">
+                    <img src="../img/logo.svg" alt="logotype">
                 </a>
-                <ul class="nav-list">
-                    <li><a href="#" class="button-font">program</a> </li>
-                    <li><a href="#" class="button-font">about</a></li>
-                    <li><a href="#" class="button-font">for you</a></li>
-                    <li><a href="#" class="main-button">apply now</a></li>
-                </ul>
+                <nav>
+                    <buton class="toggle-btn" id="toggle-btn">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </buton>
+                    <ul class="header-menu hide" id="menu">
+                        <li><a href="#">The program</a></li>
+                        <li><a href="#">about</a></li>
+                        <li class="btn ">
+                            <a href="#">for you <img src="../img/home/arrow-down.svg" alt="arrow-down"></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><a href="#">coaches</a></li>
+                                <li class="dropdown-item"><a href="#">students</a></li>
+                                <li class="dropdown-item"><a href="#">alumni</a></li>
+                                <li class="dropdown-item"><a href="#">volunteers</a></li>
+                                <li class="dropdown-item"><a href="#">supporters</a></li>
+                            </ul>
+                        </li>
+                        <li class="grd-btn"><a href="#">apply now</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="header_text">
-                <h1 class="header__text">volunteer</h1>
-                <p class="header__descr">HackYourFuture is possible only thanks to our many volunteer coaches and
-                    mentors. Do you also want to help to make the tech industry more inclusive and become part of our
-                    community?</p>
-                <a href="#" class="btn__head">become a coach</a>
-                <a href="#" class="btn__head">become a volunteer</a>
+        </header>
+        <div class="header-bg">
+            <div class="container">
+                <h1 class="header-title">volunteers</h1>
+                <p class="header-text">HackYourFuture is possible only thanks to our many volunteer coaches and mentors. Do you also want to help to make the tech industry more inclusive and become part of our community?</p>
             </div>
-            <img src="../img/volunteers/elipse.svg" alt="elipse">
         </div>
-    </header>
+    </section>
     <!--/HEADER-->
     <!--WHY_US-->
     <section class="why_us">
         <div class="container">
             <div class="about_container">
                 <div class="why_volunteers">
-                    <img src="../img/volunteers/elipse.svg" alt="elipse">
+                    <img src="../img/volunteers/elipsewh.svg" alt="elipse">
                     <h4 class="common-blue-headlines">WHY SHOULD I VOLUNTEER AT HYF?</h4>
                 </div>
                 <div class="about_volunteers">
@@ -95,24 +108,30 @@
     </section>
     <!--TEAM-->
     <!--FOOTER-->
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <div class="footer-wrapper">
-                <div class="footer-wrapper-information">
-                    <h4 class="foooter_head">Hack Your Future (part of Open Knowledge Belgium)</h4>
-                    <p class="footer_text">
-                        Open Knowledge Belgium vzw
-                        Cantersteen 12<br>
-                        1000 Bruxelles<br>
-                        contact@hackyourfuture.be
-                    </p>
-                </div>
-                <div class="footer-wrapper-logos">
-                    <a href="#"><img src="../img/home/ico/fb.svg" alt="fb"></a>
-                    <a href="#"><img src="../img/home/ico/github.svg" alt="github"></a>
-                    <a href="#"><img src="../img/home/ico/twitter.svg" alt="twitter"></a>
-                    <a href="#"><img src="../img/home/ico/linkedin.svg" alt="linkedin"></a>
-                </div>
+            <div class="block">
+                <h2 class="footer-common-headline">Hack Your Future (part
+                    of Open Knowledge Belgium)</h2>
+                <ul class="footer-list">
+                    <li class="footer-common-text">Open Knowledge Belgium vzw</li>
+                    <li class="footer-common-text"> Cantersteen 12</li>
+                    <li class="footer-common-text"> 1000 Bruxelles</li>
+                    <li class="footer-common-text"><a
+                            href="mailTo:ontact@hackyourfuture.be">contact@hackyourfuture.be</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="block">
+                <ul class="social-list">
+                    <li><a href="#"><img src="../img/home/ico/fb.svg" alt="facebok
+											icon"></a></li>
+                    <li><a href="#"><img src="../img/home/ico/github.svg" alt="github
+											icon"></a></li>
+                    <li><a href="#"><img src="../img/home/ico/twitter.svg" alt="twiter
+											ico"></a></li>
+                    <li><a href="#"><img src="../img/home/ico/linkedin.svg" alt="linkedin ico"></a></li>
+                </ul>
             </div>
         </div>
     </footer>
