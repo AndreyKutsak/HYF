@@ -1,0 +1,547 @@
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-Italic.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-Regular.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-BoldItalic.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-Bold.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraLight.woff2") format("woff2"), url("../fonts/WorkSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraLightItalic.woff2") format("woff2"), url("../fonts/WorkSans-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans Hairline";
+  src: url("../fonts/WorkSans-Hairline.woff2") format("woff2"), url("../fonts/WorkSans-Hairline.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Light.woff2") format("woff2"), url("../fonts/WorkSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Medium.woff2") format("woff2"), url("../fonts/WorkSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Regular.woff2") format("woff2"), url("../fonts/WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-LightItalic.woff2") format("woff2"), url("../fonts/WorkSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-MediumItalic.woff2") format("woff2"), url("../fonts/WorkSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-SemiBoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Regular.woff2") format("woff2"), url("../fonts/WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Bold.woff2") format("woff2"), url("../fonts/WorkSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-BoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-SemiBold.woff2") format("woff2"), url("../fonts/WorkSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Black.woff2") format("woff2"), url("../fonts/WorkSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Thin.woff2") format("woff2"), url("../fonts/WorkSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ThinItalic.woff2") format("woff2"), url("../fonts/WorkSans-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-BlackItalic.woff2") format("woff2"), url("../fonts/WorkSans-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraBold.woff2") format("woff2"), url("../fonts/WorkSans-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif, sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body .header {
+  padding: 50px 0 20px;
+}
+body .header .headerContent {
+  display: flex;
+  justify-content: space-between;
+}
+body .header .headerContent .logo img {
+  transition: 2s;
+}
+body .header .headerContent .logo img:hover {
+  transform: scale(1.1);
+}
+body .header .headerContent .header_menu {
+  display: flex;
+}
+body .header .headerContent .header_menu ul li {
+  list-style: none;
+  display: inline;
+}
+body .header .headerContent .header_menu ul li a {
+  font-family: "Work Sans", "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #2D3037;
+  text-decoration: none;
+  padding-right: 28px;
+}
+body .header .headerContent .header_menu ul li a:hover {
+  color: rgb(74, 80, 187);
+}
+body .header .headerContent .header_menu .dropdown {
+  position: relative;
+  display: inline-block;
+}
+body .header .headerContent .header_menu .dropdown .dropbtn {
+  font-family: "Work Sans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #2D3037;
+  padding: 13px 24px 12px 9px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 7px;
+}
+body .header .headerContent .header_menu .dropdown .dropbtn:hover, body .header .headerContent .header_menu .dropdown .dropbtn:focus {
+  background-color: rgb(221, 217, 217);
+}
+body .header .headerContent .header_menu .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+body .header .headerContent .header_menu .dropdown .dropdown-content:active {
+  display: block;
+}
+body .header .headerContent .header_menu .dropdown .dropdown-content a {
+  font-family: "Work Sans", "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #2D3037;
+  padding: 8px 0 8px 9px;
+  display: block;
+  text-decoration: none;
+}
+body .header .headerContent .header_menu .dropdown .dropdown-content a:hover {
+  cursor: pointer;
+  background-color: rgb(221, 217, 217);
+}
+body .header .headerContent .header_menu .dropdown .dropdown-content a:focus {
+  outline: none;
+}
+body .header body .header .headerContent .header_menu .dropdown .dropdown-content .active {
+  display: block;
+}
+body .btn_header {
+  padding-left: 66px;
+  padding-top: 10px;
+}
+body .btn_header a {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FEFEFE;
+  background: linear-gradient(90deg, #4A50BB -12.35%, #669DFF 112.35%);
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 13px 26px 14px;
+}
+body .btn_header a:hover {
+  opacity: 0.5;
+}
+body .title h1 {
+  text-align: center;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #4A50BB;
+}
+body .alumni {
+  padding: 92px 0 135px;
+  background-color: rgb(247, 249, 254);
+}
+body .alumni img {
+  max-width: 377px;
+}
+body .alumni .edouardo {
+  display: flex;
+}
+body .alumni .edouardo .edouardoText {
+  padding: 0 395px 0 100px;
+}
+body .alumni .ramzi {
+  display: flex;
+}
+body .alumni .ramzi .ramziText {
+  padding: 50px 395px 0 100px;
+}
+body .gita,
+body .hanim {
+  display: flex;
+}
+body .gita .gitaText,
+body .gita .hanimText,
+body .hanim .gitaText,
+body .hanim .hanimText {
+  padding: 50px 100px 0 395px;
+}
+body .edouardoText h2,
+body .gitaText h2,
+body .ramziText h2,
+body .hanimText h2 {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #4A50BB;
+}
+body .edouardoText h3,
+body .gitaText h3,
+body .ramziText h3,
+body .hanimText h3 {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4A50BB;
+}
+body .edouardoText p,
+body .gitaText p,
+body .ramziText p,
+body .hanimText p {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+body .edouardoImg img,
+body .gitaImg img,
+body .ramziImg img,
+body .hanimImg img {
+  box-shadow: 0px 0px 0px 10px #e1e9f6;
+  border-radius: 5px;
+}
+body .footer {
+  padding: 82px 0 70px;
+}
+body .footer .footerContent {
+  border-top: 2px solid rgb(206, 203, 203);
+  display: flex;
+  justify-content: space-around;
+}
+body .footer .footerContent .footerText {
+  padding-top: 56px;
+}
+body .footer .footerContent .footerText h3 {
+  font-family: "Work Sans", "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2D3037;
+  padding-bottom: 45px;
+}
+body .footer .footerContent .footerText .footerAdress {
+  text-align: center;
+}
+body .footer .footerContent .footerText .footerAdress p,
+body .footer .footerContent .footerText .footerAdress a {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2D3037;
+  text-decoration: none;
+}
+body .footer .footerContent .footerText .footerAdress a:hover {
+  color: #4A50BB;
+}
+body .footer .footerContent .footerIcon {
+  padding-top: 148px;
+}
+body .footer .footerContent .footerIcon a {
+  padding-right: 50px;
+}
+body .footer .footerContent .footerIcon a img {
+  transition: 2s;
+}
+body .footer .footerContent .footerIcon a img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 1199px) {
+  body .alumni .edouardo .edouardoText {
+    padding-left: 5%;
+    padding-right: 10%;
+  }
+  body .gita .gitaText,
+body .gita .hanimText,
+body .hanim .gitaText,
+body .hanim .hanimText,
+body .alumni .ramzi .ramziText {
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 50px;
+  }
+  body .alumni {
+    padding: 20px 0;
+  }
+}
+@media (max-width: 991px) {
+  body .title h1 {
+    font-size: 30px;
+    line-height: 20px;
+  }
+  body .edouardoText p,
+body .gitaText p,
+body .ramziText p,
+body .hanimText p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  body .alumni img {
+    max-width: 300px;
+  }
+  body .edouardoText h2, body .gitaText h2,
+body .ramziText h2,
+body .hanimText h2 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  body .footer {
+    padding: 50px 0 30px;
+  }
+  body .footer .footerContent .footerText {
+    padding-top: 20px;
+  }
+  body .footer .footerContent .footerText h3 {
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 15px;
+  }
+  body .footer .footerContent .footerText .footerAdress p,
+body .footer .footerContent .footerText .footerAdress a {
+    font-size: 14px;
+    line-height: 12px;
+  }
+  body .footer .footerContent .footerIcon {
+    padding-top: 85px;
+  }
+  body .footer .footerContent .footerIcon a {
+    padding-right: 30px;
+  }
+}
+@media (max-width: 797px) {
+  body .title h1 {
+    font-size: 25px;
+    line-height: 0px;
+  }
+}
+@media (max-width: 767px) {
+  body .alumni .edouardo,
+body .alumni .ramzi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  body .gita,
+body .hanim {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  body .alumni .edouardo .edouardoText,
+body .alumni .gita .gitaText,
+body .alumni .hanim .hanimText,
+body .alumni .ramzi .ramziText {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  body .alumni img {
+    max-width: 377px;
+  }
+  body .footer {
+    padding: 32px 0 10px;
+  }
+  body .footer .footerContent {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  body .footer .footerContent .footerIcon {
+    padding-top: 40px;
+  }
+  body .footer .footerContent .footerIcon a {
+    padding: 0 15px 0;
+  }
+  body .footer .footerContent .footerIcon a img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 500px) {
+  body .gita .gitaText,
+body .gita .hanimText,
+body .hanim .gitaText,
+body .hanim .hanimText,
+body .alumni .ramzi .ramziText {
+    padding-top: 30px;
+  }
+}/*# sourceMappingURL=alumni.css.map */

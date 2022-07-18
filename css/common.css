@@ -18,8 +18,7 @@ h1 {
 }
 
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
@@ -30,7 +29,12 @@ pre {
 }
 
 a {
+  text-decoration: none;
   background-color: transparent;
+}
+
+li {
+  list-style: none;
 }
 
 abbr[title] {
@@ -77,6 +81,8 @@ button, input, optgroup, select, textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
+  border: none;
+  background: none;
 }
 
 button, input {
@@ -87,22 +93,22 @@ button, select {
   text-transform: none;
 }
 
-button, [type="button"], [type="reset"], [type="submit"] {
+button, [type=button], [type=reset], [type=submit] {
   -webkit-appearance: button;
 }
 
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -111,8 +117,7 @@ fieldset {
 }
 
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: inherit;
   display: table;
   max-width: 100%;
@@ -128,22 +133,21 @@ textarea {
   overflow: auto;
 }
 
-[type="checkbox"], [type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
   padding: 0;
 }
 
-[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -168,12 +172,203 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-Italic.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-Regular.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-BoldItalic.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-Bold.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraLight.woff2") format("woff2"), url("../fonts/WorkSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraLightItalic.woff2") format("woff2"), url("../fonts/WorkSans-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans Hairline";
+  src: url("../fonts/WorkSans-Hairline.woff2") format("woff2"), url("../fonts/WorkSans-Hairline.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Light.woff2") format("woff2"), url("../fonts/WorkSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Medium.woff2") format("woff2"), url("../fonts/WorkSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Regular.woff2") format("woff2"), url("../fonts/WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-LightItalic.woff2") format("woff2"), url("../fonts/WorkSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-MediumItalic.woff2") format("woff2"), url("../fonts/WorkSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-SemiBoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Regular.woff2") format("woff2"), url("../fonts/WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Bold.woff2") format("woff2"), url("../fonts/WorkSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-BoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-SemiBold.woff2") format("woff2"), url("../fonts/WorkSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Black.woff2") format("woff2"), url("../fonts/WorkSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Thin.woff2") format("woff2"), url("../fonts/WorkSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ThinItalic.woff2") format("woff2"), url("../fonts/WorkSans-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-BlackItalic.woff2") format("woff2"), url("../fonts/WorkSans-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraBold.woff2") format("woff2"), url("../fonts/WorkSans-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 html {
   font-size: 16px;
 }
 
 body {
   font-family: "Space Mono", sans-serif, "Work Sans", "Roboto", sans-serif, sans-serif;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .header-container {
@@ -203,7 +398,7 @@ body {
   font-size: 1.25rem;
   line-height: 1.875rem;
   text-transform: uppercase;
-  color: #4A50BB;
+  color: #4a50bb;
 }
 
 .footer-common-text {
@@ -213,7 +408,7 @@ body {
   font-size: 1.125rem;
   line-height: 1.5rem;
   text-align: center;
-  color: #2D3037;
+  color: #2d3037;
 }
 
 .footer-common-headlines {
@@ -224,7 +419,7 @@ body {
   line-height: 1.5rem;
   text-align: center;
   text-transform: uppercase;
-  color: #2D3037;
+  color: #2d3037;
 }
 
 .main-button {
@@ -234,13 +429,11 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  color: #FEFEFE;
-  background: -webkit-gradient(linear, left top, right top, color-stop(-7.49%, #4A50BB), color-stop(144.39%, rgba(102, 157, 248, 0.87)));
-  background: linear-gradient(90deg, #4A50BB -7.49%, rgba(102, 157, 248, 0.87) 144.39%);
+  color: #fefefe;
+  background: linear-gradient(90deg, #4a50bb -7.49%, rgba(102, 157, 248, 0.87) 144.39%);
   border-radius: 0.3125rem;
   padding: 13px 27px 14px 26px;
   text-decoration: none;
-  -webkit-transition: 1.3s;
   transition: 1.3s;
 }
 
@@ -251,7 +444,7 @@ body {
   font-size: 1rem;
   line-height: 1.1875rem;
   text-transform: uppercase;
-  color: #2D3037;
+  color: #2d3037;
   text-decoration: none;
 }
 
@@ -262,6 +455,170 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   text-align: center;
-  color: #4A50BB;
+  color: #4a50bb;
 }
-/*# sourceMappingURL=common.css.map */
+
+.header header {
+  padding: 50px 0 63px;
+}
+.header header .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header header .header-container nav .toggle-btn {
+  display: none;
+}
+.header header .header-container nav .header-menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header header .header-container nav .header-menu li {
+  margin: 0 5px;
+}
+.header header .header-container nav .header-menu li a {
+  font-family: "Work Sans", "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #2d3037;
+  text-transform: uppercase;
+  padding: 13px 9px;
+  transition: 0.4s;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.header header .header-container nav .header-menu li a:hover {
+  border: 1px solid #acacac;
+  background-color: #ddd9d9;
+}
+.header header .header-container nav .header-menu .btn {
+  position: relative;
+}
+.header header .header-container nav .header-menu .btn:hover .dropdown-menu {
+  transform: scaleY(1);
+}
+.header header .header-container nav .header-menu .btn:hover .dropdown-menu .dropdown-item {
+  transform: scaleY(1);
+}
+.header header .header-container nav .header-menu .btn .dropdown-menu {
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 180%;
+  border: 1px solid #c4c4c4;
+  transition: 0.4s;
+  transform: scaleY(0);
+}
+.header header .header-container nav .header-menu .btn .dropdown-menu .dropdown-item {
+  margin: 0;
+  transition: 0.4s;
+  transform: scaleY(0);
+}
+.header header .header-container nav .header-menu .btn .dropdown-menu .dropdown-item a {
+  padding: 9px 10px;
+  display: block;
+  width: 100%;
+  border: 1px solid transparent;
+  background-color: #fff;
+  transition: 0.4s;
+  text-align: center;
+  border-radius: 0;
+}
+.header header .header-container nav .header-menu .btn .dropdown-menu .dropdown-item a:hover {
+  font-weight: 600;
+  background-color: #c4c4c4;
+}
+.header header .header-container nav .header-menu .btn a {
+  border: 1px solid #acacac;
+}
+.header header .header-container nav .header-menu .grd-btn a {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #fefefe;
+  background: linear-gradient(90deg, #4a50bb -12.35%, #669dff 112.35%);
+  padding: 13px 26px;
+}
+
+footer {
+  padding: 30px 0 105px;
+  background: #fff;
+}
+footer .container {
+  padding-top: 55px;
+  border-top: 2px solid #75787e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .block {
+  width: 45%;
+}
+footer .container .footer-list {
+  padding: 0;
+}
+footer .container .footer-common-headline {
+  text-align: center;
+  margin-bottom: 55px;
+}
+footer .container .footer-common-text {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+footer .social-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  max-width: 250px;
+  margin: auto 0;
+}
+
+@media screen and (max-width: 846px) {
+  .header {
+    position: relative;
+  }
+  .header header .header-container nav {
+    width: 100%;
+  }
+  .header header .header-container nav .toggle-btn {
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin-left: auto;
+    border-radius: 5px;
+    border: 2px solid #2d3037;
+  }
+  .header header .header-container nav .toggle-btn .line {
+    width: 100%;
+    height: 4px;
+    background-color: #75787e;
+    margin-bottom: 8px;
+    border-radius: 3px;
+  }
+  .header header .header-container nav .header-menu {
+    position: absolute;
+    left: 0;
+    padding: 0;
+    flex-direction: column;
+    transition: 0.4s;
+  }
+  .header header .header-container nav .header-menu li {
+    text-align: center;
+    width: 100%;
+    background-color: #f7f9fe;
+    border-bottom: 2px solid #75787e;
+    padding: 25px 0;
+  }
+  .header header .header-container nav .header-menu .btn .dropdown-menu {
+    top: -200%;
+  }
+  .header header .header-container nav .hide {
+    transform: translateY(-500%);
+  }
+}/*# sourceMappingURL=common.css.map */

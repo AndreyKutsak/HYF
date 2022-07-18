@@ -1,219 +1,193 @@
 @font-face {
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   src: url("../fonts/../fonts/SpaceMono-Italic.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   src: url("../fonts/../fonts/SpaceMono-Regular.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   src: url("../fonts/../fonts/SpaceMono-BoldItalic.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   src: url("../fonts/../fonts/SpaceMono-Bold.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-ExtraLight.woff2") format("woff2"), url("../fonts/WorkSans-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-ExtraLightItalic.woff2") format("woff2"), url("../fonts/WorkSans-ExtraLightItalic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-ExtraBoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans Hairline';
+  font-family: "Work Sans Hairline";
   src: url("../fonts/WorkSans-Hairline.woff2") format("woff2"), url("../fonts/WorkSans-Hairline.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-Light.woff2") format("woff2"), url("../fonts/WorkSans-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-Medium.woff2") format("woff2"), url("../fonts/WorkSans-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-Regular.woff2") format("woff2"), url("../fonts/WorkSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-LightItalic.woff2") format("woff2"), url("../fonts/WorkSans-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-MediumItalic.woff2") format("woff2"), url("../fonts/WorkSans-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-SemiBoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-SemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-Regular.woff2") format("woff2"), url("../fonts/WorkSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-Bold.woff2") format("woff2"), url("../fonts/WorkSans-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-BoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-SemiBold.woff2") format("woff2"), url("../fonts/WorkSans-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-Black.woff2") format("woff2"), url("../fonts/WorkSans-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-Thin.woff2") format("woff2"), url("../fonts/WorkSans-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-ThinItalic.woff2") format("woff2"), url("../fonts/WorkSans-ThinItalic.woff") format("woff");
   font-weight: 100;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-BlackItalic.woff2") format("woff2"), url("../fonts/WorkSans-BlackItalic.woff") format("woff");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   src: url("../fonts/WorkSans-ExtraBold.woff2") format("woff2"), url("../fonts/WorkSans-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
-
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
-input[type='number'],
-input[type="number"]:hover,
-input[type="number"]:focus {
+input[type=number],
+input[type=number]:hover,
+input[type=number]:focus {
   -webkit-appearance: none;
           appearance: none;
   -moz-appearance: textfield;
@@ -228,142 +202,94 @@ img {
 body {
   overflow-x: hidden;
 }
-
 body header {
   padding-top: 50px;
 }
-
 body header .container nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 body header .container nav .nav-bar .nav-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 body header .container nav .nav-bar .nav-list li {
   list-style-type: none;
   margin-right: 1.25rem;
 }
-
 body header .container nav .nav-bar .nav-list li .buttons-font {
-  -webkit-transition: 0.9s;
   transition: 0.9s;
   padding: 13px 8px 12px 10px;
   border: 1px solid transparent;
 }
-
 body header .container nav .nav-bar .nav-list li .buttons-font:hover {
   background: #FFFFFF;
   border: 1px solid #ACACAC;
   border-radius: 5px;
 }
-
 body header .container nav .nav-bar .nav-list li .main-button:hover {
-  color: #0f1d5c;
+  color: rgb(15, 29, 92);
 }
-
 body .about-developers {
   padding-top: 4.8125rem;
 }
-
 body .about-developers .about-developers-contain {
   max-width: 1120px;
   padding: 0 10px;
   margin: 0 auto;
 }
-
 body .about-developers .about-developers-contain .about-developers-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 body .about-developers .about-developers-contain .about-developers-wrapper .wrapper-text {
   max-width: 21.0625rem;
 }
-
 body .benefits {
   padding-top: 4.0625rem;
   padding-bottom: 6.6875rem;
 }
-
 body .benefits .benefits-caontain {
   max-width: 1123px;
   padding: 0 10px;
   margin: 0 auto;
 }
-
 body .benefits .benefits-caontain .betefits-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
 body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 50%;
-          flex: 0 1 50%;
+  flex: 0 1 50%;
   background: #F3EEEE;
-  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 1.25rem;
   max-width: 33.75rem;
   margin-bottom: 1.3125rem;
 }
-
 body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item .item-padding {
   padding: 22px 15px 25px 36px;
 }
-
 body .input-field {
   background: url(../img/supporters/blueBackground.png) no-repeat;
   background-size: cover;
 }
-
 body .input-field .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   max-width: 1231px;
   padding: 0 10px;
   margin: 0 auto;
 }
-
 body .input-field .container .input-field-form {
   margin-top: 0.9375rem;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content-button {
   text-align: right;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content-button button {
   font-family: "Space Mono", sans-serif;
   font-style: normal;
@@ -372,46 +298,33 @@ body .input-field .container .input-field-form .input-field-form-wrapper .form-c
   line-height: 1.5rem;
   text-transform: uppercase;
   color: #000000;
-  background: -webkit-gradient(linear, left top, right top, color-stop(-12.35%, #EBF1FB), color-stop(112.35%, #FFFFFF));
   background: linear-gradient(90deg, #EBF1FB -12.35%, #FFFFFF 112.35%);
   border-radius: 0.3125rem;
   padding: 14px 81px 13px 79px;
   border: none;
   cursor: pointer;
-  -webkit-transition: 0.8s;
   transition: 0.8s;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content-button button:hover {
   color: #669DF8;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content {
   background: #E1E9F7;
   border: 4px solid #E1E9F7;
-  -webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px 0px 0px 20px;
   min-width: 31.0625rem;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-radio {
   margin-top: 1.0625rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   margin-bottom: 2.5rem;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group {
   margin-bottom: 3.3125rem;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group p {
   margin-left: 2.5rem;
   font-family: "Space Mono", sans-serif;
@@ -421,18 +334,13 @@ body .input-field .container .input-field-form .input-field-form-wrapper .form-c
   line-height: 0.6875rem;
   color: #75787E;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li {
   display: inline;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li label {
   display: inline-block;
   background: #E1E9F7;
@@ -450,15 +358,12 @@ body .input-field .container .input-field-form .input-field-form-wrapper .form-c
   font-size: 0.875rem;
   line-height: 1.3125rem;
   color: #75787E;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  transition: all 0.2s;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li label {
   padding: 4px 12px 4px 9px;
   cursor: pointer;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li label::before {
   display: inline-block;
   font-style: normal;
@@ -468,40 +373,30 @@ body .input-field .container .input-field-form .input-field-form-wrapper .form-c
   font-family: "Space Mono", sans-serif;
   font-weight: 900;
   font-size: 0.75rem;
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-  transition: -webkit-transform .3s ease-in-out;
-  transition: transform .3s ease-in-out;
-  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
-
-body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li input[type=checkbox]:checked + label {
   border: 1px solid #669DF8;
   background-color: #669DF8;
   color: #fff;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  transition: all 0.2s;
 }
-
-body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li input[type="checkbox"] {
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li input[type=checkbox] {
   display: absolute;
 }
-
-body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li input[type="checkbox"] {
+body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags li input[type=checkbox] {
   position: absolute;
   opacity: 0;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group input[type=number]::-webkit-inner-spin-button,
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-amount-input {
   padding-left: 2.6875rem;
   margin-bottom: 1.875rem;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-amount-input p {
   font-family: "Space Mono", sans-serif;
   font-style: normal;
@@ -510,7 +405,6 @@ body .input-field .container .input-field-form .input-field-form-wrapper .form-c
   line-height: 1.3125rem;
   color: #75787E;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-amount-input input {
   display: inline-block;
   border-color: transparent;
@@ -525,15 +419,12 @@ body .input-field .container .input-field-form .input-field-form-wrapper .form-c
   color: #75787E;
   width: 90%;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-amount-input input:focus {
   border-bottom: 2px solid #CECBCB;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-text {
   padding-left: 2.375rem;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-text textarea {
   background: #E1E9F7;
   outline: none;
@@ -546,18 +437,13 @@ body .input-field .container .input-field-form .input-field-form-wrapper .form-c
   resize: none;
   width: 90%;
   border: 4px solid #E1E9F7;
-  -webkit-filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.29));
-          filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.29));
-  -webkit-transition: 0.5s;
+  filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.29));
   transition: 0.5s;
   margin-bottom: 3.5rem;
 }
-
 body .input-field .container .input-field-form .input-field-form-wrapper .form-content .form-content-text textarea:focus {
-  -webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
 }
-
 body .input-field .container .input-field-text h4 {
   font-family: "Space Mono", sans-serif;
   font-style: normal;
@@ -568,51 +454,37 @@ body .input-field .container .input-field-text h4 {
   color: #FFFFFF;
   text-align: center;
 }
-
 body .input-field .container .input-field-text p {
   color: #FFFFFF;
   max-width: 21.0625rem;
   margin: 0 auto;
 }
-
 body .support {
   padding-bottom: 4.75rem;
   padding-top: 4.3125rem;
 }
-
 body .support .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 body .support .container .puddle-text {
   min-width: 20.4375rem;
   position: relative;
 }
-
 body .support .container .puddle-text h4 {
   position: absolute;
   top: 6.0625rem;
   right: 3.8125rem;
 }
-
 body .support .container .support-list {
   max-width: 38.875rem;
 }
-
 body .support .container .support-list ul li {
   position: relative;
   list-style-type: none;
   margin-bottom: 1.4375rem;
 }
-
 body .support .container .support-list ul li::before {
   content: url("../img/supporters/arr.png");
   width: 100%;
@@ -622,24 +494,15 @@ body .support .container .support-list ul li::before {
   top: -25px;
   left: -79px;
 }
-
 body .footer {
   padding-bottom: 6.5625rem;
 }
-
 body .footer .container .footer-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
 }
-
 body .footer .container .footer-wrapper::before {
   content: "";
   background: #CECBCB;
@@ -650,21 +513,17 @@ body .footer .container .footer-wrapper::before {
   top: 0px;
   left: 0px;
 }
-
 body .footer .container .footer-wrapper .footer-wrapper-information h4 {
   margin-bottom: 3.4375rem;
   margin-top: 3.5rem;
 }
-
 body .footer .container .footer-wrapper .footer-wrapper-information p {
   max-width: 21.0625rem;
   margin: 0 auto;
 }
-
 body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-logos-list {
   margin-top: 5.625rem;
 }
-
 body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-logos-list a {
   margin-right: 3.25rem;
 }
@@ -674,39 +533,33 @@ body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-lo
     max-width: 26.375rem;
   }
 }
-
 @media (max-width: 1156px) {
   body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
     max-width: 31.8125rem;
     margin-bottom: 1.3125rem;
   }
   body .benefits .benefits-caontain .betefits-wrapper {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
 }
-
 @media (max-width: 1086px) {
   body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
     max-width: 30.5625rem;
     margin-bottom: 1.3125rem;
   }
 }
-
 @media (max-width: 1086px) {
   body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
     max-width: 29.9375rem;
     margin-bottom: 1.3125rem;
   }
 }
-
 @media (max-width: 1031px) {
   body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
     max-width: 29.3125rem;
     margin-bottom: 1.25rem;
   }
 }
-
 @media (max-width: 1013px) {
   body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
     max-width: none;
@@ -714,20 +567,15 @@ body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-lo
     text-align: center;
   }
   body .benefits .benefits-caontain .betefits-wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
 }
-
 @media (max-width: 991px) {
   .input-field-text {
     padding-left: 10px;
   }
   body .input-field .container .input-field-form .input-field-form-wrapper .form-content {
-    -webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
-            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px 0px 0px 20px;
     min-width: 29.8125rem;
   }
@@ -740,25 +588,19 @@ body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-lo
     line-height: 1.875rem;
   }
 }
-
 @media (max-width: 913px) {
   body .support .container .support-list {
     max-width: 17.5625rem;
   }
 }
-
 @media (max-width: 882px) {
   body .benefits {
     padding-top: 2.1875rem;
     padding-bottom: 3.5625rem;
   }
   body .about-developers .about-developers-contain .about-developers-wrapper {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
   }
   .wrapper-img {
     text-align: center;
@@ -773,35 +615,25 @@ body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-lo
     padding-top: 2.9375rem;
   }
 }
-
 @media (max-width: 822px) {
   body .input-field .container .input-field-text p {
     max-width: none;
   }
   body .input-field .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
+    flex-direction: column-reverse;
+    align-items: stretch;
   }
   body .input-field .container .input-field-text h4 {
     color: #11122c;
   }
 }
-
 @media (max-width: 767px) {
   body .support {
     padding-bottom: 2.875rem;
     padding-top: 2.5rem;
   }
   body .support .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   body .support .container .support-list {
     max-width: none;
@@ -811,21 +643,15 @@ body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-lo
     padding: 15px 13px 21px 13px;
   }
 }
-
 @media (max-width: 576px) {
   body .about-developers {
     padding-top: 1.6875rem;
   }
 }
-
 @media (max-width: 521px) {
   body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   body .input-field .container .input-field-form .input-field-form-wrapper .form-content {
     min-width: 11.0625rem;
@@ -834,7 +660,6 @@ body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-lo
     width: 100%;
   }
 }
-
 @media (max-width: 500px) {
   body .benefits {
     padding-top: 1.875rem;
@@ -844,7 +669,6 @@ body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-lo
     padding: 12px 7px 11px 7px;
   }
 }
-
 @media (max-width: 470px) {
   body .support .container .puddle-text h4 {
     top: 4.8125rem;
@@ -859,5 +683,4 @@ body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-lo
     font-size: 1.0625rem;
     line-height: 1.25rem;
   }
-}
-/*# sourceMappingURL=supStyle.css.map */
+}/*# sourceMappingURL=supStyle.css.map */
