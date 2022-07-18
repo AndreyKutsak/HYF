@@ -148,7 +148,7 @@
     margin: 0 auto 75px;
   }
   .container {
-    padding: 72px 0 76px;
+    padding: 72px 10px 76px;
     background-color: $gray150;
     border-radius: 12px;
 
@@ -459,6 +459,139 @@
       line-height: size(24);
       max-width: 337px;
       color: $white;
+    }
+  }
+}
+@media screen and(max-width:980px) {
+  html {
+    font-size: 14px;
+  }
+  .program {
+    .fx-container {
+      flex-wrap: wrap;
+      justify-content: center;
+      .common-blue-headlines {
+        text-align: center;
+      }
+      .common-text {
+        text-align: center;
+      }
+      .btn {
+        display: block;
+        text-align: center;
+        max-width: 300px;
+        margin: 30px auto;
+      }
+    }
+  }
+  .impact {
+    .container {
+      .fx-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        .block {
+          margin: 20px;
+        }
+      }
+    }
+  }
+  .values {
+    .common-blue-headlines {
+      text-align: center;
+    }
+    .fx-container {
+      flex-direction: column;
+      .block {
+        max-width: 300px;
+        margin: 0 auto;
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+        .common-blue-headlines {
+          text-align: center;
+        }
+        .common-text {
+          text-align: center;
+        }
+      }
+    }
+  }
+  .stories {
+    .common-blue-headlines {
+      text-align: center;
+    }
+    .slider-stories {
+      .slider-wraper {
+        .slide {
+          min-width: 50%;
+          img {
+            display: block;
+            margin: 0 auto;
+          }
+          .user-name,
+          .job,
+          .common-text {
+            text-align: center;
+          }
+          .common-text {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+  .contact {
+    &:after {
+      clip-path: polygon(0% 2%, 0 102%, 29% 100%, 100% 95%, 100% 10%);
+    }
+    .fx-container {
+      flex-direction: column;
+      align-items: center;
+      .contact-form {
+        .form-bg {
+          border-radius: 12px;
+        }
+        .send-btn {
+          margin: 20px auto;
+        }
+      }
+      .contact-desc,
+      .contact-title {
+        margin: 10px auto;
+        text-align: center;
+      }
+    }
+  }
+}
+footer {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    .social-list {
+      margin: 20px auto;
+    }
+  }
+}
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 12px;
+  }
+  .header {
+    .header-bg {
+      .header-title {
+        font-size: size(30);
+        line-height: size(38);
+      }
+    }
+  }
+  .stories {
+    .slider-stories {
+      .slider-wraper {
+        .slide {
+          min-width: 100%;
+        }
+      }
     }
   }
 }
