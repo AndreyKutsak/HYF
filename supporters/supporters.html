@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../css/resset.css">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="supStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="code.js"></script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
     <title>Supporters</title>
 </head>
 
@@ -33,10 +36,11 @@
         <div class="container about-developers-contain ">
             <div class="about-developers-wrapper">
                 <div class="wrapper-text">
-                    <h3 class="common-blue-headlines">
+                    <h3 class="common-blue-headlines headline-resp">
                         Support the developers of tomorrow
                     </h3>
-                    <p class="common-text">Help refugees build digital & soft skills for a career in web development.
+                    <p class="common-text headline-resp">Help refugees build digital & soft skills for a career in web
+                        development.
                         We are a non-profit
                         organization. Thanks to your support we can improve and keep our program free of charge for
                         students.</p>
@@ -104,11 +108,59 @@
     </section>
     <section class="input-field">
         <div class="container">
-            <div>
+            <div class="input-field-form">
+                <form id="form" method="POST" action="" class=" input-field-form-wrapper">
+                    <div class="form-content">
+                        <div class="form-content-radio">
+                            <div class="form-content-radio-one">
+                                <input type="radio" id="one" name="contact" value="contact" checked>
+                                <label for="one">One Time</label>
+                            </div>
+                            <div class="form-content-radio-two">
+                                <input type="radio" id="two" name="contact" value="contact">
+                                <label for="two">Monthly</label>
+                            </div>
+                        </div>
 
+                        <div class="checkbox-btn-group">
+                            <p>Select your amounth</p>
+                            <ul class="ks-cboxtags">
+                                <li><input type="checkbox" id="checkboxOne" value="10" checked><label
+                                        for="checkboxOne">€10</label></li>
+                                <li><input type="checkbox" id="checkboxTwo" value="25"><label
+                                        for="checkboxTwo">€25</label></li>
+                                <li><input type="checkbox" id="checkboxThree" value="50"><label
+                                        for="checkboxThree">€50</label></li>
+                                <li><input type="checkbox" id="checkboxFour" value="100"><label
+                                        for="checkboxFour">€100</label></li>
+                                <li><input type="checkbox" id="checkboxFive" value="110"><label
+                                        for="checkboxFive">€110</label></li>
+                                <li><input type="checkbox" id="checkboxSix" value="Full
+                                    scholarship"><label for="checkboxSix">Full
+                                        scholarship</label></li>
+                            </ul>
+                        </div>
+                        <div class="form-content-amount-input">
+                            <p>
+                                Amount
+                            </p>
+                            <input type="number" placeholder="10">
+                        </div>
+                        <div class="form-content-text">
+                            <textarea type="text" name="text" id="" placeholder="Your Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-content-button">
+                        <button class="submit_button" type="submit">send</button>
+                    </div>
+                </form>
             </div>
-            <div>
-
+            <div class="input-field-text">
+                <h4>Support the developers of tomorrow</h4>
+                <p class="footer-common-text">Help refugees build digital & soft skills for a career in web development.
+                    We are a non-profit
+                    organization. Thanks to your support we can improve and keep our program free of charge for
+                    students.</p>
             </div>
         </div>
     </section>

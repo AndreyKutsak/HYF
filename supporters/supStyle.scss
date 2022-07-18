@@ -5,6 +5,18 @@
 // $SpaceMono;
 // $workSans;
 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; 
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
 img {
     max-width: 100%;
     width: auto;
@@ -12,6 +24,7 @@ img {
 }
 
 body {
+    overflow-x:hidden;
     header {
         padding-top: 50px;
         .container {
@@ -28,7 +41,7 @@ body {
                     display: flex;
                     li {
                         list-style-type: none;
-                        margin-right: 20px;
+                        margin-right: size(20);
                         .buttons-font {
                             transition: 0.9s;
                             padding: 13px 8px 12px 10px;
@@ -51,7 +64,7 @@ body {
     }
     }
     .about-developers {
-        padding-top: 77px;
+        padding-top: size(77);
         .about-developers-contain {
             max-width: 1120px;
             padding: 0 10px;
@@ -61,13 +74,13 @@ body {
         display: flex;
         justify-content: space-between;
         .wrapper-text {
-            max-width: 337px;
+            max-width: size(337);
         }
     }
     }}
     .benefits {
-        padding-top: 65px;
-        padding-bottom: 107px;
+        padding-top: size(65);
+        padding-bottom: size(107);
         .benefits-caontain {
             max-width: 1123px;
             padding: 0 10px;
@@ -80,9 +93,9 @@ body {
                 flex: 0 1 50%;
                 background: #F3EEEE;
                 box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-                border-radius: 20px;
-                max-width: 549px;
-                margin-bottom: 21px;
+                border-radius: size(20);
+                max-width: size(549);
+                margin-bottom: size(21);
                 .item-padding {
                     padding: 22px 15px 25px 36px;
                 }
@@ -92,31 +105,226 @@ body {
 }
 .input-field {
     background: url(../img/supporters/blueBackground.png) no-repeat;
-    background-position: center 10%;
-    background-size: 100%;
+    background-size: cover;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1231px;
+            padding: 0 10px;
+            margin: 0 auto;
+        .input-field-form {
+            margin-top: size(15);
+            .input-field-form-wrapper {
+                .form-content-button {
+                    text-align: right;
+                    margin-top: size(24);
+                    margin-bottom: size(24);
+                    button {
+                        font-family: $SpaceMono;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: size(16);
+                        line-height: size(24);
+                        text-transform: uppercase;
+                        color: #000000;
+                        background: linear-gradient(90deg, #EBF1FB -12.35%, #FFFFFF 112.35%);
+                        border-radius: size(5);
+                        padding: 14px 81px 13px 79px;
+                        border: none;
+                        cursor: pointer;
+                        transition: 0.8s;
+                        &:hover {
+                            color: #669DF8;
+                        }
+                    }
+                }
+                .form-content {
+                    background: #E1E9F7;
+                    border: 4px solid #E1E9F7;
+                    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 20px 0px 0px 20px;
+                    min-width: size(497);
+                    .form-content-radio {
+                        margin-top: size(17);
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        margin-bottom: size(40);
+                    }
+                        .checkbox-btn-group {
+                            margin-bottom: size(53);
+                            p {
+                                margin-left: size(40);
+                                font-family: $SpaceMono;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: size(14);
+                                line-height: size(11);
+                                color: #75787E;
+                            }
+                            ul.ks-cboxtags {
+                                list-style: none;
+                                display: flex;
+                            }
+                            
+                            ul.ks-cboxtags li{
+                                display: inline;
+                            }
+                            
+                            ul.ks-cboxtags li label{
+                                display: inline-block;
+                                background: #E1E9F7;
+                                border: 1px solid #669DF8;
+                                white-space: nowrap;
+                                -webkit-touch-callout: none;
+                                -webkit-user-select: none;
+                                -moz-user-select: none;
+                                -ms-user-select: none;
+                                user-select: none;
+                                -webkit-tap-highlight-color: transparent;
+                                font-family: $SpaceMono;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: size(14);
+                                line-height: size(21);
+                                color: #75787E;
+                                transition: all .2s;
+                            }
+                            
+                            ul.ks-cboxtags li label {
+                                padding: 4px 12px 4px 9px;
+                                cursor: pointer;
+                            }
+                            
+                            ul.ks-cboxtags li label::before {
+                                display: inline-block;
+                                font-style: normal;
+                                font-variant: normal;
+                                text-rendering: auto;
+                                -webkit-font-smoothing: antialiased;
+                                font-family: $SpaceMono;
+                                font-weight: 900;
+                                font-size: size(12);
+                                transition: transform .3s ease-in-out;
+                            }
+                            ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+                                border: 1px solid #669DF8;
+                                background-color: #669DF8;
+                                color: #fff;
+                                transition: all .2s;
+                            }
+                            
+                            ul.ks-cboxtags li input[type="checkbox"] {
+                                display: absolute;
+                            }
+                            
+                            ul.ks-cboxtags li input[type="checkbox"] {
+                                position: absolute;
+                                opacity: 0;
+                            }
+                            input[type=number]::-webkit-inner-spin-button, 
+                            input[type=number]::-webkit-outer-spin-button { 
+                                -webkit-appearance: none; 
+                                margin: 0; 
+                            }
+                        }
+                        .form-content-amount-input {
+                            padding-left: size(43);
+                            margin-bottom: size(30);
+                            p {
+                                font-family: $SpaceMono;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: size(14);
+                                line-height: size(21);
+                                color: #75787E;
+                            }
+                            input {
+                                display: inline-block;
+                                border-color: transparent;
+                                outline:none;
+                                background: #E1E9F7;
+                                padding-bottom: 12px;
+                                font-family: $SpaceMono;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: size(24);
+                                line-height: size(36);
+                                color: #75787E;
+                                width: 90%;
+                                &:focus {
+                                    border-bottom: 2px solid #CECBCB;
+                                }
+                            }
+                        }
+                        .form-content-text {
+                            padding-left: size(38);
+                            textarea {
+                                background: #E1E9F7;
+                                outline:none;
+                                font-family: $SpaceMono;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: size(14);
+                                line-height: size(21);
+                                color: #75787E;
+                                resize: none;
+                                width: 90%;
+                                border: 4px solid #E1E9F7;
+                                filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.29));
+                                transition: 0.5s;
+                                margin-bottom: size(56);
+                                &:focus {
+                                    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+                                }
+                            }
+                        }
+                }
+            }
+        }
+        .input-field-text {
+            h4 {
+                font-family: $SpaceMono;
+                font-style: normal;
+                font-weight: 700;
+                font-size: size(20);
+                line-height: size(30);
+                text-transform: uppercase;
+                color: #FFFFFF;
+                text-align: center;
+            }
+            p {
+                color: #FFFFFF;
+                max-width: size(337);
+                margin: 0 auto;
+            }
+        }
+    }
 }
 .support {
-    padding-bottom: 76px;
+    padding-bottom: size(76);
+    padding-top: size(69);
     .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
         .puddle-text {
-            min-width: 327px;
+            min-width: size(327);
             position: relative;
             h4 {
                 position: absolute;
-                top: 97px;
-                right: 61px;
+                top: size(97);
+                right: size(61);
             }
         }
         .support-list {
-            max-width: 622px;
+            max-width: size(622);
             ul {
                 li {
                     position: relative;
                     list-style-type: none;
-                    margin-bottom: 23px;
+                    margin-bottom: size(23);
                     &::before {
                         content:url("../img/supporters/arr.png");
                         width: 100%;
@@ -132,7 +340,7 @@ body {
     }
 }
 .footer {
-    padding-bottom: 105px;
+    padding-bottom: size(105);
     .container {
         .footer-wrapper {
             display: flex;
@@ -143,7 +351,7 @@ body {
                 content: "";
                 background: #CECBCB;
                 width: 100%;
-                height: 2px;
+                height: size(2);
                 position: absolute;
                 z-index: 1;
                 top: 0px;
@@ -151,19 +359,19 @@ body {
             }
             .footer-wrapper-information {
                 h4 {
-                    margin-bottom: 55px;
-                    margin-top: 56px;
+                    margin-bottom: size(55);
+                    margin-top: size(56);
                 }
                 p {
-                    max-width: 337px;
+                    max-width: size(337);
                     margin: 0 auto;
                 }
             }
             .footer-wrapper-logos {
                 .footer-wrapper-logos-list {
-                    margin-top: 90px;
+                    margin-top: size(90);
                     a {
-                        margin-right: 52px;
+                        margin-right: size(52);
                     }
                 }
                 
@@ -172,4 +380,165 @@ body {
     }
 }
 
+}
+
+
+@media (max-width: 1199px) {
+    
+}
+@media (max-width: 1255px) {
+    body .support .container .support-list {
+        max-width: size(422);
+    }
+}
+@media (max-width: 1156px) {
+    body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+        max-width: size(509);
+        margin-bottom: size(21);
+    }
+    body .benefits .benefits-caontain .betefits-wrapper {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 1086px) {
+    body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+        max-width: size(489);
+        margin-bottom: size(21);
+    }
+}
+@media (max-width: 1086px) {
+    body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+        max-width: size(479);
+        margin-bottom: size(21);
+    }
+}
+@media (max-width: 1031px) {
+    body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+        max-width: size(469);
+        margin-bottom: size(20);
+    }
+}
+@media (max-width: 1013px) {
+    body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
+        max-width: none;
+        margin-bottom: size(20);
+        text-align: center;
+    }
+    body .benefits .benefits-caontain .betefits-wrapper {
+        flex-direction: column;
+    }
+}
+@media (max-width: 991px) {
+    .input-field-text {
+        padding-left: 10px;
+    }
+    body .input-field .container .input-field-form .input-field-form-wrapper .form-content {
+                    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 20px 0px 0px 20px;
+                    min-width: size(477);
+    }
+    .common-text {
+        font-size: size(15);
+        line-height: size(30);
+    }
+    .common-blue-headlines {
+        font-size: size(18);
+        line-height: size(30);
+    }
+}
+@media (max-width: 913px) {
+    body .support .container .support-list {
+        max-width: size(281);
+    }
+}
+@media (max-width: 882px) {
+    body .benefits {
+        padding-top: size(35);
+        padding-bottom: size(57);
+    }
+    body .about-developers .about-developers-contain .about-developers-wrapper {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .wrapper-img {
+        text-align: center;
+    }
+    body .about-developers .about-developers-contain .about-developers-wrapper .wrapper-text {
+        max-width: none;
+    }
+    .headline-resp {
+        text-align: center;
+    }
+    body .about-developers {
+        padding-top: size(47);
+    } 
+}
+@media (max-width: 822px) {
+    body .input-field .container .input-field-text p {
+        max-width: none;
+    }
+    body .input-field .container {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+    body .input-field .container .input-field-text h4 {
+        color: #11122c;
+    }
+}
+@media (max-width: 767px) {
+    body .support {
+        padding-bottom: size(46);
+        padding-top: size(40);
+    }
+    body .support .container {
+        flex-direction: column-reverse;
+    }
+    body .support .container .support-list {
+        max-width: none;
+        padding: 0 10px 0 20px;
+    }
+    body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item .item-padding {
+        padding: 15px 13px 21px 13px;
+    }
+}
+@media (max-width: 576px) {
+    body .about-developers {
+        padding-top: size(27);
+    } 
+}
+@media (max-width: 521px) {
+    body .input-field .container .input-field-form .input-field-form-wrapper .form-content .checkbox-btn-group ul.ks-cboxtags {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    body .input-field .container .input-field-form .input-field-form-wrapper .form-content {
+        min-width: size(177);
+    }
+    body .input-field .container .input-field-form .input-field-form-wrapper .form-content-button button {
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    body .benefits {
+        padding-top: size(30);
+        padding-bottom: size(30);
+    }
+    body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item .item-padding {
+        padding: 12px 7px 11px 7px;
+    }
+}
+@media (max-width: 470px) {
+    body .support .container .puddle-text h4 {
+        top: size(77);
+        right: size(61);
+        font-size: 15px;
+    }
+    .common-text {
+        font-size: size(14);
+        line-height: size(25);
+    }
+    .common-blue-headlines {
+        font-size: size(17);
+        line-height: size(20);
+    }
 }
