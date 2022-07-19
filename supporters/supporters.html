@@ -5,33 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/resset.css">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="supStyle.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="code.js"></script>
-    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
     <title>Supporters</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">
-                    <a href="#"><img src="../img/logo.svg" alt=""></a>
-                </div>
-                <div class="nav-bar">
-                    <ul class="nav-list">
-                        <li><a class="buttons-font" href="#">The program</a></li>
-                        <li><a class="buttons-font" href="#">About</a></li>
-                        <li><a class="buttons-font" href="#">for you</a></li>
-                        <li><a class="main-button" href="#">apply now</a></li>
+    <section class="header">
+        <header>
+            <div class="header-container">
+                <a href="#" class="logo">
+                    <img src="../img/logo.svg" alt="logotype">
+                </a>
+                <nav>
+                    <buton class="toggle-btn" id="toggle-btn">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </buton>
+                    <ul class="header-menu hide" id="menu">
+                        <li><a href="#">The program</a></li>
+                        <li><a href="#">about</a></li>
+                        <li class="btn ">
+                            <a href="#">for you <img src="../img/home/arrow-down.svg" alt="arrow-down"></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><a href="#">caoches</a></li>
+                                <li class="dropdown-item"><a href="#">students</a></li>
+                                <li class="dropdown-item"><a href="#">alumni</a></li>
+                                <li class="dropdown-item"><a href="#">Volunteers</a></li>
+                                <li class="dropdown-item"><a href="#">supporters</a></li>
+                            </ul>
+                        </li>
+                        <li class="grd-btn"><a href="#">apply now</a></li>
                     </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
+                </nav>
+            </div>
+        </header>
+    </section>
     <section class="about-developers">
         <div class="container about-developers-contain ">
             <div class="about-developers-wrapper">
@@ -185,28 +195,34 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <div class="footer-wrapper">
-                <div class="footer-wrapper-information">
-                    <h4 class="footer-common-headlines">Hack Your Future (part of Open Knowledge Belgium)</h4>
-                    <p class="footer-common-text">Open Knowledge Belgium vzw
-                        Cantersteen 12
-                        1000 Bruxelles
-                        contact@hackyourfuture.be
-                    </p>
-                </div>
-                <div class="footer-wrapper-logos">
-                    <div class="footer-wrapper-logos-list">
-                        <a href="#"><img src="../img/supporters/fb_logo.png" alt=""></a>
-                        <a href="#"><img src="../img/supporters/github_logo.png" alt=""></a>
-                        <a href="#"><img src="../img/supporters/twitter_logo.png" alt=""></a>
-                        <a href="#"><img src="../img/supporters/linkedin_logo.png" alt=""></a>
-                    </div>
-                </div>
+            <div class="block">
+                <h2 class="footer-common-headline">Hack Your Future (part
+                    of Open Knowledge Belgium)</h2>
+                <ul class="footer-list">
+                    <li class="footer-common-text">Open Knowledge Belgium vzw</li>
+                    <li class="footer-common-text"> Cantersteen 12</li>
+                    <li class="footer-common-text"> 1000 Bruxelles</li>
+                    <li class="footer-common-text"><a
+                            href="mailTo:ontact@hackyourfuture.be">contact@hackyourfuture.be</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="block">
+                <ul class="social-list">
+                    <li><a href="#"><img src="../img/program/facebook.png" alt="facebok
+                                        icon"></a></li>
+                    <li><a href="#"><img src="../img/program/github.png" alt="github
+                                        icon"></a></li>
+                    <li><a href="#"><img src="../img/program/twitter.png" alt="twiter
+                                        ico"></a></li>
+                    <li><a href="#"><img src="../img/program/linkedin.png" alt="linkedin ico"></a></li>
+                </ul>
             </div>
         </div>
     </footer>
+    <script src="code.js"></script>
 </body>
 
 </html>
