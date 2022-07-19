@@ -186,38 +186,125 @@ img {
   height: auto;
 }
 
-header {
-  padding-top: 50px;
+.header header {
+  padding: 50px 0 63px;
 }
-header .container nav {
+.header header .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header header .header-container nav .toggle-btn {
+  display: none;
+}
+.header header .header-container nav .header-menu {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header .container nav .nav-bar .nav-list {
-  display: flex;
+.header header .header-container nav .header-menu li {
+  margin: 0 5px;
 }
-header .container nav .nav-bar .nav-list li {
-  list-style-type: none;
-  margin-right: 1.25rem;
-}
-header .container nav .nav-bar .nav-list li .buttons-font {
-  transition: 0.9s;
-  padding: 13px 8px 12px 10px;
+.header header .header-container nav .header-menu li a {
+  font-family: "Work Sans", "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #2d3037;
+  text-transform: uppercase;
+  padding: 13px 9px;
+  transition: 0.4s;
   border: 1px solid transparent;
-}
-header .container nav .nav-bar .nav-list li .buttons-font:hover {
-  background: #FFFFFF;
-  border: 1px solid #ACACAC;
   border-radius: 5px;
 }
-header .container nav .nav-bar .nav-list li .main-button:hover {
-  color: rgb(15, 29, 92);
+.header header .header-container nav .header-menu li a:hover {
+  background-color: #ddd9d9;
+}
+.header header .header-container nav .header-menu .btn {
+  position: relative;
+}
+.header header .header-container nav .header-menu .btn:hover .dropdown-menu {
+  transform: scaleY(1);
+}
+.header header .header-container nav .header-menu .btn:hover .dropdown-menu .dropdown-item {
+  transform: scaleY(1);
+}
+.header header .header-container nav .header-menu .btn .dropdown-menu {
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 180%;
+  border: 1px solid #c4c4c4;
+  transition: 0.4s;
+  transform: scaleY(0);
+}
+.header header .header-container nav .header-menu .btn .dropdown-menu .dropdown-item {
+  margin: 0;
+  transition: 0.4s;
+  transform: scaleY(0);
+}
+.header header .header-container nav .header-menu .btn .dropdown-menu .dropdown-item a {
+  padding: 9px 10px;
+  display: block;
+  width: 100%;
+  border: 1px solid transparent;
+  background-color: #fff;
+  transition: 0.4s;
+  text-align: center;
+  border-radius: 0;
+}
+.header header .header-container nav .header-menu .btn .dropdown-menu .dropdown-item a:hover {
+  font-weight: 600;
+  background-color: #c4c4c4;
+}
+.header header .header-container nav .header-menu .btn a {
+  border: 1px solid #acacac;
+}
+.header header .header-container nav .header-menu .grd-btn a {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: #fefefe;
+  background: linear-gradient(90deg, #4a50bb -12.35%, #669dff 112.35%);
+  padding: 13px 26px;
+}
+.header .header-bg {
+  position: absolute;
+  max-width: 341px;
+  background-image: url(/img/volunteers/elipse.svg);
+}
+.header .header-bg .header-title {
+  font-family: "Work Sans", "Roboto", sans-serif;
+  font-size: 4rem;
+  line-height: 4.9375rem;
+  font-weight: 700;
+  color: rgb(74, 80, 187);
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(74, 80, 187, 0.24);
+  border-radius: 150px;
+  max-width: 876px;
+  padding: 29px 58px;
+  margin: 0 auto;
+}
+.header .header-bg .header-text {
+  font-family: "Space Mono", sans-serif;
+  font-size: 1rem;
+  line-height: 1rem;
+  line-height: 1.875rem;
+  text-align: center;
+  max-width: 827px;
+  padding: 29px 58px;
+  margin: 0 auto;
 }
 
 .why_us {
+  position: absolute;
   padding-bottom: 4.75rem;
   padding-top: 4.3125rem;
+  background-image: url(/img/volunteers/whyus.svg);
 }
 .why_us .container {
   display: flex;
