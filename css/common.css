@@ -621,4 +621,12 @@ footer .social-list {
   body .header header .header-container nav .hide {
     transform: translateY(-500%);
   }
+  footer .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer .container .block {
+    width: 100%;
+  }
 }/*# sourceMappingURL=common.css.map */

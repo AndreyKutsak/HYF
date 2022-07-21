@@ -297,4 +297,14 @@ footer {
       }
     }
   }
+  footer {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      .block {
+        width: 100%;
+      }
+    }
+  }
 }
