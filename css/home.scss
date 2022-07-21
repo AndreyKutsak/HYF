@@ -268,7 +268,6 @@
       display: flex;
       align-items: stretch;
       transition: 0.4s;
-
       .slide {
         padding: 8px;
         min-width: 30%;
@@ -351,12 +350,18 @@
     .slider-wraper {
       display: flex;
       flex-wrap: nowrap;
-      justify-content: center;
+      justify-content: space-between;
       align-items: stretch;
       transition: 0.4s;
+      width: 100%;
       .slide {
-        min-width: 18%;
+        min-width: 10%;
+        max-width: 100%;
         margin: 0 15px;
+        img {
+          display: block;
+          margin: 0 auto;
+        }
       }
     }
   }

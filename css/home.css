@@ -339,13 +339,19 @@
 .partners .partner-slider .slider-wraper {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: stretch;
   transition: 0.4s;
+  width: 100%;
 }
 .partners .partner-slider .slider-wraper .slide {
-  min-width: 18%;
+  min-width: 10%;
+  max-width: 100%;
   margin: 0 15px;
+}
+.partners .partner-slider .slider-wraper .slide img {
+  display: block;
+  margin: 0 auto;
 }
 
 .contact {
