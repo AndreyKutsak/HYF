@@ -123,7 +123,6 @@ img {
     flex-direction: column;
     justify-content: center;
 
-
     .container-intro {
         max-width: 1220px;
         margin: 0 auto;
@@ -136,6 +135,7 @@ img {
             margin: 59px;
 
             h1 {
+                padding-top: 30px;
                 font-family: $workSans;
                 color: $blue100;
                 font-size: size(64);
@@ -146,7 +146,7 @@ img {
             }
 
             h2 {
-                margin-right: 227px;
+                left: size(129);
                 font-family: $SpaceMono;
                 color: $black;
                 width: 827px;
@@ -190,7 +190,7 @@ img {
         }
 
         .btn:hover {
-            background: $gray800;
+            background: #000080;
             box-shadow: none;
         }
     }
@@ -203,7 +203,7 @@ img {
 
     .container-us {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
 
         .why_volunteers {
@@ -212,8 +212,8 @@ img {
 
             h4 {
                 position: absolute;
-                top: size(97);
-                right: size(61);
+                top: size(127);
+                left: size(52);
             }
         }
 
