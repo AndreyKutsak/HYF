@@ -1,7 +1,6 @@
 @import "../css/varibles.scss";
 @import "../css/function.scss";
 @import "../css/fonts.scss";
-
 // $SpaceMono;
 // $workSans;
 
@@ -25,44 +24,44 @@ img {
 
 body {
     overflow-x:hidden;
-    header {
-        padding-top: 50px;
-        .container {
-            nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-                .logo {
-                    img {
-                    }
-                }
-            .nav-bar {
-                .nav-list {
-                    display: flex;
-                    li {
-                        list-style-type: none;
-                        margin-right: size(20);
-                        .buttons-font {
-                            transition: 0.9s;
-                            padding: 13px 8px 12px 10px;
-                            border: 1px solid transparent;
-                            &:hover {
-                                background: #FFFFFF;
-                                border: 1px solid #ACACAC;
-                                border-radius: 5px;
-                            }
-                        }
-                        .main-button {
-                            &:hover {
-                                color: rgb(15, 29, 92);
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    }
+    // header {
+    //     padding-top: 50px;
+    //     .container {
+    //         nav {
+    //         display: flex;
+    //         justify-content: space-between;
+    //         align-items: center;
+    //             .logo {
+    //                 img {
+    //                 }
+    //             }
+    //         .nav-bar {
+    //             .nav-list {
+    //                 display: flex;
+    //                 li {
+    //                     list-style-type: none;
+    //                     margin-right: size(20);
+    //                     .buttons-font {
+    //                         transition: 0.9s;
+    //                         padding: 13px 8px 12px 10px;
+    //                         border: 1px solid transparent;
+    //                         &:hover {
+    //                             background: #FFFFFF;
+    //                             border: 1px solid #ACACAC;
+    //                             border-radius: 5px;
+    //                         }
+    //                     }
+    //                     .main-button {
+    //                         &:hover {
+    //                             color: rgb(15, 29, 92);
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+    // }
     .about-developers {
         padding-top: size(77);
         .about-developers-contain {
