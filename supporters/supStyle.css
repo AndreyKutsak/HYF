@@ -180,8 +180,21 @@
   font-style: normal;
   font-display: swap;
 }
+<<<<<<< HEAD
 input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+=======
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+>>>>>>> main
+>>>>>>> main
   -webkit-appearance: none;
 }
 
@@ -193,6 +206,7 @@ input[type=number]:focus {
   -moz-appearance: textfield;
 }
 
+>>>>>>> main
 img {
   max-width: 100%;
   width: auto;
@@ -202,6 +216,7 @@ img {
 body {
   overflow-x: hidden;
 }
+<<<<<<< HEAD
 body header {
   padding-top: 50px;
 }
@@ -230,6 +245,9 @@ body header .container nav .nav-bar .nav-list li .buttons-font:hover {
 body header .container nav .nav-bar .nav-list li .main-button:hover {
   color: rgb(15, 29, 92);
 }
+=======
+
+>>>>>>> main
 body .about-developers {
   padding-top: 4.8125rem;
 }
@@ -262,10 +280,25 @@ body .benefits .benefits-caontain .betefits-wrapper {
 body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item {
   flex: 0 1 50%;
   background: #F3EEEE;
+<<<<<<< HEAD
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+=======
+<<<<<<< HEAD
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+<<<<<<< HEAD
+  border-radius: 20px;
+  max-width: 549px;
+  margin-bottom: 21px;
+=======
+=======
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+>>>>>>> main
+>>>>>>> main
   border-radius: 1.25rem;
-  max-width: 34.3125rem;
+  max-width: 33.75rem;
   margin-bottom: 1.3125rem;
+>>>>>>> main
 }
 body .benefits .benefits-caontain .betefits-wrapper .betefits-wrapper-item .item-padding {
   padding: 22px 15px 25px 36px;
@@ -274,6 +307,22 @@ body .input-field {
   background: url(../img/supporters/blueBackground.png) no-repeat;
   background-size: cover;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+body .support {
+  padding-bottom: 76px;
+}
+body .support .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+=======
+=======
+
+>>>>>>> main
+>>>>>>> main
 body .input-field .container {
   display: flex;
   justify-content: space-between;
@@ -465,8 +514,23 @@ body .support {
 }
 body .support .container {
   display: flex;
+<<<<<<< HEAD
   justify-content: space-between;
   align-items: center;
+=======
+<<<<<<< HEAD
+  justify-content: space-between;
+  align-items: center;
+>>>>>>> main
+=======
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+>>>>>>> main
+>>>>>>> main
 }
 body .support .container .puddle-text {
   min-width: 20.4375rem;
@@ -527,6 +591,10 @@ body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-lo
 body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-logos-list a {
   margin-right: 3.25rem;
 }
+<<<<<<< HEAD
+body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-logos-list a {
+  margin-right: 52px;
+=======
 
 @media (max-width: 1255px) {
   body .support .container .support-list {
@@ -683,4 +751,14 @@ body .footer .container .footer-wrapper .footer-wrapper-logos .footer-wrapper-lo
     font-size: 1.0625rem;
     line-height: 1.25rem;
   }
+<<<<<<< HEAD
 }/*# sourceMappingURL=supStyle.css.map */
+=======
+<<<<<<< HEAD
+>>>>>>> main
+}/*# sourceMappingURL=supStyle.css.map */
+=======
+}
+/*# sourceMappingURL=supStyle.css.map */
+>>>>>>> main
+>>>>>>> main

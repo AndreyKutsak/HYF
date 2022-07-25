@@ -2,19 +2,25 @@
 @import "function.scss";
 @import "resset.scss";
 @import "fonts.scss";
-
-html{
+html {
   font-size: 16px;
 }
-body{
-  font-family: $SpaceMono,$workSans,sans-serif;
+body {
+  font-family: $SpaceMono, $workSans, sans-serif;
 }
-.header-container{
+img {
+  height: auto;
+  max-width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.header-container {
   margin: 0 auto;
   max-width: 1260px;
   padding: 0 10px;
 }
-.container{
+.container {
   max-width: 1240px;
   padding: 0 10px;
   margin: 0 auto;
@@ -22,6 +28,7 @@ body{
 
 .common-text {
   font-family: $SpaceMono;
+
   font-style: normal;
   font-weight: 400;
   font-size: size(16);
@@ -40,6 +47,7 @@ body{
 
 .footer-common-text {
   font-family: $SpaceMono;
+
   font-style: normal;
   font-weight: 400;
   font-size: size(18);
@@ -50,16 +58,19 @@ body{
 
 .footer-common-headlines {
   font-family: $workSans;
+
   font-style: normal;
   font-weight: 700;
   font-size: size(18);
   line-height: size(24);
   text-align: center;
+
   text-transform: uppercase;
   color: $gray800;
 }
 .main-button {
   font-family: $SpaceMono;
+
   font-style: normal;
   font-weight: 700;
   font-size: size(16);
@@ -75,6 +86,7 @@ body{
 
 .buttons-font {
   font-family: $workSans;
+
   font-style: normal;
   font-weight: 300;
   font-size: size(16);
@@ -87,10 +99,200 @@ body{
 // Використовується тільки в блоках about,Home,Alumni
 .text-about-person {
   font-family: $workSans;
+
   font-style: normal;
   font-weight: 400;
   font-size: size(16);
   line-height: size(24);
   text-align: center;
   color: $blue100;
+}
+// header
+.header {
+  header {
+    padding: 50px 0 63px;
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      nav {
+        .toggle-btn {
+          display: none;
+        }
+        .header-menu {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          li {
+            margin: 0 5px;
+            a {
+              font-family: $workSans;
+              font-size: size(16);
+              line-height: size(19);
+              color: $gray800;
+              text-transform: uppercase;
+              padding: 13px 9px;
+              transition: 0.4s;
+              border: 1px solid transparent;
+              border-radius: 5px;
+
+              &:hover {
+                border: 1px solid $gray450;
+                background-color: $gray200;
+              }
+            }
+          }
+          .btn {
+            position: relative;
+            &:hover {
+              .dropdown-menu {
+                transform: scaleY(1);
+                .dropdown-item {
+                  transform: scaleY(1);
+                }
+              }
+            }
+            .dropdown-menu {
+              padding: 0;
+              position: absolute;
+              left: 0;
+              top: 180%;
+              border: 1px solid $gray400;
+              transition: 0.4s;
+              transform: scaleY(0);
+              .dropdown-item {
+                margin: 0;
+                transition: 0.4s;
+                transform: scaleY(0);
+                a {
+                  padding: 9px 10px;
+                  display: block;
+                  width: 100%;
+                  border: 1px solid transparent;
+                  background-color: $white;
+                  transition: 0.4s;
+                  text-align: center;
+                  border-radius: 0;
+                  &:hover {
+                    font-weight: 600;
+                    background-color: $gray400;
+                  }
+                }
+              }
+            }
+
+            a {
+              border: 1px solid $gray450;
+            }
+          }
+
+          .grd-btn {
+            a {
+              font-family: $SpaceMono;
+              font-weight: 700;
+              font-size: size(16);
+              line-height: size(24);
+              text-transform: uppercase;
+              color: $gray50;
+              background: $headBtnGradient;
+              padding: 13px 26px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// footer
+footer {
+  padding: 30px 0 105px;
+  background: $white;
+  .container {
+    padding-top: 55px;
+    border-top: 2px solid $gray750;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .block {
+      width: 45%;
+    }
+    .footer-list {
+      padding: 0;
+    }
+    .footer-common-headline {
+      text-align: center;
+      margin-bottom: 55px;
+    }
+    .footer-common-text {
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+  .social-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    max-width: 250px;
+    margin: auto 0;
+  }
+}
+
+// media
+
+@media screen and (max-width: 846px) {
+  .header {
+    position: relative;
+    header {
+      .header-container {
+        nav {
+          width: 100%;
+          .toggle-btn {
+            display: block;
+            height: 50px;
+            width: 50px;
+            padding: 10px;
+            margin-left: auto;
+            border-radius: 5px;
+            border: 2px solid $gray800;
+            .line {
+              width: 100%;
+              height: 4px;
+              background-color: $gray750;
+              margin-bottom: 8px;
+              border-radius: 3px;
+            }
+          }
+
+          .header-menu {
+            position: absolute;
+            left: 0;
+            padding: 0;
+            flex-direction: column;
+            transition: 0.4s;
+
+            li {
+              text-align: center;
+              width: 100%;
+              background-color: $gray100;
+              border-bottom: 2px solid $gray750;
+              padding: 25px 0;
+            }
+
+            .btn {
+              .dropdown-menu {
+                top: -200%;
+              }
+            }
+          }
+          .hide {
+            transform: translateY(-500%);
+          }
+        }
+      }
+    }
+  }
 }

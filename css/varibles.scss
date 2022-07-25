@@ -1,22 +1,30 @@
 // fonts
-$SpaceMono:"Space Mono",sans-serif;
-$workSans:"Work Sans","Roboto",sans-serif;
+$SpaceMono: "Space Mono", sans-serif;
+$workSans: "Work Sans", "Roboto", sans-serif;
 // colors varibles
-$headBtnGradient: linear-gradient(90deg, #4A50BB -12.35%, #669DFF 112.35%);
-$btnGradient: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #4A8CBB -7.49%, #669DF8 144.39%);
-$blockGradient:linear-gradient(90deg, #4A50BB -7.49%, rgba(102, 157, 248, 0.87) 144.39%);
+$headBtnGradient: linear-gradient(90deg, #4a50bb -12.35%, #669dff 112.35%);
+$btnGradient: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  linear-gradient(90deg, #4a8cbb -7.49%, #669df8 144.39%);
+$blockGradient: linear-gradient(
+  90deg,
+  #4a50bb -7.49%,
+  rgba(102, 157, 248, 0.87) 144.39%
+);
 $white: #fff;
-$black:#000;
-$gray50:#FEFEFE;
-$gray100:#F7F9FE;
-$gray150:#E1E9F6;
-$gray200:#DDD9D9;
-$gray250:#F3EEEE;
-$gray300:#E5E5E5;
-$gay350:#EAE8ED;
-$gray400:#C4C4C4;
-$gray450:#ACACAC;
-$gray750:#75787E;
-$gray800:#2D3037;
-$blue50:#669DF8;
-$blue100:#4A50BB;
+$black: #000;
+$gray50: #fefefe;
+$gray100: #f7f9fe;
+$gray150: #e1e9f6;
+$gray200: #ddd9d9;
+$gray250: #f3eeee;
+$gray300: #e5e5e5;
+$gay350: #eae8ed;
+$gray400: #c4c4c4;
+$gray450: #acacac;
+$gray500: #e7f0ff;
+$gray550: #cecbcb;
+$gray750: #75787e;
+$gray800: #2d3037;
+$blue50: #669df8;
+$blue100: #4a50bb;
+$red50: rgba(252, 96, 96, 0.568);

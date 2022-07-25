@@ -1,7 +1,6 @@
 @import "../css/varibles.scss";
 @import "../css/function.scss";
 @import "../css/fonts.scss";
-
 // $SpaceMono;
 // $workSans;
 
@@ -25,44 +24,44 @@ img {
 
 body {
     overflow-x:hidden;
-    header {
-        padding-top: 50px;
-        .container {
-            nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-                .logo {
-                    img {
-                    }
-                }
-            .nav-bar {
-                .nav-list {
-                    display: flex;
-                    li {
-                        list-style-type: none;
-                        margin-right: size(20);
-                        .buttons-font {
-                            transition: 0.9s;
-                            padding: 13px 8px 12px 10px;
-                            border: 1px solid transparent;
-                            &:hover {
-                                background: #FFFFFF;
-                                border: 1px solid #ACACAC;
-                                border-radius: 5px;
-                            }
-                        }
-                        .main-button {
-                            &:hover {
-                                color: rgb(15, 29, 92);
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    }
+    // header {
+    //     padding-top: 50px;
+    //     .container {
+    //         nav {
+    //         display: flex;
+    //         justify-content: space-between;
+    //         align-items: center;
+    //             .logo {
+    //                 img {
+    //                 }
+    //             }
+    //         .nav-bar {
+    //             .nav-list {
+    //                 display: flex;
+    //                 li {
+    //                     list-style-type: none;
+    //                     margin-right: size(20);
+    //                     .buttons-font {
+    //                         transition: 0.9s;
+    //                         padding: 13px 8px 12px 10px;
+    //                         border: 1px solid transparent;
+    //                         &:hover {
+    //                             background: #FFFFFF;
+    //                             border: 1px solid #ACACAC;
+    //                             border-radius: 5px;
+    //                         }
+    //                     }
+    //                     .main-button {
+    //                         &:hover {
+    //                             color: rgb(15, 29, 92);
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+    // }
     .about-developers {
         padding-top: size(77);
         .about-developers-contain {
@@ -94,7 +93,7 @@ body {
                 background: #F3EEEE;
                 box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
                 border-radius: size(20);
-                max-width: size(549);
+                max-width: size(540);
                 margin-bottom: size(21);
                 .item-padding {
                     padding: 22px 15px 25px 36px;
