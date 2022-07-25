@@ -390,3 +390,60 @@ img {
         }
     }
 }
+
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 50px 70px 63px;
+    }
+
+    .intro .container-intro .intro-title h2 {
+        padding-right: 75%;
+    }
+
+    .why_us .container-us .why_volunteers {
+        min-width: 32.4375rem;
+        position: relative;
+    }
+}
+
+@media (max-width: 992px) {
+    .intro .container-intro .btn+.btn {
+        padding-right: 40px;
+        margin-left: 115px;
+    }
+
+    .intro .container-intro .intro-title h1 {
+        font-size: 54px;
+    }
+
+    .intro .container-intro .intro-title h2 {
+        padding-right: 271px;
+    }
+
+    .team .container-team .Anthony {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 77%;
+        padding-left: 100px;
+        padding-top: 75px;
+    }
+
+    .team .container-team .Aeleni {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        flex-direction: row-reverse;
+        width: 77%;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro .container-intro {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 320px) {}
