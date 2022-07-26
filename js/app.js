@@ -20,9 +20,11 @@ let slider = (el, delay) => {
   let slideWidth =
     parseInt(slideData.width) +
     parseInt(slideData.marginLeft) +
-    parseInt(slideData.marginRight);
+    parseInt(slideData.marginRight) +
+    parseInt(slideData.borderWidth);
   slideList.forEach((slide) => {
     let slidePosition = slide.getBoundingClientRect();
+
     if (
       slidePosition.left >= sliderPosition.left &&
       slidePosition.right <= sliderPosition.right
@@ -30,8 +32,8 @@ let slider = (el, delay) => {
       visibleElements++;
     }
   });
-
   let nextSlide = () => {
+    console.log(slideCount * slideWidth);
     count++;
     if (count > slideCount - visibleElements) {
       count = 0;
@@ -40,8 +42,8 @@ let slider = (el, delay) => {
   };
   let prewSlide = () => {
     count--;
-    if (count < 0) {
-      count = slideCount - 12;
+    if (count <= 0) {
+      count = slideCount - visibleElements;
     }
     sliderWraper.style.transform = `translateX(-${count * slideWidth}px)`;
   };
@@ -54,10 +56,9 @@ let slider = (el, delay) => {
         prewSlide();
       }
     });
-    console.log(visibleElements);
   });
 };
-//slider(storySlider, 5000);
+slider(storySlider, 5000);
 slider(partnerSlider, 4000);
 // form validation
 let validation = (form) => {
