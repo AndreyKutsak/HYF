@@ -203,10 +203,10 @@ body .intro .container-intro .intro-title {
   max-width: 431px;
   height: 341px;
   background: url(../img/volunteers/elipse.svg);
-  margin: 59px;
+  margin: 50px auto;
 }
 body .intro .container-intro .intro-title h1 {
-  padding-top: 30px;
+  padding: 95px 0 84px;
   font-family: "Work Sans", "Roboto", sans-serif;
   color: #4a50bb;
   font-size: 4rem;
@@ -214,9 +214,13 @@ body .intro .container-intro .intro-title h1 {
   line-height: 4.9375rem;
   text-align: center;
   text-transform: uppercase;
+  transform: translate(0%, -9%);
+  -webkit-transform: translate(0%, -9%);
+  -moz-transform: translate(0%, -9%);
+  -ms-transform: translate(0%, -9%);
+  -o-transform: translate(0%, -9%);
 }
-body .intro .container-intro .intro-title h2 {
-  left: 8.0625rem;
+body .intro .container-intro .sub-title h2 {
   font-family: "Space Mono", sans-serif;
   color: #000;
   width: 827px;
@@ -224,6 +228,8 @@ body .intro .container-intro .intro-title h2 {
   font-size: 1rem;
   line-height: 1.875rem;
   text-align: center;
+  padding-bottom: 110px;
+  transform: translate(1%, -87%);
 }
 body .intro .container-intro .btn {
   min-width: 210px;
@@ -307,6 +313,7 @@ body .team .container-team .Anthony {
   flex-wrap: wrap;
   width: 100%;
   padding-top: 75px;
+  margin-bottom: 20px;
 }
 body .team .container-team .Anthony .Anthony_img {
   display: flex;
@@ -352,8 +359,7 @@ body .team .container-team .Aeleni .Aeleni_img {
   float: left;
 }
 body .team .container-team .Aeleni .Aeleni_descr {
-  max-width: 441px;
-  padding: 0 15px;
+  max-width: 515px;
   margin-left: auto;
 }
 body .team .container-team .Aeleni .Aeleni_descr h2 {
@@ -378,48 +384,8 @@ body .team .container-team .Aeleni .Aeleni_descr p {
   line-height: 30px;
   color: #000;
 }
-body .footer {
-  margin-top: 120px;
-  padding-bottom: 105px;
-}
-body .footer .container {
-  max-width: 1055px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-body .footer .container .footer-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-}
-body .footer .container .footer-wrapper:before {
-  content: "";
-  background: #cecbcb;
-  width: 100%;
-  height: 2px;
-  position: absolute;
-  z-index: 1;
-  top: 0px;
-  left: 0px;
-}
-body .footer .container .footer-wrapper .footer-wrapper-information h4 {
-  margin-top: 56px;
-  margin-bottom: 55px;
-}
-body .footer .container .footer-wrapper .footer-wrapper-information p {
-  max-width: 337px;
-  margin: 0 auto;
-  font-weight: 400;
-}
-body .footer .container .footer-wrapper .footer-wrapper-list {
-  margin-top: 90px;
-}
-body .footer .container .footer-wrapper .footer-wrapper-list a {
-  margin-right: 52px;
-}
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   .header {
     padding: 50px 70px 63px;
   }
@@ -431,7 +397,7 @@ body .footer .container .footer-wrapper .footer-wrapper-list a {
     position: relative;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 100px) {
   .intro .container-intro .btn + .btn {
     padding-right: 40px;
     margin-left: 115px;
@@ -455,10 +421,5 @@ body .footer .container .footer-wrapper .footer-wrapper-list a {
     flex-wrap: wrap-reverse;
     flex-direction: row-reverse;
     width: 77%;
-  }
-}
-@media (max-width: 768px) {
-  .intro .container-intro {
-    max-width: 300px;
   }
 }/*# sourceMappingURL=volunteers.css.map */

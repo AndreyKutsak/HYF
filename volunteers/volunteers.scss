@@ -9,117 +9,9 @@ img {
     height: auto;
 }
 
-// .header {
-//     header {
-//         padding: 50px 0 63px;
 
-//         .header-container {
-//             display: flex;
-//             align-items: center;
-//             justify-content: space-between;
-
-//             nav {
-//                 .toggle-btn {
-//                     display: none;
-//                 }
-
-//                 .header-menu {
-//                     width: 100%;
-//                     display: flex;
-//                     justify-content: space-between;
-//                     align-items: center;
-
-//                     li {
-//                         margin: 0 5px;
-
-//                         a {
-//                             font-family: $workSans;
-//                             font-size: size(16);
-//                             line-height: size(19);
-//                             color: $gray800;
-//                             text-transform: uppercase;
-//                             padding: 13px 9px;
-//                             transition: 0.4s;
-//                             border: 1px solid transparent;
-//                             border-radius: 5px;
-
-//                             &:hover {
-//                                 border: 1px solid $gray450;
-//                                 background-color: $gray200;
-//                             }
-//                         }
-//                     }
-
-//                     .btn {
-//                         position: relative;
-
-//                         &:hover {
-//                             .dropdown-menu {
-//                                 transform: scaleY(1);
-
-//                                 .dropdown-item {
-//                                     transform: scaleY(1);
-//                                 }
-//                             }
-//                         }
-
-//                         .dropdown-menu {
-//                             padding: 0;
-//                             position: absolute;
-//                             left: 0;
-//                             top: 180%;
-//                             border: 1px solid $gray400;
-//                             transition: 0.4s;
-//                             transform: scaleY(0);
-
-//                             .dropdown-item {
-//                                 margin: 0;
-//                                 transition: 0.4s;
-//                                 transform: scaleY(0);
-
-//                                 a {
-//                                     padding: 9px 10px;
-//                                     display: block;
-//                                     width: 100%;
-//                                     border: 1px solid transparent;
-//                                     background-color: $white;
-//                                     transition: 0.4s;
-//                                     text-align: center;
-//                                     border-radius: 0;
-
-//                                     &:hover {
-//                                         font-weight: 600;
-//                                         background-color: $gray400;
-//                                     }
-//                                 }
-//                             }
-//                         }
-
-//                         a {
-//                             border: 1px solid $gray450;
-//                         }
-//                     }
-
-//                     .grd-btn {
-//                         a {
-//                             font-family: $SpaceMono;
-//                             font-weight: 700;
-//                             font-size: size(16);
-//                             line-height: size(24);
-//                             text-transform: uppercase;
-//                             color: $gray50;
-//                             background: $headBtnGradient;
-//                             padding: 13px 26px;
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
 body {
-overflow-x: hidden;
-
+    overflow-x: hidden;
     .intro {
         display: flex;
         flex-direction: column;
@@ -134,10 +26,10 @@ overflow-x: hidden;
                 max-width: 431px;
                 height: 341px;
                 background: url(../img/volunteers/elipse.svg);
-                margin: 59px;
+                margin: 50px auto;
 
                 h1 {
-                    padding-top: 30px;
+                    padding: 95px 0 84px;
                     font-family: $workSans;
                     color: $blue100;
                     font-size: size(64);
@@ -145,10 +37,16 @@ overflow-x: hidden;
                     line-height: size(79);
                     text-align: center;
                     text-transform: uppercase;
+                    transform: translate(-0%, -9%);
+                    -webkit-transform: translate(-0%, -9%);
+                    -moz-transform: translate(-0%, -9%);
+                    -ms-transform: translate(-0%, -9%);
+                    -o-transform: translate(-0%, -9%);
                 }
+            }
 
+            .sub-title {
                 h2 {
-                    left: size(129);
                     font-family: $SpaceMono;
                     color: $black;
                     width: 827px;
@@ -156,6 +54,8 @@ overflow-x: hidden;
                     font-size: size(16);
                     line-height: size(30);
                     text-align: center;
+                    padding-bottom: 110px;
+                    transform: translate(1%, -87%);
                 }
             }
 
@@ -256,6 +156,7 @@ overflow-x: hidden;
                 flex-wrap: wrap;
                 width: 100%;
                 padding-top: 75px;
+                margin-bottom: 20px;
 
                 .Anthony_img {
                     display: flex;
@@ -308,8 +209,7 @@ overflow-x: hidden;
                 }
 
                 .Aeleni_descr {
-                    max-width: 441px;
-                    padding: 0 15px;
+                    max-width: 515px;
                     margin-left: auto;
 
                     h2 {
@@ -340,61 +240,9 @@ overflow-x: hidden;
             }
         }
     }
-
-
-
-    .footer {
-        margin-top: 120px;
-        padding-bottom: 105px;
-
-        .container {
-            max-width: 1055px;
-            margin: 0 auto;
-            padding: 0 10px;
-
-            .footer-wrapper {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                position: relative;
-
-                &:before {
-                    content: "";
-                    background: #cecbcb;
-                    width: 100%;
-                    height: 2px;
-                    position: absolute;
-                    z-index: 1;
-                    top: 0px;
-                    left: 0px;
-                }
-
-                .footer-wrapper-information {
-                    h4 {
-                        margin-top: 56px;
-                        margin-bottom: 55px;
-                    }
-
-                    p {
-                        max-width: 337px;
-                        margin: 0 auto;
-                        font-weight: 400;
-                    }
-                }
-
-                .footer-wrapper-list {
-                    margin-top: 90px;
-
-                    a {
-                        margin-right: 52px;
-                    }
-                }
-            }
-        }
-    }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     .header {
         padding: 50px 70px 63px;
     }
@@ -409,7 +257,7 @@ overflow-x: hidden;
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 100px) {
     .intro .container-intro .btn+.btn {
         padding-right: 40px;
         margin-left: 115px;
@@ -440,12 +288,6 @@ overflow-x: hidden;
     }
 }
 
-@media (max-width: 768px) {
-    .intro .container-intro {
-        max-width: 300px;
-    }
-}
+@media (max-width: 800px) {}
 
-@media (max-width: 480px) {}
-
-@media (max-width: 320px) {}
+@media (max-width: 550px) {}
