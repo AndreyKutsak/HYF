@@ -204,7 +204,7 @@ body .header header .header-container nav .header-menu li a {
   font-family: "Work Sans", "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.1875rem;
-  color: #2D3037;
+  color: #2d3037;
   text-transform: uppercase;
   padding: 13px 9px;
   transition: 0.4s;
@@ -212,8 +212,8 @@ body .header header .header-container nav .header-menu li a {
   border-radius: 5px;
 }
 body .header header .header-container nav .header-menu li a:hover {
-  border: 1px solid #ACACAC;
-  background-color: #DDD9D9;
+  border: 1px solid #acacac;
+  background-color: #ddd9d9;
 }
 body .header header .header-container nav .header-menu .btn {
   position: relative;
@@ -229,7 +229,7 @@ body .header header .header-container nav .header-menu .btn .dropdown-menu {
   position: absolute;
   left: 0;
   top: 180%;
-  border: 1px solid #C4C4C4;
+  border: 1px solid #c4c4c4;
   transition: 0.4s;
   transform: scaleY(0);
 }
@@ -250,10 +250,10 @@ body .header header .header-container nav .header-menu .btn .dropdown-menu .drop
 }
 body .header header .header-container nav .header-menu .btn .dropdown-menu .dropdown-item a:hover {
   font-weight: 600;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
 }
 body .header header .header-container nav .header-menu .btn a {
-  border: 1px solid #ACACAC;
+  border: 1px solid #acacac;
 }
 body .header header .header-container nav .header-menu .grd-btn a {
   font-family: "Space Mono", sans-serif;
@@ -261,8 +261,8 @@ body .header header .header-container nav .header-menu .grd-btn a {
   font-size: 1rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  color: #FEFEFE;
-  background: linear-gradient(90deg, #4A50BB -12.35%, #669DFF 112.35%);
+  color: #fefefe;
+  background: linear-gradient(90deg, #4a50bb -12.35%, #669dff 112.35%);
   padding: 13px 26px;
 }
 body .title h1 {
@@ -272,7 +272,7 @@ body .title h1 {
   font-size: 3.4375rem;
   line-height: 53px;
   text-transform: uppercase;
-  color: #4A50BB;
+  color: #4a50bb;
 }
 body .alumni {
   padding: 92px 20px 135px;
@@ -312,7 +312,7 @@ body .alumni .hanimText h2 {
   font-size: 1.25rem;
   line-height: 30px;
   text-transform: uppercase;
-  color: #4A50BB;
+  color: #4a50bb;
 }
 body .alumni .edouardoText h3,
 body .alumni .gitaText h3,
@@ -322,7 +322,7 @@ body .alumni .hanimText h3 {
   font-weight: 400;
   font-size: 1rem;
   line-height: 24px;
-  color: #4A50BB;
+  color: #4a50bb;
 }
 body .alumni .edouardoText p,
 body .alumni .gitaText p,
@@ -347,7 +347,7 @@ body footer {
 }
 body footer .container {
   padding-top: 55px;
-  border-top: 2px solid #75787E;
+  border-top: 2px solid #75787e;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -369,7 +369,10 @@ body footer .container .footer-common-text {
 }
 body footer .social-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: stretch;
+  max-width: 250px;
+  margin: auto 0;
 }
 
 @media (max-width: 1199px) {
@@ -394,48 +397,6 @@ body .alumni .ramzi .ramziText {
   }
 }
 @media (max-width: 991px) {
-  .header {
-    position: relative;
-  }
-  .header header .header-container nav {
-    width: 100%;
-  }
-  .header header .header-container nav .toggle-btn {
-    display: block;
-    height: 50px;
-    width: 50px;
-    padding: 10px;
-    margin-left: auto;
-    border-radius: 5px;
-    border: 2px solid #2D3037;
-  }
-  .header header .header-container nav .toggle-btn .line {
-    width: 100%;
-    height: 4px;
-    background-color: #75787E;
-    margin-bottom: 8px;
-    border-radius: 3px;
-  }
-  .header header .header-container nav .header-menu {
-    position: absolute;
-    left: 0;
-    padding: 0;
-    flex-direction: column;
-    transition: 0.4s;
-  }
-  .header header .header-container nav .header-menu li {
-    text-align: center;
-    width: 100%;
-    background-color: #F7F9FE;
-    border-bottom: 2px solid #75787E;
-    padding: 25px 0;
-  }
-  .header header .header-container nav .header-menu .btn .dropdown-menu {
-    top: -200%;
-  }
-  .header header .header-container nav .hide {
-    transform: translateY(-500%);
-  }
   body .title h1 {
     font-size: 1.875rem;
     line-height: 20px;
@@ -457,13 +418,55 @@ body .hanimText h2 {
     line-height: 18px;
   }
 }
-@media (max-width: 797px) {
+@media screen and (max-width: 846px) {
+  body .header {
+    position: relative;
+  }
+  body .header header .header-container nav {
+    width: 100%;
+  }
+  body .header header .header-container nav .toggle-btn {
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin-left: auto;
+    border-radius: 5px;
+    border: 2px solid #2d3037;
+  }
+  body .header header .header-container nav .toggle-btn .line {
+    width: 100%;
+    height: 4px;
+    background-color: #75787e;
+    margin-bottom: 8px;
+    border-radius: 3px;
+  }
+  body .header header .header-container nav .header-menu {
+    position: absolute;
+    left: 0;
+    padding: 0;
+    flex-direction: column;
+    transition: 0.4s;
+  }
+  body .header header .header-container nav .header-menu li {
+    text-align: center;
+    width: 100%;
+    background-color: #f7f9fe;
+    border-bottom: 2px solid #75787e;
+    padding: 25px 0;
+  }
+  body .header header .header-container nav .header-menu .btn .dropdown-menu {
+    top: -200%;
+  }
+  body .header header .header-container nav .hide {
+    transform: translateY(-500%);
+  }
+}
+@media (max-width: 767px) {
   body .title h1 {
     font-size: 1.5625rem;
     line-height: 0px;
   }
-}
-@media (max-width: 767px) {
   body .alumni .edouardo,
 body .alumni .ramzi {
     display: flex;
@@ -489,21 +492,22 @@ body .alumni .ramzi .ramziText {
   body .alumni img {
     max-width: 377px;
   }
-  footer .container {
+  body footer .container {
     padding-top: 55px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  footer .container .block {
+  body footer .container .block {
     width: 80%;
   }
-  footer .social-list {
+  body footer .social-list {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     margin: auto 0;
-    padding-top: 20px;
+    padding: 20px 100px 0;
+    max-width: none;
   }
 }
 @media (max-width: 500px) {
