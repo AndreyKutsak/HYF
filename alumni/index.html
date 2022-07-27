@@ -8,38 +8,41 @@
   <link rel="stylesheet" href="alumniScss/alumni.css">
   <title>HYF</title>
 </head>
+
+
 <body>
   <main class="page">
-    <header class="header">
-      <div class="container">
-        <div class="headerContent">
-          <div class="logo">
-            <a href="/"><img src="../img/logo.svg"></a>
-          </div>
-          <div class="header_menu">
-            <div class="sub_menu">
-              <ul>
-                <li><a href="#">The program</a></li>
-                <li><a href="#">about</a></li>
-              </ul>
-            </div>
-            <div class="dropdown">
-              <button onclick="myFunction()"  class="dropbtn">for you</button>
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="#">caoches</a>
-                  <a href="#">students</a>
-                  <a href="#">alumni</a>
-                  <a href="#">Volunteer</a>
-                  <a href="#">supporters</a>
-                </div>
-            </div>
-            <div class="btn_header">
-              <a href="#">apply now</a>
-            </div>
-          </div>
-        </div>   
-      </div>
-    </header>
+    <section class="header">
+			<header>
+				<div class="header-container">
+					<a href="index.html" class="logo">
+						<img src="../img/logo.svg" alt="logotype">
+					</a>
+					<nav>
+						<buton class="toggle-btn" id="toggle-btn">
+							<div class="line"></div>
+							<div class="line"></div>
+							<div class="line"></div>
+						</buton>
+						<ul class="header-menu hide" id="menu">
+							<li><a href="#">The program</a></li>
+							<li><a href="#">about</a></li>
+							<li class="btn ">
+								<a href="#">for you <img src="../alumni/alumniImg/chevron-down.png" alt="arrow-down"></a>
+								<ul class="dropdown-menu">
+									<li class="dropdown-item"><a href="#">caoches</a></li>
+									<li class="dropdown-item"><a href="#">students</a></li>
+									<li class="dropdown-item"><a href="#">alumni</a></li>
+									<li class="dropdown-item"><a href="#">Volunteers</a></li>
+									<li class="dropdown-item"><a href="#">supporters</a></li>
+								</ul>
+							</li>
+							<li class="grd-btn"><a href="#">apply now</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+    </section>
     <section class="title">
       <div class="container">
         <h1>Alumni</h1>
@@ -92,29 +95,33 @@
         </div>
       </div>
     </section>
-    <footer class="footer">
-      <div class="container">
-        <div class="footerContent">
-          <div class="footerText">
-            <h3>Hack Your Future (part of Open Knowledge Belgium)</h3>
-            <div class="footerAdress">
-              <p>Open Knowledge Belgium vzw</p>
-              <p>Cantersteen 12</p>
-              <p>1000 Bruxelles</p>
-              <a href="mailto:contact@hackyourfuture.be">contact@hackyourfuture.be</a>
-            </div>  
-          </div>
-          <div class="footerIcon">
-            <a href="#"><img src="../alumni/alumniImg/facebook 1.png" alt="facebook"></a>
-            <a href="#"><img src="../alumni/alumniImg/github.png" alt="github"></a>
-            <a href="#"><img src="../alumni/alumniImg/twitter.png" alt="twitter"></a>
-            <a href="#"><img src="../alumni/alumniImg/linkedin.png" alt="linkedin"></a>
-          </div>
-        </div>
-      </div>
-    </footer>
-    </div>
-    <script src="./alumni.js"></script>
-  </main>
+    <footer>
+			<div class="container">
+				<div class="block">
+					<h2 class="footer-common-headline">Hack Your Future (part
+						of Open Knowledge Belgium)</h2>
+					<ul class="footer-list">
+						<li class="footer-common-text">Open Knowledge Belgium vzw</li>
+						<li class="footer-common-text"> Cantersteen 12</li>
+						<li class="footer-common-text"> 1000 Bruxelles</li>
+						<li class="footer-common-text"><a href="mailTo:ontact@hackyourfuture.be">contact@hackyourfuture.be</a>
+						</li>
+					</ul>
+				</div>
+				<div class="block">
+					<ul class="social-list">
+						<li><a href="#"><img src="../alumni/alumniImg/facebook 1.png" alt="facebok
+											icon"></a></li>
+						<li><a href="#"><img src="../alumni/alumniImg/github.png" alt="github
+											icon"></a></li>
+						<li><a href="#"><img src="../alumni/alumniImg/facebook 1.png" alt="twiter
+											ico"></a></li>
+						<li><a href="#"><img src="../alumni/alumniImg/linkedin.png" alt="linkedin ico"></a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+  </main> 
+  <script src="../js/app.js"></script>
 </body>
 </html>
