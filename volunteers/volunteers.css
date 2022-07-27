@@ -487,8 +487,12 @@ body .team .container-team .Aeleni .Aeleni_descr p {
     position: relative;
   }
 }
+<<<<<<< HEAD
 
 @media (max-width: 100px) {
+=======
+@media (max-width: 1000px) {
+>>>>>>> volunteers
   .intro .container-intro .btn + .btn {
     padding-right: 40px;
     margin-left: 115px;
@@ -496,8 +500,17 @@ body .team .container-team .Aeleni .Aeleni_descr p {
   .intro .container-intro .intro-title h1 {
     font-size: 54px;
   }
-  .intro .container-intro .intro-title h2 {
-    padding-right: 271px;
+  .intro .container-intro .sub-title h2 {
+    padding-right: 50px;
+  }
+  body .why_us .container-us .why_volunteers h4 {
+    font-size: 16px;
+    margin: 0 auto;
+    transform: translate(1%, -114%);
+    -webkit-transform: translate(1%, -114%);
+    -moz-transform: translate(1%, -114%);
+    -ms-transform: translate(1%, -114%);
+    -o-transform: translate(1%, -114%);
   }
   .team .container-team .Anthony {
     display: -webkit-box;
@@ -513,7 +526,22 @@ body .team .container-team .Aeleni .Aeleni_descr p {
     padding-left: 100px;
     padding-top: 75px;
   }
+  .team .container-team .Anthony_img {
+    transform: translate(30%, 10%);
+    -webkit-transform: translate(30%, 10%);
+    -moz-transform: translate(30%, 10%);
+    -ms-transform: translate(30%, 10%);
+    -o-transform: translate(30%, 10%);
+  }
+  .team .container-team .Anthony .Anthony_descr {
+    transform: translate(-63%, 10%);
+    -webkit-transform: translate(-63%, 10%);
+    -moz-transform: translate(-63%, 10%);
+    -ms-transform: translate(-63%, 10%);
+    -o-transform: translate(-63%, 10%);
+  }
   .team .container-team .Aeleni {
+<<<<<<< HEAD
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -524,6 +552,72 @@ body .team .container-team .Aeleni .Aeleni_descr p {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
     width: 77%;
+=======
+    transform: translate(-58%, 10%);
+    -webkit-transform: translate(-20%, -7%);
+    -moz-transform: translate(-58%, 10%);
+    -ms-transform: translate(-58%, 10%);
+    -o-transform: translate(-58%, 10%);
+  }
+  .team .container-team .Aeleni .Aeleni_img {
+    transform: translate(-12%, 0);
+    -webkit-transform: translate(-12%, 0);
+    -moz-transform: translate(-12%, 0);
+    -ms-transform: translate(-12%, 0);
+    -o-transform: translate(-12%, 0);
+  }
+}
+@media (max-width: 800px) {
+  .container-intro {
+    transform: translate(-68%, 7%);
+    -webkit-transform: translate(-8%, 7%);
+    -moz-transform: translate(-68%, 7%);
+    -ms-transform: translate(-68%, 7%);
+    -o-transform: translate(-68%, 7%);
+  }
+  body .intro .container-intro .sub-title h2 {
+    padding-left: 80px;
+    padding-bottom: 30px;
+  }
+  body .why_us .container-us .about_volunteers {
+    margin-right: 35px;
+  }
+  .team .container-team .Anthony .Anthony_descr {
+    transform: translate(-28%, 10%);
+    -webkit-transform: translate(-28%, 10%);
+    -moz-transform: translate(-28%, 10%);
+    -ms-transform: translate(-28%, 10%);
+    -o-transform: translate(-28%, 10%);
+  }
+  .team .container-team .Aeleni {
+    transform: translate(-5%, -10%);
+    -webkit-transform: translate(-5%, -10%);
+    -moz-transform: translate(-5%, -10%);
+    -ms-transform: translate(-5%, -10%);
+    -o-transform: translate(-5%, -10%);
+  }
+}
+@media (max-width: 550px) {
+  body .intro .container-intro .sub-title h2 {
+    padding-bottom: 30px;
+  }
+  body .why_us {
+    margin-left: 45px;
+  }
+  body .team .container-team .Anthony .Anthony_descr {
+    transform: translate(10%, 10%);
+    -webkit-transform: translate(10%, 10%);
+    -moz-transform: translate(10%, 10%);
+    -ms-transform: translate(10%, 10%);
+    -o-transform: translate(10%, 10%);
+  }
+  .team .container-team .Aeleni {
+    transform: translate(32%, -4%);
+    -webkit-transform: translate(32%, -4%);
+    -moz-transform: translate(32%, -4%);
+    -ms-transform: translate(32%, -4%);
+    -o-transform: translate(32%, -4%);
+>>>>>>> volunteers
   }
 }
 /*# sourceMappingURL=volunteers.css.map */
