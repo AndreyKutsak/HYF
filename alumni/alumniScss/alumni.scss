@@ -1,120 +1,103 @@
 @import "../../css/varibles.scss";
 @import "../../css/function.scss";
 @import "../../css/fonts.scss";
-@import "../../css/common.scss";
-
-
 
 
 body{
-.header{
-    padding: 50px 0 20px;
-    .headerContent{
-      display: flex;
-      justify-content: space-between;
-      .logo{
-        img{
-          transition: 2s;
-          &:hover{
-            transform: scale(1.1);
-          }
-        }
-      }
-      .header_menu{
+  .header {
+    header {
+      padding: 50px 0 63px;
+      .header-container {
         display: flex;
-        ul{
-          li{
-            list-style: none;
-            display: inline;
-            a{
-              font-family: $workSans;
-              font-weight: 300;
-              font-size: $size(16);
-              line-height: 19px;
-              text-transform: uppercase;
-              color: #2D3037;
-              text-decoration: none;
-              padding-right: 28px;
-              &:hover{
-                color: rgba(74, 80, 187, 1);
-              }
-            }
+        align-items: center;
+        justify-content: space-between;
+  
+        nav {
+          .toggle-btn {
+            display: none;
           }
-        }
-        .dropdown{
-          position: relative;
-          display: inline-block;
-          .dropbtn {
-            font-family: 'Work Sans';
-            font-weight: 300;
-            font-size: 16px;
-            line-height: 19px;
-            text-transform: uppercase;
-            color: #2D3037;
-            padding: 13px 24px 12px 9px;
-            cursor: pointer;
-            background-color: #fff;
-            border: 1px solid rgba(229, 229, 229, 1);
-            border-radius: 7px;
-            &:hover,
-            &:focus{
-              background-color:rgba(221, 217, 217, 1);
-            }
-          }
-            .dropdown-content {
-              display: none;
-              position: absolute;
-              min-width: 160px;
-              overflow: auto;
-              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-              z-index: 1;
-              &:active{
-                display: block;
-              }
-              a{
+          .header-menu {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+  
+            li {
+              margin: 0 5px;
+              a {
                 font-family: $workSans;
-                font-weight: 300;
-                font-size: 16px;
-                line-height: 19px;
+                font-size: size(16);
+                line-height: size(19);
+                color: $gray800;
                 text-transform: uppercase;
-                color: #2D3037;
-                padding: 8px 0 8px 9px;
-                display: block;
-                text-decoration: none;
-                &:hover{
-                cursor: pointer;
-                background-color: rgba(221, 217, 217, 1);
+                padding: 13px 9px;
+                transition: 0.4s;
+                border: 1px solid transparent;
+                border-radius: 5px;
+  
+                &:hover {
+                  border: 1px solid $gray450;
+                  background-color: $gray200;
                 }
-                &:focus{
-                  outline: none;
+              }
+            }
+            .btn {
+              position: relative;
+              &:hover {
+                .dropdown-menu {
+                  transform: scaleY(1);
+                  .dropdown-item {
+                    transform: scaleY(1);
+                  }
                 }
+              }
+              .dropdown-menu {
+                padding: 0;
+                position: absolute;
+                left: 0;
+                top: 180%;
+                border: 1px solid $gray400;
+                transition: 0.4s;
+                transform: scaleY(0);
+                .dropdown-item {
+                  margin: 0;
+                  transition: 0.4s;
+                  transform: scaleY(0);
+                  a {
+                    padding: 9px 10px;
+                    display: block;
+                    width: 100%;
+                    border: 1px solid transparent;
+                    background-color: $white;
+                    transition: 0.4s;
+                    text-align: center;
+                    border-radius: 0;
+                    &:hover {
+                      font-weight: 600;
+                      background-color: $gray400;
+                    }
+                  }
+                }
+              }
+              a {
+                border: 1px solid $gray450;
+              }
+            }
+  
+            .grd-btn {
+              a {
+                font-family: $SpaceMono;
+                font-weight: 700;
+                font-size: size(16);
+                line-height: size(24);
+                text-transform: uppercase;
+                color: $gray50;
+                background: $headBtnGradient;
+                padding: 13px 26px;
               }
             }
           }
         }
-      
-}
-
-.show {
-  display: block;
-}
-  }
-  .btn_header{
-    padding-left: 66px;
-    padding-top: 10px;
-    a{
-      font-family: $SpaceMono;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 24px;
-      text-transform: uppercase;
-      color: #FEFEFE;
-      background: linear-gradient(90deg, #4A50BB -12.35%, #669DFF 112.35%);
-      border-radius: 5px;
-      text-decoration: none;
-      padding: 13px 26px 14px;
-      &:hover{
-        opacity: 0.5;
       }
     }
   }
@@ -123,14 +106,14 @@ body{
       text-align: center;
       font-family: $SpaceMono;
       font-weight: 700;
-      font-size: 36px;
+      font-size: size(55);
       line-height: 53px;
       text-transform: uppercase;
-      color: #4A50BB;
+      color: $blue100;
     }
   }
   .alumni{
-    padding:92px 0 135px;
+    padding:92px 20px 135px;
     background-color: rgba(247, 249, 254, 1);
     img {
       max-width: 377px;
@@ -146,8 +129,8 @@ body{
           .ramziText{
             padding: 50px 395px 0 100px;
           }
-          }
-    }
+        }
+        
       .gita,
       .hanim{
         display: flex;
@@ -163,24 +146,24 @@ body{
     h2{
       font-family: $SpaceMono;
       font-weight: 700;
-      font-size: 20px;
+      font-size: size(20);
       line-height: 30px;
       text-transform: uppercase;
-      color: #4A50BB;
+      color: $blue100;
     }
     h3{
       font-family: 'Work Sans';
       font-weight: 400;
-      font-size: 16px;
+      font-size: size(16);
       line-height: 24px;
-      color: #4A50BB;
+      color: $blue100;
     }
     p{
       font-family: $SpaceMono;
       font-weight: 400;
-      font-size: 16px;
+      font-size: size(16);
       line-height: 30px;
-      color: #000000;
+      color: $black;
     }
   }  
   .edouardoImg,
@@ -191,85 +174,76 @@ body{
       box-shadow: 0px 0px 0px 10px #e1e9f6;
       border-radius: 5px;
     }
+  }
   }   
-  .footer{
-    padding: 82px 0 70px;
-    .footerContent{
-      border-top: 2px solid rgba(206, 203, 203, 1);
+  footer {
+    padding: 30px 0 105px;
+    background: $white;
+    .container {
+      padding-top: 55px;
+      border-top: 2px solid $gray750;
       display: flex;
-      justify-content: space-around;
-      .footerText{
-        padding-top: 56px;
-        h3{
-          font-family: $workSans;
-          font-weight: 700;
-          font-size: 18px;
-          line-height: 24px;
-          text-align: center;
-          text-transform: uppercase;
-          color: #2D3037;
-          padding-bottom: 45px;
-        }
-        .footerAdress{
-          text-align: center;
-          p,
-          a{
-            font-family: $SpaceMono;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 24px;
-            color: #2D3037;
-            text-decoration: none;
-          }
-          a:hover{
-            color: #4A50BB;
-          }
-        } 
+      justify-content: space-between;
+      align-items: center;
+      .block {
+        width: 45%;
       }
-      .footerIcon{
-        padding-top: 148px;
-        a{
-          padding-right: 50px;
-          img{
-            transition: 2s;
-            &:hover{
-              transform: scale(1.1);
-            }
-          }
-        }
+      .footer-list {
+        padding: 0;
       }
+      .footer-common-headline {
+        text-align: center;
+        margin-bottom: 55px;
+      }
+      .footer-common-text {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+    }
+    .social-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      max-width: 250px;
+      margin: auto 0;
     }
   }
 }
 
 @media (max-width: 1199px) {
+  
   body .alumni .edouardo .edouardoText {
     padding-left: 5%;
     padding-right: 10%;
   }
-  body .gita .gitaText, 
-  body .gita .hanimText, 
-  body .hanim .gitaText, 
-  body .hanim .hanimText,
+  body .alumni .gita .gitaText, 
+  body .alumni .gita .hanimText, 
+  body .alumni .hanim .gitaText, 
+  body .alumni .hanim .hanimText,
   body .alumni .ramzi .ramziText {
     padding-left: 10%;
     padding-right: 5%;
     padding-top: 50px;
   }
+  
   body .alumni {
-    padding: 20px 0;
+      padding: 32px 20px  50px;
+    }
+  body footer {
+    padding: 30px 0 50px;
   }
 }
 @media (max-width: 991px){
   body .title h1 {
-    font-size: 30px;
+    font-size: size(30);
     line-height: 20px;
   }
   body .edouardoText p, 
   body .gitaText p, 
   body .ramziText p, 
   body .hanimText p {
-    font-size: 14px;
+    font-size: size(14);
     line-height: 25px;
   }
   body .alumni img {
@@ -278,39 +252,71 @@ body{
   body .edouardoText h2, body .gitaText h2, 
   body .ramziText h2, 
   body .hanimText h2 {
-    font-size: 18px;
+    font-size: size(18);
     line-height: 18px;
   }
-  body .footer {
-    padding: 50px 0 30px ;
-    .footerContent .footerText{
-      padding-top: 20px;
+  
+}
+@media screen and (max-width: 846px) {
+  body{
+  .header {
+    position: relative;
+    header {
+      .header-container {
+        nav {
+          width: 100%;
+          .toggle-btn {
+            display: block;
+            height: 50px;
+            width: 50px;
+            padding: 10px;
+            margin-left: auto;
+            border-radius: 5px;
+            border: 2px solid $gray800;
+            .line {
+              width: 100%;
+              height: 4px;
+              background-color: $gray750;
+              margin-bottom: 8px;
+              border-radius: 3px;
+            }
+          }
+
+          .header-menu {
+            position: absolute;
+            left: 0;
+            padding: 0;
+            flex-direction: column;
+            transition: 0.4s;
+
+            li {
+              text-align: center;
+              width: 100%;
+              background-color: $gray100;
+              border-bottom: 2px solid $gray750;
+              padding: 25px 0;
+            }
+
+            .btn {
+              .dropdown-menu {
+                top: -200%;
+              }
+            }
+          }
+          .hide {
+            transform: translateY(-500%);
+          }
+        }
+      }
     }
   }
-  body .footer .footerContent .footerText h3 {
-    font-size: 15px;
-    line-height: 20px;
-    padding-bottom: 15px;
-  }
-  body .footer .footerContent .footerText .footerAdress p, 
-  body .footer .footerContent .footerText .footerAdress a {
-    font-size: 14px;
-    line-height: 12px;
-  }
-  body .footer .footerContent .footerIcon {
-    padding-top: 85px;
-   a {
-      padding-right: 30px;
-   }
-  }
 }
-@media (max-width: 797px){
-  body .title h1 {
-    font-size: 25px;
-    line-height: 0px;
-  }
 }
 @media (max-width: 767px){
+  body .title h1 {
+    font-size: size(25);
+    line-height: 0px;
+  }
   body .alumni .edouardo,
   body .alumni .ramzi  {
     display: flex;
@@ -336,25 +342,23 @@ body{
   body .alumni img {
     max-width: 377px;
   }
-
-  body .footer {
-      padding: 32px 0 10px;
-      .footerContent {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        .footerIcon{
-          padding-top: 40px;
-          a{
-            padding: 0 15px 0;
-            img{
-              width: 20px;
-              height: 20px;
-            }
-          }
-        }
-      }
-    }
+  body footer .container {
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body footer .container .block {
+    width: 80%;
+ }
+body footer .social-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: auto 0;
+  padding: 20px 100px 0;
+  max-width: none;
+}
 }
 @media (max-width: 500px){
   body .gita .gitaText, 

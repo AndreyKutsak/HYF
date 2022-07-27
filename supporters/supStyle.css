@@ -202,34 +202,6 @@ img {
 body {
   overflow-x: hidden;
 }
-body header {
-  padding-top: 50px;
-}
-body header .container nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-body header .container nav .nav-bar .nav-list {
-  display: flex;
-}
-body header .container nav .nav-bar .nav-list li {
-  list-style-type: none;
-  margin-right: 1.25rem;
-}
-body header .container nav .nav-bar .nav-list li .buttons-font {
-  transition: 0.9s;
-  padding: 13px 8px 12px 10px;
-  border: 1px solid transparent;
-}
-body header .container nav .nav-bar .nav-list li .buttons-font:hover {
-  background: #FFFFFF;
-  border: 1px solid #ACACAC;
-  border-radius: 5px;
-}
-body header .container nav .nav-bar .nav-list li .main-button:hover {
-  color: rgb(15, 29, 92);
-}
 body .about-developers {
   padding-top: 4.8125rem;
 }

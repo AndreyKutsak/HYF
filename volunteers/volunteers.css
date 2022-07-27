@@ -1,0 +1,508 @@
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-Italic.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-Regular.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-BoldItalic.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/../fonts/SpaceMono-Bold.woff2") format("woff2"), url("../fonts/../fonts/SpaceMono-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraLight.woff2") format("woff2"), url("../fonts/WorkSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraLightItalic.woff2") format("woff2"), url("../fonts/WorkSans-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans Hairline";
+  src: url("../fonts/WorkSans-Hairline.woff2") format("woff2"), url("../fonts/WorkSans-Hairline.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Light.woff2") format("woff2"), url("../fonts/WorkSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Medium.woff2") format("woff2"), url("../fonts/WorkSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Regular.woff2") format("woff2"), url("../fonts/WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-LightItalic.woff2") format("woff2"), url("../fonts/WorkSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Italic.woff2") format("woff2"), url("../fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-MediumItalic.woff2") format("woff2"), url("../fonts/WorkSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-SemiBoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Regular.woff2") format("woff2"), url("../fonts/WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Bold.woff2") format("woff2"), url("../fonts/WorkSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-BoldItalic.woff2") format("woff2"), url("../fonts/WorkSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-SemiBold.woff2") format("woff2"), url("../fonts/WorkSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Black.woff2") format("woff2"), url("../fonts/WorkSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Thin.woff2") format("woff2"), url("../fonts/WorkSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ThinItalic.woff2") format("woff2"), url("../fonts/WorkSans-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-BlackItalic.woff2") format("woff2"), url("../fonts/WorkSans-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-ExtraBold.woff2") format("woff2"), url("../fonts/WorkSans-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+body .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .intro .container-intro {
+  max-width: 1220px;
+  margin: 0 auto;
+  text-align: center;
+}
+body .intro .container-intro .intro-title {
+  max-width: 431px;
+  height: 341px;
+  background: url(../img/volunteers/elipse.svg);
+  margin: 50px auto;
+}
+body .intro .container-intro .intro-title h1 {
+  padding: 95px 0 84px;
+  font-family: "Work Sans", "Roboto", sans-serif;
+  color: #4a50bb;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.9375rem;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translate(0%, -9%);
+  -webkit-transform: translate(0%, -9%);
+  -moz-transform: translate(0%, -9%);
+  -ms-transform: translate(0%, -9%);
+  -o-transform: translate(0%, -9%);
+}
+body .intro .container-intro .sub-title h2 {
+  font-family: "Space Mono", sans-serif;
+  color: #000;
+  width: 827px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  text-align: center;
+  padding-bottom: 110px;
+  transform: translate(1%, -87%);
+}
+body .intro .container-intro .btn {
+  min-width: 210px;
+  margin-bottom: 100px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  padding: 22px 23px;
+  font-style: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #4a8cbb -7.49%, #669df8 144.39%);
+  transition: box-shadow 0.16s ease;
+  color: #fefefe;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: box-shadow 0.16s ease;
+  -moz-transition: box-shadow 0.16s ease;
+  -ms-transition: box-shadow 0.16s ease;
+  -o-transition: box-shadow 0.16s ease;
+}
+body .intro .container-intro .btn + .btn {
+  margin-left: 215px;
+}
+body .intro .container-intro .btn:hover {
+  background: #000080;
+  box-shadow: none;
+}
+body .why_us {
+  padding-top: 4.3125rem;
+  padding-bottom: 4.75rem;
+  background-color: rgb(247, 249, 254);
+}
+body .why_us .container-us {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .why_us .container-us .why_volunteers {
+  min-width: 20.4375rem;
+  position: relative;
+}
+body .why_us .container-us .why_volunteers h4 {
+  position: absolute;
+  top: 7.9375rem;
+  left: 3.25rem;
+}
+body .why_us .container-us .about_volunteers {
+  max-width: 38.875rem;
+}
+body .why_us .container-us .about_volunteers ul li {
+  position: relative;
+  list-style-type: none;
+  margin-bottom: 1.4375rem;
+}
+body .why_us .container-us .about_volunteers ul li::before {
+  content: url("../img/volunteers/right arrow.svg");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: -25px;
+  left: -79px;
+}
+body .team .container-team {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 995px;
+  margin: 0 auto;
+}
+body .team .container-team .Anthony {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 75px;
+  margin-bottom: 20px;
+}
+body .team .container-team .Anthony .Anthony_img {
+  display: flex;
+}
+body .team .container-team .Anthony .Anthony_descr {
+  max-width: 441px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+body .team .container-team .Anthony .Anthony_descr h2 {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #4a50bb;
+  margin-bottom: 10px;
+}
+body .team .container-team .Anthony .Anthony_descr h3 {
+  font-family: "Work Sans", "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #4a50bb;
+  margin-bottom: 20px;
+}
+body .team .container-team .Anthony .Anthony_descr p {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #000;
+  margin-bottom: 60px;
+}
+body .team .container-team .Aeleni {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+body .team .container-team .Aeleni .Aeleni_img {
+  float: left;
+}
+body .team .container-team .Aeleni .Aeleni_descr {
+  max-width: 515px;
+  margin-left: auto;
+}
+body .team .container-team .Aeleni .Aeleni_descr h2 {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #4a50bb;
+}
+body .team .container-team .Aeleni .Aeleni_descr h3 {
+  font-family: "Work Sans", "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #4a50bb;
+}
+body .team .container-team .Aeleni .Aeleni_descr p {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #000;
+}
+
+@media (max-width: 1250px) {
+  .header {
+    padding: 50px 70px 63px;
+  }
+  .intro .container-intro .intro-title h2 {
+    padding-right: 75%;
+  }
+  .why_us .container-us .why_volunteers {
+    min-width: 32.4375rem;
+    position: relative;
+  }
+}
+@media (max-width: 1000px) {
+  .intro .container-intro .btn + .btn {
+    padding-right: 40px;
+    margin-left: 115px;
+  }
+  .intro .container-intro .intro-title h1 {
+    font-size: 54px;
+  }
+  .intro .container-intro .sub-title h2 {
+    padding-right: 50px;
+  }
+  body .why_us .container-us .why_volunteers h4 {
+    font-size: 16px;
+    margin: 0 auto;
+    transform: translate(1%, -114%);
+    -webkit-transform: translate(1%, -114%);
+    -moz-transform: translate(1%, -114%);
+    -ms-transform: translate(1%, -114%);
+    -o-transform: translate(1%, -114%);
+  }
+  .team .container-team .Anthony {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 77%;
+    padding-left: 100px;
+    padding-top: 75px;
+  }
+  .team .container-team .Anthony_img {
+    transform: translate(30%, 10%);
+    -webkit-transform: translate(30%, 10%);
+    -moz-transform: translate(30%, 10%);
+    -ms-transform: translate(30%, 10%);
+    -o-transform: translate(30%, 10%);
+  }
+  .team .container-team .Anthony .Anthony_descr {
+    transform: translate(-63%, 10%);
+    -webkit-transform: translate(-63%, 10%);
+    -moz-transform: translate(-63%, 10%);
+    -ms-transform: translate(-63%, 10%);
+    -o-transform: translate(-63%, 10%);
+  }
+  .team .container-team .Aeleni {
+    transform: translate(-58%, 10%);
+    -webkit-transform: translate(-20%, -7%);
+    -moz-transform: translate(-58%, 10%);
+    -ms-transform: translate(-58%, 10%);
+    -o-transform: translate(-58%, 10%);
+  }
+  .team .container-team .Aeleni .Aeleni_img {
+    transform: translate(-12%, 0);
+    -webkit-transform: translate(-12%, 0);
+    -moz-transform: translate(-12%, 0);
+    -ms-transform: translate(-12%, 0);
+    -o-transform: translate(-12%, 0);
+  }
+}
+@media (max-width: 800px) {
+  .container-intro {
+    transform: translate(-68%, 7%);
+    -webkit-transform: translate(-8%, 7%);
+    -moz-transform: translate(-68%, 7%);
+    -ms-transform: translate(-68%, 7%);
+    -o-transform: translate(-68%, 7%);
+  }
+  body .intro .container-intro .sub-title h2 {
+    padding-left: 80px;
+    padding-bottom: 30px;
+  }
+  body .why_us .container-us .about_volunteers {
+    margin-right: 35px;
+  }
+  .team .container-team .Anthony .Anthony_descr {
+    transform: translate(-28%, 10%);
+    -webkit-transform: translate(-28%, 10%);
+    -moz-transform: translate(-28%, 10%);
+    -ms-transform: translate(-28%, 10%);
+    -o-transform: translate(-28%, 10%);
+  }
+  .team .container-team .Aeleni {
+    transform: translate(-5%, -10%);
+    -webkit-transform: translate(-5%, -10%);
+    -moz-transform: translate(-5%, -10%);
+    -ms-transform: translate(-5%, -10%);
+    -o-transform: translate(-5%, -10%);
+  }
+}
+@media (max-width: 550px) {
+  body .intro .container-intro .sub-title h2 {
+    padding-bottom: 30px;
+  }
+  body .why_us {
+    margin-left: 45px;
+  }
+  body .team .container-team .Anthony .Anthony_descr {
+    transform: translate(10%, 10%);
+    -webkit-transform: translate(10%, 10%);
+    -moz-transform: translate(10%, 10%);
+    -ms-transform: translate(10%, 10%);
+    -o-transform: translate(10%, 10%);
+  }
+  .team .container-team .Aeleni {
+    transform: translate(32%, -4%);
+    -webkit-transform: translate(32%, -4%);
+    -moz-transform: translate(32%, -4%);
+    -ms-transform: translate(32%, -4%);
+    -o-transform: translate(32%, -4%);
+  }
+}/*# sourceMappingURL=volunteers.css.map */
