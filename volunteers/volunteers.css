@@ -488,7 +488,8 @@ body .team .container-team .Aeleni .Aeleni_descr p {
   body .intro .container-intro .sub-title h2 {
     padding-bottom: 30px;
   }
-  body .why_us {
+  body .why_us .container-us {
+    flex-direction: column-reverse;
     margin-left: 45px;
   }
   body .team .container-team .Anthony .Anthony_descr {
