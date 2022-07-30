@@ -364,7 +364,8 @@ body {
         padding-bottom: 30px;
     }
 
-    body .why_us {
+    body .why_us .container-us {
+        flex-direction: column-reverse;
         margin-left: 45px;
     }
 
